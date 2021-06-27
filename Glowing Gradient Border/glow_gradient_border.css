@@ -1,79 +1,69 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
-body{
-    display:flex;
-    align-items: center;
-    flex-wrap:wrap;
-    min-height: 100vh;
-    background-color: #010615;
+body {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  min-height: 100vh;
+  background-color: #010615;
 }
-.box
-{
-    position: relative;
-    width:300px;
-    height: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #060c21;
-    margin: 40px auto;
+.box {
+  position: relative;
+  width: 300px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #060c21;
+  margin: 40px auto;
 }
-.box:before
-{
-    content: "";
-    position: absolute;
-    top:-2px;
-    left:-2px;
-    bottom:-2px;
-    right:-2px;
-    background-color: #fff;
-    z-index:-1;
+.box:before {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  bottom: -2px;
+  right: -2px;
+  background-color: #fff;
+  z-index: -1;
 }
-.box:after
-{
-    content: "";
-    position: absolute;
-    top:-2px;
-    left:-2px;
-    bottom:-2px;
-    right:-2px;
-    background-color: #fff;
-    z-index:-1;
-    filter:blur(60px);
-   
+.box:after {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  bottom: -2px;
+  right: -2px;
+  background-color: #fff;
+  z-index: -1;
+  filter: blur(60px);
 }
 .box:nth-child(1):before,
-.box:nth-child(1):after
-{
-background:linear-gradient(235deg,#89ff00,#010615,#00bcd4);
+.box:nth-child(1):after {
+  background: linear-gradient(235deg, #89ff00, #010615, #00bcd4);
 }
 .box:nth-child(2):before,
-.box:nth-child(2):after
-{
-background:linear-gradient(235deg,#ff005e,#010615,#fbff00);
+.box:nth-child(2):after {
+  background: linear-gradient(235deg, #ff005e, #010615, #fbff00);
 }
 .box:nth-child(3):before,
-.box:nth-child(3):after
-{
-background:linear-gradient(250deg,#772aff,#010615,#2196F3);
+.box:nth-child(3):after {
+  background: linear-gradient(250deg, #772aff, #010615, #2196f3);
 }
-.box .glass
-{
-    position: absolute;
-    top:0;
-    left:0;
-    width:50%;
-    height: 100%;
-    display: block;
-    background-color: rgba(255,255,255,.1);
+.box .glass {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  display: block;
+  background-color: rgba(255, 255, 255, 0.1);
 }
-.box .content
-{
-    padding: 20px;
-    color:white;
+.box .content {
+  padding: 20px;
+  color: white;
 }
