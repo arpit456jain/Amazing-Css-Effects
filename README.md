@@ -88,6 +88,9 @@ GitHub will alert you that you can merge the two branches because there is no co
   <tbody><tr>
  <td align="center"><a href="https://github.com/arpit456jain"><img alt="" src="https://avatars.githubusercontent.com/arpit456jain" width="130px;"><br><sub><b> Arpit Jain </b></sub></a><br><a href="https://github.com/arpit456jain/Amazing-Css-Efffects/commits?author=arpit456jain" title="Code">💻 </a></td> </a></td>
 <td align="center"><a href="https://github.com/codeaholic-shub"><img alt="" src="https://avatars.githubusercontent.com/codeaholic-shub" width="130px;"><br><sub><b> Shubhankar Poddar </b></sub></a><br><a href="https://github.com/codeaholic-shub/Amazing-Css-Efffects/commits?author=codeaholic-shub" title="Code">💻 </a></td> </a></td>
+<td align="center"><a href="https://github.com/siddhi-244"><img alt="" src="https://avatars.githubusercontent.com/siddhi-244" width="130px;"><br><sub><b>
+Siddhi Bhanushali  </b></sub></a><br><a href="https://github.com/siddhi-244/Amazing-Css-Efffects/commits?author=siddhi-244" title="Code">💻 </a></td></a></td>
+
 </tbody></table>
 
 <h1 align=center> Project Maintainers 😃 </h1>
@@ -101,8 +104,6 @@ GitHub will alert you that you can merge the two branches because there is no co
 Rishika Ghosh  </b></sub></a><br><a href="https://github.com/RishikaGhosh/Amazing-Css-Efffects/commits?author=RishikaGhosh" title="Code">💻 </a></td></a></td>
 <td align="center"><a href="https://github.com/RounakNeogy"><img alt="" src="https://avatars.githubusercontent.com/RounakNeogy" width="130px;"><br><sub><b>
 Rounak Neogy  </b></sub></a><br><a href="https://github.com/RounakNeogy/Amazing-Css-Efffects/commits?author=RounakNeogy" title="Code">💻 </a></td></a></td>
-<td align="center"><a href="https://github.com/siddhi-244"><img alt="" src="https://avatars.githubusercontent.com/siddhi-244" width="130px;"><br><sub><b>
-Siddhi Bhanushali  </b></sub></a><br><a href="https://github.com/siddhi-244/Amazing-Css-Efffects/commits?author=siddhi-244" title="Code">💻 </a></td></a></td>
 
 
   </tr>
