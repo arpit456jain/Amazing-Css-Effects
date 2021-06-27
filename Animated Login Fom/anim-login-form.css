@@ -1,11 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Amimated login page</title>
-    <style>
-        body
+body
 {
     margin: 0;
     padding: 0;
@@ -77,15 +70,3 @@ cursor: pointer;
 {
     background-color: #2ec712;
 }
-
-    </style>
-</head>
-<body>
-    <form action="#" method="POST" class="box">
-        <h1>Log in</h1>
-        <input type="text" namw="" placeholder="Username">
-        <input type="password" name="" id="" placeholder="password">
-        <a href="#" type="submit">log In </a>
-    </form>
-</body>
-</html>
