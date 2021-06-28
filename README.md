@@ -24,7 +24,7 @@ To make your local copy of the repository follow the steps:
 - Type this command:
   
 ```bash
-$ git clone https://github.com/<your-github-username>/Cool-Front-End_Templates
+$ git clone https://github.com/<your-github-username>/Amazing-Css-Efffects
 ```
 
 
