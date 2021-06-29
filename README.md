@@ -117,7 +117,7 @@ Thanks go to these **Wonderful People** 👨🏻‍💻:      🚀 **Contributio
 	<tr>
 		 <td>
   <a href="https://github.com/arpit456jain/Amazing-Css-Efffects/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=arpit456jain/Amazing-Css-Efffects" />
+  <img src="https://contrib.rocks/image?repo=arpit456jain/Amazing-Css-Effects" />
   </a>
 		</td>
 	</tr>
