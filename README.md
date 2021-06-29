@@ -1,6 +1,6 @@
 # Amazing-Css-Efffects
 
-Will Add some cool Css Effects in it
+ Some Astonishing CSS-Effects✨
 
  ### 💻 Tech Stack
 ### Front-End:
@@ -24,7 +24,7 @@ To make your local copy of the repository follow the steps:
 - Type this command:
   
 ```bash
-$ git clone https://github.com/<your-github-username>/Amazing-Css-Efffects
+$ git clone https://github.com/<your-github-username>/Amazing-Css-Effects
 ```
 
 
