@@ -131,8 +131,7 @@ The Amazing CSS-effects is released under the under terms of the [MIT License](L
 
 ## 💬Discussion 
 
-Join - https://discord.gg/Tk9gqzxn
-
+Join - https://discord.gg/gtYUZQSjTt
 
 
 <hr>
