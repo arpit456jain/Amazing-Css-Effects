@@ -2,7 +2,8 @@
  Some Astonishing CSS-Effects✨
 
 <p align="center"><img src="Assets/intro.gif"></p>
- ### 💻 Tech Stack
+
+### 💻 Tech Stack
 ### Front-End:
 <img alt="HTML5" src="https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white"/>  <img alt="CSS3" src="https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white"/> <img alt="JavaScript" src="https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/> 
 <img alt="BootStrap" src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white"/> 
@@ -128,7 +129,7 @@ Thanks go to these **Wonderful People** 👨🏻‍💻:      🚀 **Contributio
 The Amazing CSS-effects is released under the under terms of the [MIT License](LICENSE).
 
 
-## Discussion 
+## 💬Discussion 
 
 Join - https://discord.gg/Tk9gqzxn
 
