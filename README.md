@@ -1,4 +1,4 @@
-# Amazing-Css-Efffects
+# Amazing-Css-Effects
  Some Astonishing CSS-Effects✨
 
 <p align="center"><img src="Assets/intro.gif"></p>
