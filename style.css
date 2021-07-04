@@ -1,15 +1,23 @@
 body {
   margin: 0 auto;
   padding: auto;
-  background-color: rgb(217, 255, 0);
+  background-color: rgb(63, 211, 174);
+}
+img{
+  height: 100px;
+  width: 200px;
 }
 p {
   margin: 0 auto;
   padding: 1vmax;
+  }
+
+.heading{
+  color:white;
 }
 
 .navstrip {
-  background-color: rgb(0, 140, 255);
+  background-color: rgb(31, 32, 34);
   font-size: 5vmax;
   display: flex;
   justify-content: space-around;
