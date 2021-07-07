@@ -50,5 +50,8 @@
   {
     "name": "Rainbow Strip Button",
     "link": "Rainbow Strip Button/index.html"
+  },{
+    "name": "Loading Animation",
+    "link": "Loading Animation/index.html"
   }
 ]

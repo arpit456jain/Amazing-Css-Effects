@@ -1,0 +1,54 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	width: 100vw;
+    background-color: black;
+}
+
+.main-container {
+	position: relative;
+}
+
+.rotate-container {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	border-right: 4px solid white;
+	animation: rot 2s linear infinite;  
+}
+h1 {
+	position: absolute;
+	color: white;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50% , -50%);
+	font-size: 1.5rem;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	letter-spacing: 2px;
+	font-weight: 400;
+}
+
+@keyframes rot {
+	0% {
+		
+	}
+	25% {
+		transform: rotate(90deg);
+	}
+	50% {
+		transform: rotate(180deg);
+	}
+	75% {
+		transform: rotate(270deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
