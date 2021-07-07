@@ -1,0 +1,142 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	width: 100vw;
+}
+
+.btn-container {
+	position: relative;
+	overflow: hidden;
+	box-shadow: 0 1.5px 7.5px 0.5px gray;
+	border-radius: 5px;
+	z-index: 2;
+}
+
+.btn {
+	position: relative;
+	background-color: transparent;
+	padding: 20px 40px;
+	font-size: 2rem;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	border: none;
+	transition: 1s;
+	color: black;
+}
+
+.strip-1 , .strip-2 , .strip-3 , .strip-4 , .strip-5 , .strip-6 , .strip-7 {
+	height: 250px;
+	width: 35px;
+	z-index: -1;
+	position: absolute;
+}
+
+.strip-1 {
+	transition: 1s;
+	background-color:  violet;
+	transform: rotate(-45deg) translate(-150px , 0);
+}
+
+.strip-2 {
+	transition: 1s;
+	top: -25px;
+	left: 10px;
+	background-color: indigo;
+	transform: rotate(-45deg) translate(-150px , 15px);
+}
+
+.strip-3 {
+	transition: 1s;
+	top: -50px;
+	left: 20px;
+	background-color: blue;
+	transform: rotate(-45deg) translate(-150px , 30px);
+}
+
+.strip-4 {
+	transition: 1s;
+	top: -75px;
+	left: 30px;
+	background-color: green;
+	transform: rotate(-45deg) translate(-150px , 45px);
+}
+
+.strip-5 {
+	transition: 1s;
+	top: -100px;
+	left: 40px;
+	background-color: yellow;
+	transform: rotate(-45deg) translate(-150px , 60px);
+}
+
+.strip-6 {
+	transition: 1s;
+	top: -125px;
+	left: 50px;
+	background-color: orange;
+	transform: rotate(-45deg) translate(-150px , 75px);
+}
+
+.strip-7 {
+	transition: 1s;
+	top: -150px;
+	left: 60px;
+	background-color: red;
+	transform: rotate(-45deg) translate(-150px , 90px);
+}
+
+.btn:hover {
+	color: white;
+	cursor: pointer;
+}
+
+.btn::before {
+	content: '';
+	background-color: black;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: -1;
+	opacity: 0;
+	transition: 1s;
+}
+
+.btn:hover::before {
+	opacity: 0.25;
+}
+
+.btn-container:hover .strip-1 {
+	transform: rotate(-45deg) translate(40px , 0px);
+}
+
+.btn-container:hover .strip-2 {
+	transform: rotate(-45deg) translate(45px , 15px);
+}
+
+.btn-container:hover .strip-3 {
+	transform: rotate(-45deg) translate(50px , 30px);
+}
+
+.btn-container:hover .strip-4 {
+	transform: rotate(-45deg) translate(55px , 45px);
+}
+
+.btn-container:hover .strip-5 {
+	transform: rotate(-45deg) translate(60px , 60px);
+}
+
+.btn-container:hover .strip-6 {
+	transform: rotate(-45deg) translate(65px , 75px);
+}
+
+.btn-container:hover .strip-7 {
+	transform: rotate(-45deg) translate(70px , 90px);
+}
