@@ -116,10 +116,9 @@ Thanks go to these **Wonderful People** 👨🏻‍💻:      🚀 **Contributio
 The Amazing CSS-effects is released under the under terms of the [MIT License](LICENSE).
 
 
-## 💬Discussion 
+## 💬Join Our CES Community
 
-Join - https://discord.gg/gtYUZQSjTt
-
+Join - https://discord.gg/FVPvDUXfRR
 
 <hr>
 
