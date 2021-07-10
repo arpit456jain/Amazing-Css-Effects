@@ -53,5 +53,8 @@
   },{
     "name": "Loading Animation",
     "link": "Loading Animation/index.html"
+  },{
+    "name": "PreLoad Animation",
+    "link": "PreLoad Animation/index.html"
   }
 ]
