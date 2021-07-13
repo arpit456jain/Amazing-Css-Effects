@@ -4,6 +4,7 @@
 <p align="center"><img src="Assets/intro.gif"></p>
 
 ### Demo 🎥
+#### GitHub Pages website for this repository : https://arpit456jain.github.io/Amazing-Css-Effects/
 <p align="center"><img src="Assets/demo.gif"></p>
 
 ### 💻 Tech Stack
@@ -12,6 +13,8 @@
 <img alt="BootStrap" src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white"/> 
 
 ## 🚀 Quick Start :
+
+### Before starting kindly please read the [Code of Conduct](/CODE_OF_CONDUCT.md)
 
 #### Step 1: Forking the repository :
 
