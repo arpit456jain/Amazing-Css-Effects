@@ -125,6 +125,8 @@ The Amazing CSS-effects is released under the under terms of the [MIT License](L
 
 <h1 align=center>Happy Coding 👨‍💻 </h1>
 
+## 💬Join Our CES Community
 
+Join - https://discord.gg/FVPvDUXfRR
 
 show some ❤️&nbsp; by giving the star to this repo
