@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <meta charset='utf-8'>
+        <title>Tea cup steam</title>
+    
+        <style>
+
+body {
+    background: #962626;
+  }
+  #container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .steam {
+    position: absolute;
+    height: 140px;
+    width: 140px;
+    border-radius: 80%;
+    background-color: #fff;
+    margin-top: -75px;
+    margin-left: 75px;
+    z-index: 0;
+    opacity: 0;
+  }
+  
+  #steam1 {
+    -webkit-animation: steam1 5s ease-in infinite;
+    animation: steam1 4s ease-out infinite;
+  }
+  
+  #steam3 {
+    -webkit-animation: steam1 5s ease-out 1s infinite;
+    animation: steam1 4s ease-out 1s infinite;
+  }
+  
+  @-webkit-keyframes steam1 
+  {
+    0% {transform: translateY(0) translateX(0) scale(0.25); opacity: 0.2;}
+    100% {transform: translateY(-200px) translateX(-20px) scale(1); opacity: 0;}
+  }
+  
+  @keyframes steam1 
+  {
+    0% {transform: translateY(0) translateX(0) scale(0.25); opacity: 0.2;}
+    100% {transform: translateY(-200px) translateX(-20px) scale(1); opacity: 0;}
+  }
+  
+  #steam2 {
+    -webkit-animation: steam2 4s ease-out 0.5s infinite;
+    animation: steam2 4s ease-out 0.5s infinite;
+  }
+  
+  #steam4 {
+    -webkit-animation: steam2 4s ease-out 1.5s infinite;
+    animation: steam2 4s ease-out 1.5s infinite;
+  }
+  
+  @-webkit-keyframes steam2 {
+    0% {transform: translateY(0) translateX(0) scale(0.25); opacity: 0.2;}
+    100% {transform: translateY(-200px) translateX(20px) scale(1); opacity: 0;}
+  }
+  
+  @keyframes steam2 {
+    0% {transform: translateY(0) translateX(0) scale(0.25); opacity: 0.2;}
+    100% {transform: translateY(-200px) translateX(20px) scale(1); opacity: 0;}
+  }
+  
+  #cup {
+    z-index: 1;
+  }
+  
+  #cup-body {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    border-radius: 0 0 150px 150px;
+    background-color: rgb(61, 28, 18);
+    margin: auto;
+    display: inline-block;
+    overflow: hidden;
+    /*opacity: 0.8;*/
+    z-index: 1;
+  }
+  
+  
+  #cup-handle {
+    position: relative;
+    height: 75px;
+    width: 40px;
+    border-radius: 0 150px 150px 0;
+    border: 15px solid #490e0e;
+    margin-bottom: 95px;
+    margin-left: 190px;
+    display: inline-block;
+    z-index: 0;
+  }
+  
+  #saucer {
+    position: absolute;
+    height: 30px;
+    width: 230px;  
+    border-radius: 0 0 100px 100px;
+    background-color: #d3caca;
+    margin-top: -32px;
+    margin-left: 5px;
+    z-index: 2;
+  }
+  
+  #shadow {
+    height: 10px;
+    width: 300px;
+    border-radius: 50%;
+    margin-top: -5px;
+    margin-left: 6px;
+    background-color: #721d0e;
+  }
+
+
+        </style>
+    </head>
+
+<body> 
+
+<div id="container">
+    <div class="steam" id="steam1"> </div>
+    <div class="steam" id="steam2"> </div>
+    <div class="steam" id="steam3"> </div>
+    <div class="steam" id="steam4"> </div>
+  
+    <div id="cup">
+      <div id="cup-body">
+        <div id="cup-shade"></div>
+      </div>
+      <div id="cup-handle"></div>
+    </div>
+  
+    <div id="saucer"></div>
+  
+    <div id="shadow"></div>
+  </div>
+</body>
+  </html>
