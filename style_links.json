@@ -56,5 +56,8 @@
   },{
     "name": "PreLoad Animation",
     "link": "PreLoad Animation/index.html"
+  },{
+    "name":"Bubble Navbar Animation",
+    "link":"Bubble-Navbar-Animation/index.html"
   }
 ]
