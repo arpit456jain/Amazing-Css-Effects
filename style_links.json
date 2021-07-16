@@ -12,16 +12,44 @@
     "link": "Card Hover Effect/card_hover_effect.html"
   },
   {
+    "name": "Credit Card UI",
+    "link": "Credit Card UI/index.html"
+  },
+  {
     "name": "Glowing Gradient Border",
     "link": "Glowing Gradient Border/glow_gradient_border.html"
+  },
+  {
+    "name": "Glowing Checkboxes",
+    "link": "Glowing checkboxes/glowing_checkboxes.html"
   },
   {
     "name": "Glowing Loading Page Animation",
     "link": "Glowing loading page animation/glow_load_page_anim.html"
   },
   {
+    "name": "Clean Login Form",
+    "link": "My first project/login.html"
+  },
+  {
     "name": "Neon Buttons",
     "link": "Neon Buttons/neon_button.html"
+  },
+  {
+    "name": "Neumorphic Login Form",
+    "link": "Neumorphic_Login_Form/index.html"
+  },
+  {
+    "name": "Neuromorphic Calculator",
+    "link": "Neuromorphic Calculator/index.html"
+  },
+  {
+    "name": "Winner Podium Cards",
+    "link": "Nitesh Rawat/index.html"
+  },
+  {
+    "name": "Animated Ocean logo",
+    "link": "demo/index.html"
   },
   {
     "name": "Price Cards 1",
@@ -40,6 +68,26 @@
     "link": "Service card effect/service_card_effect.html"
   },
   {
+    "name": "Smoke Effect",
+    "link": "smoke effect/index.html"
+  },
+  {
+    "name": "Social Media Effects",
+    "link": "Social Media Effects/index.html"
+  },
+  {
+    "name": "Steaming cup",
+    "link": "Steaming cup/Tea cup.html"
+  },
+  {
+    "name": "Water Wavy Footer",
+    "link": "Water Wavy Footer/waves_footer.html"
+  },
+  {
+    "name": "Weild The Web",
+    "link": "Weild the web/index.html"
+  },
+  {
     "name": "Transition Effect",
     "link": "Transition Effect/card_effect.html"
   },
@@ -50,13 +98,24 @@
   {
     "name": "Rainbow Strip Button",
     "link": "Rainbow Strip Button/index.html"
-  },{
+  },
+  {
+    "name": "Ripple Loader Animation",
+    "link": "Ripple Loader Animation/index.html"
+  },
+  {
     "name": "Loading Animation",
     "link": "Loading Animation/index.html"
-  },{
+  },
+  {
     "name": "PreLoad Animation",
     "link": "PreLoad Animation/index.html"
-  },{
+  },
+  {
+    "name": "Project Timeline View",
+    "link": "Project Timeline View/index.html"
+  },
+  {
     "name":"Bubble Navbar Animation",
     "link":"Bubble-Navbar-Animation/index.html"
   }
