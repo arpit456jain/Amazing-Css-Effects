@@ -29,14 +29,21 @@ Check out our [Contributing Guildlines](/CONTRIBUTING.md)
 <p align="center"><img src="http://www.gurpreetsaluja.com/wp-content/uploads/2016/05/always-keep-learning.png" width=30%></p>
 <hr>
 
- <h1 align=center> Project Admin ❤️ </h1>
+<h1 align=center> Project Admin ❤️ </h1>
+<p align="center">
+<table>
+  <tbody><tr>
+ <td align="center"><a href="https://github.com/arpit456jain"><img alt="" src="https://avatars.githubusercontent.com/arpit456jain" width="100px;"><br><sub><b> Arpit Jain </b></sub></a><br><a href="https://github.com/arpit456jain/Cool-Front-End_Templates/commits?author=arpit456jain" title="Code">💻 </a></td> </a></td>
+
+</tbody></table>
+
+<h1 align=center> Mentor 😃 </h1>
 <p align="center">
 
 <table>
   <tbody><tr>
- <td align="center"><a href="https://github.com/arpit456jain"><img alt="" src="https://avatars.githubusercontent.com/arpit456jain" width="130px;"><br><sub><b> Arpit Jain </b></sub></a><br><a href="https://github.com/arpit456jain/Amazing-Css-Efffects/commits?author=arpit456jain" title="Code">💻 </a></td> </a></td>
-
-
+    <td align="center"><a href="https://github.com/ankitapuri"><img alt="" src="https://avatars.githubusercontent.com/ankitapuri" width="100px;"><br><sub><b> Ankita Puri</b></sub></a><br></td></a></td>
+  </tr>
 </tbody></table>
 
 
