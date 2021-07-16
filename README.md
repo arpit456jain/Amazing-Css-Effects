@@ -3,16 +3,8 @@
  <p align="center"><img src="Assets/intro.gif"></p>
  
 ### This project is a part of the following Open Source Program
-<table style="width:80%;background-color:white;border-radius:30px;">
-  <tr>
-  <td>
   
   ![Devincept](https://user-images.githubusercontent.com/56088741/123548852-1ef59d00-d784-11eb-8e39-255e0c3e97d5.gif)
-
-  </td>
-  
-  </tr>
-</table>
 
 
 ### Demo 🎥
