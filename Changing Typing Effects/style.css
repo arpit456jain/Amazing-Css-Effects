@@ -11,7 +11,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: darkslategray;
+    background-color: #39CCCC;
     font-weight: bold;
 }
 .wrapper{
@@ -47,7 +47,7 @@ body{
     height: 100%;
     border-left: 2px solid orange;
     left: 0;
-    background: darkslategray;
+    background: #39CCCC;
     animation: typing 3s steps(12) infinite;
     -webkit-animation: typing 3s steps(12) infinite;
 }
