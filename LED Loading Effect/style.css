@@ -1,0 +1,36 @@
+*{
+	background-color: #000;
+}
+.box{
+	height: 10em;
+	position: relative;
+}
+.led{
+	width : 80px;
+	height: 80px;
+	border-radius: 50%;
+	border: 20px solid;
+	vertical-align: middle;
+	position: absolute;
+	top: 45%;
+	left: 47%;
+	border-color: #11ff87 #004250;
+	box-shadow: 
+	   inset 0 0 12px #fff, 
+       inset -6px 0 12px #f3bad6, 
+       inset 6px 0 12px #0ff, 
+       inset -6px 0 25px #f3bad6, 
+       inset 6px 0 25px #0ff, 
+       0 0 15px #fff, 
+       4px 0 15px #f3bad6, 
+       -4px 0 15px #0ff;
+	animation: 2.5s ;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-name: spin;
+}
+ @keyframes spin {
+    from { transform: rotate(0deg) }
+    to { transform: rotate(360deg) }
+  }
+
