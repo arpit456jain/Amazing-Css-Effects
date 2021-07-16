@@ -1,7 +1,19 @@
 # Amazing-Css-Effects
  Some Astonishing CSS-Effects✨
+ <p align="center"><img src="Assets/intro.gif"></p>
+ 
+### This project is a part of the following Open Source Program
+<table style="width:80%;background-color:white;border-radius:30px;">
+  <tr>
+  <td>
+  
+  ![Devincept](https://user-images.githubusercontent.com/56088741/123548852-1ef59d00-d784-11eb-8e39-255e0c3e97d5.gif)
 
-<p align="center"><img src="Assets/intro.gif"></p>
+  </td>
+  
+  </tr>
+</table>
+
 
 ### Demo 🎥
 #### GitHub Pages website for this repository : https://arpit456jain.github.io/Amazing-Css-Effects/
@@ -65,9 +77,6 @@ Thanks go to these **Wonderful People** 👨🏻‍💻:      🚀 **Contributio
 ## 📘&nbsp; License
 
 The Amazing CSS-effects is released under the under terms of the [MIT License](LICENSE).
-
-
-
 
 <hr>
 
