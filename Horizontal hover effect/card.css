@@ -72,12 +72,104 @@ body{
 .fac-card .fac-details .fac-content h1 span {
 	font-size: large;
 	color: #262626;
-	font-weight: 600;
+	font-weight: 700;
 }
 .fac-card .fac-details .fac-content p {
 	margin: 2% 0;
 	padding: 0;
 	color: #262626;
-	font-weight: 400;
+	font-weight: 600;
 	font-size: large;
+}
+
+@media (max-width: 1100px) {
+	.fac-card .fac-details .fac-content h1 {
+		font-size: 2.2rem;
+	}
+	.fac-card {
+		width: 50%;
+		float: inherit;
+		margin: 0 auto;
+		margin-bottom: 7%;
+		margin-top: 5%;
+	}
+
+	.fac-card .fac-details .fac-content h1 span {
+		font-size: 1.2rem;
+	}
+	.fac-card .fac-details .fac-content p {
+		font-size: 1rem;
+	}
+}
+
+@media (max-width: 700px) {
+	.div-facility {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin-top: 1%;
+	}
+	.fac-card {
+		width: 50%;
+	}
+	.fac-card .fac-details .fac-content h1 {
+		font-size: 1.5rem;
+	}
+	.fac-card .fac-details .fac-content h1 span {
+		font-size: 1.2rem;
+	}
+	.fac-card .fac-details .fac-content p {
+		font-size: 0.9rem;
+	}
+}
+
+@media (max-width: 660px) {
+	.fac-card {
+		width: 75%;
+	}
+	.fac-card .fac-details .fac-content h1 {
+		font-size: 1.2rem;
+	}
+	.fac-card .fac-details .fac-content h1 span {
+		font-size: 1rem;
+	}
+	.fac-card .fac-details .fac-content p {
+		font-size: 0.8rem;
+	}
+}
+
+@media (max-width: 395px) {
+	.fac-card .fac-details .fac-content h1 {
+		font-size: 1rem;
+	}
+	.fac-card .fac-details .fac-content h1 span {
+		font-size: 0.9rem;
+	}
+	.fac-card .fac-details .fac-content p {
+		font-size: 0.7rem;
+	}
+}
+
+@media (max-width: 360px) {
+	.fac-card .fac-details .fac-content h1 {
+		font-size: 0.9rem;
+	}
+	.fac-card .fac-details .fac-content h1 span {
+		font-size: 0.75rem;
+	}
+	.fac-card .fac-details .fac-content p {
+		font-size: 0.6rem;
+	}
+}
+
+@media (max-width: 320px) {
+	.fac-card .fac-details .fac-content h1 {
+		font-size: 0.8rem;
+	}
+	.fac-card .fac-details .fac-content h1 span {
+		font-size: 0.65rem;
+	}
+	.fac-card .fac-details .fac-content p {
+		font-size: 0.5rem;
+	}
 }
