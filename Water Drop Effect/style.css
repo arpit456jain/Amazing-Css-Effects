@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: #edeeed;
+}
+.drops{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.drop{
+    position: absolute;
+    height:150px;
+    width:150px;
+    background:transparent;
+    border-radius:57% 43% 37% 63% / 45% 52% 48% 55% ;
+    box-shadow: inset 10px 10px 10px rgba(0,0,0,0.5),
+                15px 25px 10px rgba(0,0,0,0.1),
+                15px 20px 20px rgba(0,0,0,0.5),
+                inset -10px -10px 15px rgba(225,225,225,0.9);
+}
+.drop::before{
+    content: '';
+    position: absolute;
+    top:25px;
+    left:35px;
+    background: #fff;
+    width:10px;
+    height: 10px;
+    border-radius: 57% 43% 37% 63% / 48% 37% 63% 52%;
+}
+.drop:nth-child(2){
+    transform: scale(0.5) translate(-200px,180px);
+    border-radius: 64% 36% 42% 58% / 42% 37% 63% 58%;
+}
+.drop:nth-child(3){
+    transform: scale(0.5) translate(280px,10px);
+    border-radius: 49% 51% 42% 58% / 56% 47% 53% 44%;
+}
+.drop:nth-child(4){
+    transform: scale(0.35) translate(120px,-350px);
+    border-radius: 39% 61% 63% 37% / 77% 47% 53% 23%;
+}
