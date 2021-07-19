@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    background: #040d15;
+}
+
+a {
+    position: relative;
+    color: white;
+    padding: 12px 36px;
+    margin: 10px 0;
+    text-decoration: none;
+    font-size: 18px;
+    letter-spacing: 2px;
+    border-radius: 40px;
+    background: linear-gradient(90deg, #0162c8, #55e7fc);
+    overflow: hidden;   
+}
+
+a:nth-child(2) {
+    background: linear-gradient(90deg, #755bea, #ff72c0);
+}
+
+span {
+    position: absolute;
+    background: white;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    border-radius: 50%;
+    animation: ripple_effect 1.5s linear infinite;
+
+}
+
+@keyframes ripple_effect {
+    0% {
+        width: 0;
+        height: 0;
+        opacity: 0.5;
+    }
+    100% {
+        width: 500px;
+        height: 500px;
+        opacity: 0 ;
+    }
+}
