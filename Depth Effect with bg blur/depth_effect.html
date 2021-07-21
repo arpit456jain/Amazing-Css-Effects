@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Depth Effect on Hover</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="depth_effect.css">
+
+        <script>
+        function bigImg() {
+            im = document.getElementById("layer1");
+            im.classList.remove("hide");
+        }
+
+        function normalImg() {
+            im = document.getElementById("layer1");
+            im.classList.add("hide");
+        }
+
+        </script>
+
+    
+    
+    </head>
+    <body>
+        <section>
+            <div class="layer1 hide" id="layer1" ></div>
+            <div class="hover1" onmouseenter="bigImg()" onmouseleave="normalImg()" ></div>
+            <div class="layer2"></div>
+        </section>
+    </body>
+</html>

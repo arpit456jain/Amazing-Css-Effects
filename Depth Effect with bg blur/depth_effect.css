@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+}
+
+
+
+section .layer2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('Devincept.gif') no-repeat;
+    background-size: 80% 80%;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+section .hover1{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    width: 700px;
+    height: 400px;
+    z-index: 10;
+}
+
+section .layer1 {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    height: 300px;
+    z-index: 5;
+    background: url('Devincept.gif') no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    box-shadow: 0 25px 60px  rgba(0,0,0,0.8);
+}
+
+.hide {
+    display: none;
+}
+
+.hover1:hover ~ .layer2{
+    filter: blur(10px);
+}

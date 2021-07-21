@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #822659;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+.kinetic {
+  position: relative;
+  height: 80px;
+  width: 80px;
+}
+.kinetic::after, .kinetic::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  border: 50px solid transparent;
+  border-bottom-color: #C3AED6;
+  animation: rotateA 2s linear infinite 0.5s;
+}
+p {
+  color: #E6F8F9;
+  padding-top: 240px;
+  margin-left: -100px;
+  font-size: 2rem;
+}
+.kinetic::before {
+  transform: rotate(90deg);
+  animation: rotateB 2s linear infinite;
+}
+@keyframes rotateA {
+  0% , 25% {
+    transform: rotate(0deg);
+  }
+  50% , 75% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotateB {
+  0% , 25% {
+    transform: rotate(90deg);
+  }
+  50% , 75% { 
+    transform: rotate(270deg);
+  }
+  100% {
+    transform: rotate(450deg);
+  }
+}
