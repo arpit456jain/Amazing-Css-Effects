@@ -8,7 +8,7 @@
 
 
 ### Demo 🎥
-#### GitHub Pages website for this repository : https://arpit456jain.github.io/Amazing-Css-Effects/
+#### GitHub Pages website for this repository : https://amazing-css-effects.netlify.app/
 <p align="center"><img src="Assets/demo.gif"></p>
 
 ### 💻 Tech Stack
