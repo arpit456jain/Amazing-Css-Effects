@@ -1,0 +1,41 @@
+h1 {
+  position: relative;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  font-size: 40px;
+  color: #080808;
+ }
+            table {
+                border-spacing: 5px;
+            }
+            td {
+                border: 1px solid black;
+                width: 50px;
+                height: 50px;
+                flex-direction: column;
+                text-align: center;
+            }
+            p {
+                margin: 0;
+                padding: 0;
+            }
+            .c1, #row1>td, #r7c4, #r8c4, #r9c4, #r10c4 {
+                border: none;
+                background: none !important;
+            }
+            .invisible {
+                visibility: hidden;
+            }
+            .c2, .c3, #r2c20 {
+                background-color: salmon;
+            }
+            .c5, .c6, .c7, .c8, .c9, .c10, .c11, .c12, .c13, .c14 {
+                background-color: lightskyblue;
+            }
+            .c15, .c16, .c17, .c18, .c19, .c20 {
+                background-color: yellow;
+            }
+            #row9>td, #row10>td {
+                background-color: lightgreen;
+            }
