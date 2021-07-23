@@ -1,0 +1,135 @@
+/* Basic */
+* {
+    box-sizing:border-box;
+  }
+  
+  body, html {
+      height: 100%;
+      width: 100%;
+      margin: 0;
+      font-family: Arial, sans-serif;
+      overflow: hidden;
+      background: rgb(9, 94, 94);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .container {
+      width: 680px;
+      position: relative;
+  }
+  
+  /* Buttons */
+  .btn {
+      border: none;
+      position: relative;
+      background: none;
+      padding: 28px 90px;
+      display: inline-block;
+      text-transform: uppercase;
+      margin: 30px;
+      color: inherit;
+      letter-spacing: 2px;
+      font-size: 0.9em;
+      outline: none;
+      transition: all 0.4s;
+      cursor: pointer;
+  }
+  
+  .btn:after {
+      content: "";
+      position: absolute;
+      z-index: -1;
+      transition: all 04.s;
+  }
+  
+  .btn-perspective {
+      perspective: 800px;
+      display: inline-block;
+  }
+  
+  .btn-3d {
+      color: #fff;
+      display: block;
+      outline: 1px solid transparent;
+      transform-style: preserve-3d;
+  }
+  
+  
+  /* Button One */
+  .btn-one {
+      background-color: #E74C3C;
+  }
+  .btn-one:after {
+      width: 100%;
+      height: 42%;
+      left: 0;
+      top: -40%;
+      background: #C0392D;
+      transform-origin: 0% 100%;
+      transform: rotateX(90deg);
+  }
+  .btn-one:hover {
+      transform: rotateX(-45deg);   
+  }
+  
+  /* Button Two */
+  .btn-two {
+      background-color: #3498DB;
+  }
+  .btn-two:after {
+      width: 100%;
+      height: 40%;
+      left: 0;
+      top: 100%;
+      background: #2980D9;
+      transform-origin: 0% 0%;
+      transform: rotateX(-90deg);
+  }
+  .btn-two:hover {
+      transform: rotateX(35deg);   
+  }
+  
+  /* Button Three */
+  .btn-three {
+      background-color: #C9C;
+  }
+  .btn-three:after {
+      width: 20%;
+      height: 100%;
+      left: -20%;
+      top: 0;
+      background: #5e0abe;
+      transform-origin:100% 0%;
+      transform: rotateY(-90deg);
+  }
+  .btn-three:hover {
+      transform: rotateY(25deg);   
+  }
+  
+  /* Button Four */
+  .btn-four {
+      background-color: #7f13aa;
+  }
+  .btn-four:after {
+      width: 20%;
+      height: 100%;
+      left: 100%;
+      top: 0;
+      background: #8E44AD;
+      transform-origin: 0% 0%;
+      transform: rotateY(90deg);
+  }
+  .btn-four:hover {
+      transform: rotateY(-25deg);
+  }
+  footer{
+      align:center;
+      color: red;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-weight: bolder;
+      font-size: xx-large;
+      font-style: inherit;
+      font-stretch: semi-condensed;
+  }
