@@ -1,0 +1,78 @@
+body {
+  display: grid;
+  height: 100vh;
+  margin: 0;
+  place-items: center;
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(69,69,255,1) 38%, rgba(0,212,255,1) 100%);
+}
+
+
+.form
+{
+  z-index:1;
+  border-radius:20px;
+  position:relative;
+  padding:20px;
+  background:rgba(255,255,255,0.1);
+  border-top:1px solid rgba(255,255,255,0.5);
+  border-left:1px solid rgba(255,255,255,0.3);
+  border-right:1px solid rgba(255,255,255,0.3);
+  border-bottom:1px solid rgba(255,255,255,0.2);
+  backdrop-filter:blur(12px);
+  box-shadow:0 26px 42px rgba(0,0,0,0.1);
+  width:20em;
+color: white;  
+}
+
+input
+{
+  border:none;
+  background:rgba(255,255,255,0.1);
+  border-radius:12px;
+  border-top: 1px solid rgba(255,255,255,0.2);
+  box-shadow:0 13px 21px rgba(0,0,0,0.05);
+  margin-bottom:20px;
+  height:40px;
+  width:80%;
+   color:white;
+  padding-left:10px;
+   
+}
+
+input::placeholder
+{
+  color:white;
+  font-size:15px;
+}
+
+.button
+{
+  background-color:#0909e7;
+}
+.button:hover
+{
+  background-color:red;
+}
+
+.circle {
+  position: absolute;
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+
+}
+
+.circleLeft
+{
+  top:-55px;
+  left:-50px;
+  background-color:#44c9ff;
+}
+
+.circleRight
+{
+  margin-top:-50px;
+  left:290px;
+  background-color:#00006f;
+  
+}
