@@ -1,0 +1,44 @@
+#progress-bar {
+    position: relative;
+    margin: 330px 620px;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    width: 20px;
+    height: 20px;
+    justify-content: center;
+    background: repeating-linear-gradient(-45deg, rgb(231, 224, 224) 20px, rgb(255, 255, 255) 10px, rgb(255, 255, 255), rgb(255, 255, 255) 30px);
+    border-radius: 0.8em;
+    animation: roll 5s linear infinite;
+    box-shadow: inset 0 10px 10px rgba(255, 255, 255, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -5px 3px rgba(0, 0, 0, 0.2), 0 3px 2px rgba(0, 0, 0, 0.3);
+}
+
+#progress-bar:after {
+    width: 300px;
+    height: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    background: #333;
+    border-radius: 2em;
+    display: inline;
+    content: "";
+    position: absolute;
+    left: -10px;
+    top: -5px;
+    z-index: -1;
+}
+
+@-moz-keyframes roll {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 20px;
+    }
+}
+
+@-webkit-keyframes roll {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 280px;
+    }
+}
