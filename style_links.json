@@ -1,11 +1,11 @@
 [
   {
-    "name": "3D Filp Hover Effect",
-    "link": "3d flip hover effect/3d flip hover.html"
+    "name": "3D Flip Hover Effect",
+    "link": "3D Filp Hover Effect/index.html"
   },
   {
     "name": "Animated Login Form",
-    "link": "Animated Login Fom/anim-login-form.html"
+    "link": "Animated Login Form/index.html"
   },
   {
     "name": "Card Hover Effect",
@@ -21,11 +21,11 @@
   },
   {
     "name": "Glowing Checkboxes",
-    "link": "Glowing checkboxes/glowing_checkboxes.html"
+    "link": "Glowing Checkboxes/index.html"
   },
   {
     "name": "Glowing Loading Page Animation",
-    "link": "Glowing loading page animation/glow_load_page_anim.html"
+    "link": "Glowing Loading Page Animation/index.html"
   },
   
   {
@@ -34,35 +34,35 @@
   },
   {
     "name": "Neumorphic Login Form",
-    "link": "Neumorphic_Login_Form/index.html"
+    "link": "Neumorphic Login Form/index.html"
   },
   {
-    "name": "Winner Podium Cards",
-    "link": "Nitesh Rawat/index.html"
+    "name": "Winner Podium Cards Nitesh Rawat",
+    "link": "Winner Podium Cards Nitesh Rawat/index.html"
   },
   {
-    "name": "Animated Ocean logo",
-    "link": "demo/index.html"
+    "name": "Animated Ocean Logo",
+    "link": "Animated Ocean Logo/index.html"
   },
   {
     "name": "Price Cards 1",
-    "link": "Price Cards/price-card1.html"
+    "link": "Price Cards 1/index.html"
   },
   {
     "name": "Price Cards 2",
-    "link": "Price Cards/price-card2.html"
+    "link": "Price Cards 2/index.html"
   },
   {
     "name": "Profile Card",
-    "link": "Profile-card/profilecard.html"
+    "link": "Profile Card/index.html"
   },
   {
     "name": "Service Card Effect",
-    "link": "Service card effect/service_card_effect.html"
+    "link": "Service Card Effect/index.html"
   },
   {
     "name": "Smoke Effect",
-    "link": "smoke effect/index.html"
+    "link": "Smoke Effect/index.html"
   },
   {
     "name": "FAQ Accordion",
@@ -82,7 +82,7 @@
   },
   {
     "name": "Weild The Web",
-    "link": "Weild the web/index.html"
+    "link": "Weild The Web/index.html"
   },
   {
     "name": "Transition Effect",
@@ -114,7 +114,7 @@
   },
   {
     "name":"Bubble Navbar Animation",
-    "link":"Bubble-Navbar-Animation/index.html"
+    "link":"Bubble Navbar Animation/index.html"
   },{
     "name":"Animated Gradient using Pure CSS",
     "link":"Animated Gradient using Pure CSS/index.html"
@@ -124,5 +124,11 @@
   },{
     "name":"Periodic Table",
     "link":"Periodic Table/index.html"
+  },{
+    "name":"css glowing gradient loader ring",
+    "link":"css glowing gradient loader ring/index.html"
+  },{
+    "name":"Hidden Search Bar",
+    "link":"Hidden Search Bar/index.html"
   }
 ]
