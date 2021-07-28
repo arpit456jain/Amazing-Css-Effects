@@ -199,9 +199,12 @@
     "name": "Weild the web",
     "link": "Weild the web/index.html"
   },
-  
   {
     "name": "Winner Podium Cards Nitesh Rawat",
     "link": "Winner Podium Cards Nitesh Rawat/index.html"
+  },
+  {
+    "name": "Animated UI Design",
+    "link": "Animated UI Design/index.html"
   }
 ]
