@@ -1,5 +1,9 @@
 [
   {
+    "name": "Animated UI Design",
+    "link": "Animated UI Design/index.html"
+  },
+  {
     "name": "3D Animation Button",
     "link": "3D Animation Button/index.html"
   },
@@ -92,8 +96,8 @@
     "link": "Neon Buttons/neon_button.html"
   },
   {
-    "name": "Neon Light Effect",
-    "link": "Neon Light Effect/index.html"
+    "name": "Neon light effect",
+    "link": "Neon light effect/index.html"
   },
   {
     "name": "Neumorphic Login Form",
@@ -202,9 +206,5 @@
   {
     "name": "Winner Podium Cards Nitesh Rawat",
     "link": "Winner Podium Cards Nitesh Rawat/index.html"
-  },
-  {
-    "name": "Animated UI Design",
-    "link": "Animated UI Design/index.html"
   }
 ]
