@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #17141d;
+    color: white;
+    font-family: 'DM Mono', monospace;
+   text-align : "center";
+}
+
+a {
+    text-decoration: none;
+}
+
+.cardno-list {
+    display: flex;
+    padding: 3rem;
+    overflow-x: scroll;
+}
+
+.cardno-list::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+.cardno-list::-webkit-scrollbar-thumb {
+    background: #201c29;
+    border-radius: 10px;
+    box-shadow: inset 2px 2px 2px hsla(0,0%,100%,.25), inset -2px -2px 2px rgba(0,0,0,.25);
+}
+
+.cardno-list::-webkit-scrollbar-track {
+    background: linear-gradient(90deg,#201c29,#201c29 1px,#17141d 0,#17141d);
+}
+
+
+.cardno {
+    height: 350px;
+    width: 400px;
+    min-width: 250px;
+    padding: 1.5rem;
+    border-radius: 16px;
+    background: #17141d;
+    box-shadow: -1rem 0 3rem #000;
+    display: flex;
+    flex-direction: column;
+    transition: .2s;
+    margin: 0;
+    scroll-snap-align: start;
+    clear: both;
+    position: relative;
+}
+
+.cardno:focus-within~.cardno, .cardno:hover~.cardno {
+    transform: translateX(130px);
+}
+
+.cardno:hover {
+    transform: translateY(-1rem);
+}
+
+.cardno:not(:first-child) {
+    margin-left: -130px;
+}
+
+
+.cardno-header {
+    margin-bottom: auto;
+}
+
+.cardno-header p {
+    font-size: 14px;
+    margin: 0 0 1rem;
+    color: #7a7a8c;
+}
+
+.cardno-header h2 {
+    font-size: 20px;
+    margin: .25rem 0 auto;
+    text-decoration: none;
+    color: inherit;
+    border: 0;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.cardno-header h2:hover {
+    background: linear-gradient(90deg,#ff8a00,#e52e71);
+    text-shadow: none;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.cardno-author {
+    margin: 1rem 0 0;
+    display: grid;
+    align-items: center;
+    position: relative;
+}
+
+.author-avatar {
+    grid-area: auto;
+    align-self: start;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.author-avatar img {
+    width: 260px;
+    height: 260px;
+    display: block;
+    overflow: hidden;
+    margin: 10px 10px;
+}
+
+
+@media screen and (max-width: 768px) {
+
+#content-dsktop {display: none;}
+}
