@@ -1,0 +1,167 @@
+@import url(//fonts.googleapis.com/css?family=Vibur);
+html,
+body {
+  height: 100%;
+}
+body {
+  background: #001;
+  margin: auto;
+}
+.logo b {
+  height: 250px;
+  padding-left: 27px;
+  user-select: none;
+  font-size: 7em;
+  font-family: 'Vibur';
+  color: #fff;
+  text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em blue, 0 0 0.5em blue,
+    0 0 0.1em blue, 0 10px 3px #000;
+}
+
+.logo b span:nth-of-type(1) {
+  animation: blink linear infinite 2s;
+}
+.logo b span:nth-of-type(2) {
+  animation: blink linear infinite 3s;
+}
+.logo b span:nth-of-type(3) {
+  animation: blink linear infinite 2s;
+}
+@keyframes blink {
+  78% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  79% {
+    color: #333;
+  }
+  80% {
+    text-shadow: none;
+  }
+  81% {
+    color: #333;
+    text-shadow: inherit;
+  }
+  82% {
+    color: #333;
+    text-shadow: none;
+  }
+  83% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  92% {
+    color: #333;
+    text-shadow: none;
+  }
+  92.5% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+}
+p {
+  text-align: center;
+  font-size: 7em;
+  margin: 30px;
+}
+
+p:nth-child(1) {
+  color: #228dff;
+  font-family: 'Vibur';
+  -webkit-animation: none;
+  animation: none;
+}
+
+p:nth-child(1):hover {
+  -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
+  animation: neon1 1.5s ease-in-out infinite alternate;
+}
+
+p:nth-child(2) {
+  color: #fff;
+  font-family: 'Vibur';
+  text-align: right;
+  -webkit-animation: neon2 1.5s ease-in-out infinite alternate;
+  animation: neon2 1.5s ease-in-out infinite alternate;
+}
+
+p:nth-child(2):hover {
+  color: #efff0a;
+  -webkit-animation: none;
+  animation: none;
+}
+p:hover {
+  color: #ffffff;
+}
+
+@-webkit-keyframes neon1 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #228dff,
+      0 0 70px #228dff, 0 0 80px #228dff, 0 0 100px #228dff, 0 0 150px #228dff;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #228dff,
+      0 0 35px #228dff, 0 0 40px #228dff, 0 0 50px #228dff, 0 0 75px #228dff;
+  }
+}
+
+@-webkit-keyframes neon2 {
+  from {
+    text-shadow: 0 0 10px #efff0a, 0 0 20px #efff0a, 0 0 30px #efff0a,
+      0 0 40px #efff0a, 0 0 70px #efff0a, 0 0 80px#efff0a, 0 0 100px #efff0a,
+      0 0 150px #efff0a;
+  }
+  to {
+    text-shadow: 0 0 5px #efff0a, 0 0 10px #efff0a, 0 0 15px #efff0a,
+      0 0 20px #efff0a, 0 0 35px #efff0a, 0 0 40px #efff0a, 0 0 50px #efff0a,
+      0 0 75px #efff0a;
+  }
+}
+@keyframes neon1 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #228dff,
+      0 0 70px #228dff, 0 0 80px #228dff, 0 0 100px #228dff, 0 0 150px #228dff;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #228dff,
+      0 0 35px #228dff, 0 0 40px #228dff, 0 0 50px #228dff, 0 0 75px #228dff;
+  }
+}
+
+@keyframes neon2 {
+  from {
+    text-shadow: 0 0 10px #efff0a, 0 0 20px #efff0a, 0 0 30px #efff0a,
+      0 0 40px #efff0a, 0 0 70px #efff0a, 0 0 80px#efff0a, 0 0 100px #efff0a,
+      0 0 150px #efff0a;
+  }
+  to {
+    text-shadow: 0 0 5px #efff0a, 0 0 10px #efff0a, 0 0 15px #efff0a,
+      0 0 20px #efff0a, 0 0 35px #efff0a, 0 0 40px #efff0a, 0 0 50px #efff0a,
+      0 0 75px #efff0a;
+  }
+}
+@media screen and (max-width: 768px) {
+  p {
+    font-size: 5.5em;
+  }
+  .logo b {
+    font-size: 5.5em;
+  }
+}
+@media screen and (max-width: 640px) {
+  p {
+    font-size: 4.5em;
+  }
+  .logo b {
+    font-size: 4.5em;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  p {
+    font-size: 3.5em;
+  }
+  .logo b {
+    font-size: 3.5em;
+  }
+}

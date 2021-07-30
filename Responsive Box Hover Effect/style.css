@@ -1,0 +1,238 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  background-color: #15202b;
+}
+body * {
+  transition: 0.3s;
+}
+li {
+  color: #fff;
+  font-family: 'helvetica', sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+h4 {
+  font-size: 30px;
+  color: #fff;
+  font-family: 'Nunito', sans-serif;
+  margin-left: 3em;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.tech-wrapper {
+  width: 100%;
+  margin-bottom: 45px;
+  margin-left: 2em;
+}
+
+.tech-wrapper ul {
+  list-style: none;
+}
+
+.tech-wrapper ul li {
+  padding: 45px;
+  line-height: 30px;
+  margin: 0px 20px;
+  cursor: pointer;
+  border-radius: 0%;
+  border: 1px solid #17a2b8;
+  transition: all 0.5s ease;
+}
+
+.tech-wrapper ul li.java {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+}
+
+.tech-wrapper ul li:hover.java {
+  border: 5px solid #dd4b39;
+  box-shadow: 0 0 15px #dd4b39;
+  transition: all 0.5s ease;
+}
+.tech-wrapper ul li:hover .fa-java {
+  color: #dd4b39;
+  text-shadow: 0 0 15px #dd4b39;
+  transition: all 0.5s ease;
+}
+.tech-wrapper ul li.cpp {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+}
+.tech-wrapper ul li:hover.cpp {
+  border: 5px solid #3b5998;
+  box-shadow: 0 0 15px #3b5998;
+  transition: all 0.5s ease;
+}
+
+.tech-wrapper ul li:hover .fa-cpp {
+  color: #3b5998;
+  text-shadow: 0 0 15px #3b5998;
+  transition: all 0.5s ease;
+}
+.tech-wrapper ul li.python {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+}
+.tech-wrapper ul li:hover.python {
+  text-align: center;
+  border: 5px solid #3b5998;
+  box-shadow: 0 0 15px #3b5998;
+  transition: all 0.5s ease;
+}
+.tech-wrapper ul li:hover .fa-python {
+  color: #3b5998;
+  text-shadow: 0 0 15px #3b5998;
+  transition: all 0.5s ease;
+}
+.tech-wrapper ul li.js {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+}
+.tech-wrapper ul li:hover.js {
+  border: 5px solid lime;
+  box-shadow: 0 0 15px lime;
+  transition: all 0.5s ease;
+}
+
+.tech-wrapper ul li:hover .fa-js {
+  color: lime;
+  text-shadow: 0 0 15px lime;
+  transition: all 0.5s ease;
+}
+.tech-wrapper ul li.aws {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+}
+.tech-wrapper ul li:hover.aws {
+  border: 5px solid#dd4b39;
+  box-shadow: 0 0 15px #dd4b39;
+  transition: all 0.5s ease;
+}
+
+.tech-wrapper ul li:hover .fa-aws {
+  color: #dd4b39;
+  text-shadow: 0 0 15px #dd4b39;
+  transition: all 0.5s ease;
+}
+.tech-wrapper ul li.docker {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+}
+.tech-wrapper ul li:hover.docker {
+  border: 5px solid #00c3ffe3;
+  box-shadow: 0 0 15px #00c3ffe3;
+  transition: all 0.5s ease;
+}
+
+.tech-wrapper ul li:hover .fa-docker {
+  color: #00c3ffe3;
+  text-shadow: 0 0 15px #00c3ffe3;
+  transition: all 0.5s ease;
+}
+.tech-wrapper ul li.react {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+}
+.tech-wrapper ul li:hover.react {
+  border: 5px solid #17a2b8;
+  box-shadow: 0 0 15px #17a2b8;
+  transition: all 0.5s ease;
+}
+.tech-wrapper ul li:hover .fa-react {
+  color: #17a2b8;
+  text-shadow: 0 0 15px #17a2b8;
+  transition: all 0.5s ease;
+}
+.tech-wrapper ul li.css {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+}
+.tech-wrapper ul li:hover.css {
+  border: 5px solid #5e88fa;
+  box-shadow: 0 0 15px #5e88fa;
+  transition: all 0.5s ease;
+}
+
+.tech-wrapper ul li:hover .fa-css {
+  color: #5e88fa;
+  text-shadow: 0 0 15px #5e88fa;
+  transition: all 0.5s ease;
+}
+
+@media screen and (max-width: 640px) {
+  .tech-wrapper {
+    width: 350px;
+  }
+  .tech-wrapper ul li {
+    margin-top: 10px;
+  }
+  .tech-wrapper ul li.java {
+    margin-left: 20px;
+  }
+  .tech-wrapper ul li.cpp {
+    margin-left: 20px;
+  }
+  .tech-wrapper ul li.python {
+    margin-left: 20px;
+  }
+  .tech-wrapper ul li.js {
+    margin-left: 20px;
+  }
+  .tech-wrapper ul li.aws {
+    margin-left: 20px;
+  }
+  .tech-wrapper ul li.docker {
+    margin-left: 20px;
+  }
+  .tech-wrapper ul li.react {
+    margin-left: 20px;
+  }
+  .tech-wrapper ul li.css {
+    margin-left: 20px;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .tech-wrapper {
+    width: 150px;
+  }
+  .tech-wrapper ul li {
+    margin: 15px;
+  }
+  .tech-wrapper ul li.java {
+    margin-left: 15px;
+  }
+  .tech-wrapper ul li.cpp {
+    margin-left: 15px;
+  }
+  .tech-wrapper ul li.python {
+    margin-left: 15px;
+  }
+  .tech-wrapper ul li.js {
+    margin-left: 15px;
+  }
+  .tech-wrapper ul li.aws {
+    margin-left: 15px;
+  }
+  .tech-wrapper ul li.docker {
+    margin-left: 15px;
+  }
+  .tech-wrapper ul li.react {
+    margin-left: 15px;
+  }
+  .tech-wrapper ul li.css {
+    margin-left: 15px;
+  }
+}
