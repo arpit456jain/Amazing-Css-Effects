@@ -78,7 +78,7 @@ h1{
 
   transition: 0.5s ease;
   cursor: pointer;
-  margin:30px;
+  margin:30px auto;
 }
 
 .grid-container {
