@@ -1,0 +1,31 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: "montserrat",sans-serif;
+	background: url(water2.png) no-repeat;
+	background-size: cover;
+               background-color: blue;
+}
+.middle{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.middle h1{
+	font-size: 100px;
+	
+	font-weight: 900px;
+	color: #2c3e5036;
+	background-image: url(water1.png);
+	-webkit-background-clip:text;
+	animation: water 15s infinite;
+}
+@keyframes water {
+	from{
+		background-position: left 0 top 0;
+	}
+	to{
+		background-position: left 1000px top 0;
+	}
+}

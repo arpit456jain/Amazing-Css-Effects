@@ -1,7 +1,15 @@
 # Amazing-Css-Effects
  Some Astonishing CSS-Effects✨
+ <p align="center"><img src="Assets/intro.gif"></p>
+ 
+### This project is a part of the following Open Source Program
+  
+  ![Devincept](https://user-images.githubusercontent.com/56088741/123548852-1ef59d00-d784-11eb-8e39-255e0c3e97d5.gif)
 
-<p align="center"><img src="Assets/intro.gif"></p>
+
+### Demo 🎥
+#### GitHub Pages website for this repository : https://amazing-css-effects.netlify.app/
+<p align="center"><img src="Assets/demo.gif"></p>
 
 ### 💻 Tech Stack
 ### Front-End:
@@ -9,6 +17,14 @@
 <img alt="BootStrap" src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white"/> 
 
 ## 🚀 Quick Start :
+
+### Before starting kindly please read the [Code of Conduct](/CODE_OF_CONDUCT.md)
+
+## Contributions :
+Check out our [Contributing Guildlines](/CONTRIBUTING.md)
+
+
+
 
 #### Step 1: Forking the repository :
 
@@ -25,7 +41,7 @@ To make your local copy of the repository follow the steps:
 - Type this command:
   
 ```bash
-$ git clone https://github.com/<your-github-username>/Amazing-Css-Effects
+$ git clone https://github.com/<your-github-username>/Cool-Front-End_Templates
 ```
 
 
@@ -42,10 +58,10 @@ Keep your cloned repo upto date by pulling from upstream (this will also avoid a
 git pull origin main
 ```
 
-#### Step 4: Contribute
+#### Step 5: Contribute
 Make relevant changes according to the issue that you were assigned on. Contribute in any way you feel like :)
 
-#### Step 5: Commiting and Pushing
+#### Step 6: Commiting and Pushing
 Once you have modified an existing file or added a new file to the project, you can add it to your local repository, which we can do with the git add command.
 
 ```bash
@@ -65,7 +81,7 @@ At this point you can use the git push command to push the changes to the curren
 git push origin <branch-name>
 ```
 
-#### Step 6: Create Pull Request
+#### Step 7: Create Pull Request
 Now, you are ready to make a pull request to the original repository.
 
 You should navigate to your forked repository, and press the "Compare & pull request" button on the page.
@@ -79,36 +95,28 @@ GitHub will alert you that you can merge the two branches because there is no co
 
 
  ## 📌Till Then 
+ ### Need Some Help in this Repo -> [Web Development And Resourcses](https://github.com/arpit456jain/Web-Development-Path-And-Resources)
 <p align="center"><img src="http://www.gurpreetsaluja.com/wp-content/uploads/2016/05/always-keep-learning.png" width=30%></p>
 <hr>
 
- <h1 align=center> Project Admin ❤️ </h1>
+<h1 align=center> Project Admin ❤️ </h1>
 <p align="center">
-
 <table>
   <tbody><tr>
- <td align="center"><a href="https://github.com/arpit456jain"><img alt="" src="https://avatars.githubusercontent.com/arpit456jain" width="130px;"><br><sub><b> Arpit Jain </b></sub></a><br><a href="https://github.com/arpit456jain/Amazing-Css-Efffects/commits?author=arpit456jain" title="Code">💻 </a></td> </a></td>
-<td align="center"><a href="https://github.com/codeaholic-shub"><img alt="" src="https://avatars.githubusercontent.com/codeaholic-shub" width="130px;"><br><sub><b> Shubhankar Poddar </b></sub></a><br><a href="https://github.com/codeaholic-shub/Amazing-Css-Efffects/commits?author=codeaholic-shub" title="Code">💻 </a></td> </a></td>
-<td align="center"><a href="https://github.com/siddhi-244"><img alt="" src="https://avatars.githubusercontent.com/siddhi-244" width="130px;"><br><sub><b>
-Siddhi Bhanushali  </b></sub></a><br><a href="https://github.com/siddhi-244/Amazing-Css-Efffects/commits?author=siddhi-244" title="Code">💻 </a></td></a></td>
+ <td align="center"><a href="https://github.com/arpit456jain"><img alt="" src="https://avatars.githubusercontent.com/arpit456jain" width="100px;"><br><sub><b> Arpit Jain </b></sub></a><br><a href="https://github.com/arpit456jain/Cool-Front-End_Templates/commits?author=arpit456jain" title="Code">💻 </a></td> </a></td>
 
 </tbody></table>
 
-<h1 align=center> Project Maintainers 😃 </h1>
+<h1 align=center> Mentor 😃 </h1>
 <p align="center">
 
 <table>
   <tbody><tr>
-    <td align="center"><a href="https://github.com/JyotiKumari2"><img alt="" src="https://avatars.githubusercontent.com/JyotiKumari2" width="130px;"><br><sub><b> Jyoti Kumari </b></sub></a><br><a href="https://github.com/JyotiKumari2/Amazing-Css-Efffects/commits?author=JyotiKumari2" title="Code">💻 </a></td></a></td>
-    <td align="center"><a href="https://github.com/MrTwinkleSharma"><img alt="" src="https://avatars.githubusercontent.com/MrTwinkleSharma" width="130px;"><br><sub><b> Mr. Twinkle Sharma </b></sub></a><br><a href="https://github.com/MrTwinkleSharma/Amazing-Css-Efffects/commits?author=MrTwinkleSharma" title="Code">💻 </a></td></a></td>
-     <td align="center"><a href="https://github.com/RishikaGhosh"><img alt="" src="https://avatars.githubusercontent.com/RishikaGhosh" width="130px;"><br><sub><b>
-Rishika Ghosh  </b></sub></a><br><a href="https://github.com/RishikaGhosh/Amazing-Css-Efffects/commits?author=RishikaGhosh" title="Code">💻 </a></td></a></td>
-<td align="center"><a href="https://github.com/RounakNeogy"><img alt="" src="https://avatars.githubusercontent.com/RounakNeogy" width="130px;"><br><sub><b>
-Rounak Neogy  </b></sub></a><br><a href="https://github.com/RounakNeogy/Amazing-Css-Efffects/commits?author=RounakNeogy" title="Code">💻 </a></td></a></td>
-
-
+    <td align="center"><a href="https://github.com/ankitapuri"><img alt="" src="https://avatars.githubusercontent.com/ankitapuri" width="100px;"><br><sub><b> Ankita Puri</b></sub></a><br></td></a></td>
   </tr>
 </tbody></table>
+
+
 
 <h2 align=center> ✨ Contributors </h2>
 
@@ -118,7 +126,7 @@ Thanks go to these **Wonderful People** 👨🏻‍💻:      🚀 **Contributio
 	<tr>
 		 <td>
   <a href="https://github.com/arpit456jain/Amazing-Css-Efffects/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=arpit456jain/amazing-css-effects" />
+  <img src="https://contrib.rocks/image?repo=arpit456jain/Amazing-Css-Effects" />
   </a>
 		</td>
 	</tr>
@@ -128,16 +136,12 @@ Thanks go to these **Wonderful People** 👨🏻‍💻:      🚀 **Contributio
 
 The Amazing CSS-effects is released under the under terms of the [MIT License](LICENSE).
 
-
-## 💬Discussion 
-
-Join - https://discord.gg/gtYUZQSjTt
-
-
 <hr>
 
 <h1 align=center>Happy Coding 👨‍💻 </h1>
 
+## 💬Join Our CodeSmashers Community
 
+Join -  https://discord.gg/gtYUZQSjTt
 
 show some ❤️&nbsp; by giving the star to this repo

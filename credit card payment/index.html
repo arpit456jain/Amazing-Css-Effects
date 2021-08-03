@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="payment">
+        <div class="bg"></div>
+        <div class="card">
+            <img src="chip.png" class="chip" alt="">
+            <div class="logo"></div>
+            <h2 class="bankName" contenteditable="true">Bank Name</h2>
+            <form>
+                <div class="inputBox">
+                    <span>Card No.</span>
+                    <input type="text" placeholder="xxxx xxxx xxxx xxxx" maxlength="19">
+                </div>
+                <div class="inputBox">
+                    <span>Card Holder</span>
+                    <input type="text" placeholder="Kim Nim">
+                </div>
+                <div class="group">
+                    <div class="inputBox">
+                        <span>Valid Thru</span>
+                        <input type="text" placeholder="MM/YY" maxlength="5">
+                    </div>
+                    <div class="inputBox">
+                        <span>CCV</span>
+                        <input type="password" placeholder="***" maxlength="4">
+                    </div>
+                </div>
+            </form>
+        </div>
+        <button class="btn">Confirm and Pay</button>
+    </div>
+</body>
+</html>
