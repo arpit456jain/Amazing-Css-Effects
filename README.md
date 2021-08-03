@@ -1,18 +1,25 @@
 # Amazing-Css-Effects
- Some Astonishing CSS-Effects✨
- <p align="center"><img src="Assets/intro.gif"></p>
+
+Some Astonishing CSS-Effects✨
+ 
+<p align="center"><img src="Assets/intro.gif"></p>
  
 ### This project is a part of the following Open Source Program
   
-  ![Devincept](https://user-images.githubusercontent.com/56088741/123548852-1ef59d00-d784-11eb-8e39-255e0c3e97d5.gif)
-
+![Devincept](https://user-images.githubusercontent.com/56088741/123548852-1ef59d00-d784-11eb-8e39-255e0c3e97d5.gif)
 
 ### Demo 🎥
-#### GitHub Pages website for this repository : https://amazing-css-effects.netlify.app/
-<p align="center"><img src="Assets/demo.gif"></p>
 
-### 💻 Tech Stack
+#### GitHub Pages website for this repository : https://amazing-css-effects.netlify.app/
+
+<p align="center"><img src="https://user-images.githubusercontent.com/77202746/127998108-f47ab17b-64bd-41b6-85e3-664ece01c3f0.gif" height="300" width="600"> </p>
+
+<hr>
+
+## 💻 Tech Stack
+
 ### Front-End:
+
 <img alt="HTML5" src="https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white"/>  <img alt="CSS3" src="https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white"/> <img alt="JavaScript" src="https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/> 
 <img alt="BootStrap" src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white"/> 
 
@@ -21,6 +28,7 @@
 ### Before starting kindly please read the [Code of Conduct](/CODE_OF_CONDUCT.md)
 
 ## Contributions :
+
 Check out our [Contributing Guildlines](/CONTRIBUTING.md)
 
 
