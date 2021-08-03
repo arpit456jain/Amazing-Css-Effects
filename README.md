@@ -10,7 +10,9 @@
 ### Demo 🎥
 #### GitHub Pages website for this repository : https://amazing-css-effects.netlify.app/
 <p align="center"><img src="Assets/demo.gif"></p>
-<p align="center"><img src="http://127.0.0.1:5500/amazing%20css%20effects%20gif.gif"></p>
+<!-- <p align="center"><img src="Assets/http://127.0.0.1:5500/amazing%20css%20effects%20gif.gif" width="200" height="400"></p> -->
+![amazing css effects gif](https://user-images.githubusercontent.com/77202746/127998108-f47ab17b-64bd-41b6-85e3-664ece01c3f0.gif)
+
 ### 💻 Tech Stack
 ### Front-End:
 <img alt="HTML5" src="https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white"/>  <img alt="CSS3" src="https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white"/> <img alt="JavaScript" src="https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/> 
