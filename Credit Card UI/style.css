@@ -1,108 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;1,200;1,400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
 *{
-	box-sizing: border-box;
-	padding: 0;
+    margin :0;
+    padding :0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    overflow: hidden;
+
+}
+section{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #1c1c25;
+}
+section::before{
+    content: '';
+    position: absolute;
+    bottom: -40%;
+    left: 40%;
+    width: 600px;
+    height: 600px;
+    background:linear-gradient(#f00 ,#f0f);
+    border-radius: 50%;
+}
+.card{
+    position: relative;
+    width: 508px;
+    height: 314px;
+    transform-style: preserve-3d;
+    perspective: 500px;
+
+}
+.card .face{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-shadow:  0 15px 35px rgba(0,0,0,0.5);
+    border-radius: 15px;
+    background: rgba(255 ,255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    transform-style: preserve-3d;
+    transition: 1s;
+    backface-visibility: hidden;
+}
+.card:hover .face.front{
+    transform: rotateY(180deg);
+}
+.card .face.back{
+    transform: rotateY(180deg);
+}
+.card:hover .face.back{
+    transform: rotateY(360deg);
+}
+.card .face.front::before{
+    content: '';
+    position: absolute;
+    bottom:40px;
+    right:40px;
+    width:60px;
+    height: 60px;
+    background:#fff;
+    border-radius:50%;
+    opacity: 0.5;
+}
+.card .face.front::after{
+    content: '';
+    position: absolute;
+    bottom:40px;
+    right:80px;
+    width:60px;
+    height: 60px;
+    background:#fff;
+    border-radius: 50%;
+    opacity: 0.7;
+}
+.card .face.front .debit{
+    position: absolute;
+    left: 40px;
+    top: 30px;
+    color:#fff;
+    font-weight: 500;
+}
+ .card .face.front .bank{
+    position: absolute;
+    right: 40px;
+    top: 25px;
+    color: #fff;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 24px;
 }
 
-.rect{
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	width: 350px;
-	height: 220px;
-	justify-content: space-evenly;
-	border-radius: 8px;
-	box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
-	display: flex;
-	flex-direction: column;
-	padding: lrem;
-	transform: translate(-50%,-50%);
+.card .face.front .chip{
+    position: absolute;
+    top: 65px;
+    left: 50px;
+    max-width: 164px;
 }
 
-.rect::before{
-	content: "";
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	left: 0; 
-	z-index: -1;
-	opacity: 0.1;
+.card .face.front .number{
+    position: absolute;
+    bottom: 135px;
+    left: 40px;
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 6px;
+    font-size: 18px;
+    text-shadow: 0 2px 1px #0005;
+    font-family: 'orbitron',sans-serif;
+}
+.card .face.front .valid{
+    position: absolute;
+    bottom: 80px;
+    left: 40px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight:300;
+    line-height: 1em;
+    font-size: 18px;
+    text-align: right;
+}
+.card .face.front .valid span:last-child{
+    margin-left: 20px;
+    font-weight:400;
+    letter-spacing: 2px;
+    font-size: 16px;
 }
 
-.box{
-	width: 100%;
-	height: 140px;
-	padding: 1.5rem 0;
+.card .face.front .cardHolder{
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    color: #fff;
+    font-weight: 300;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+.card .face.back .blackbar{
+    position: absolute;
+    top: 40px;
+    width: 508px;
+    height: 60px;
+    background: #000;
+
 }
 
-.chipset{
-	position: relative;
-	margin-left: 1.3rem;
-	width: 60px;
-	height: 40px;
-	background: linear-gradient(35deg,#ffdd00,#fbb034);
-	border-radius: 5px;
-	overflow: hidden;
+.card .face.back .ccvtext{
+    position: absolute;
+    top: 120px;
+    left: 30px;   
+}
+.card .face.back .ccvtext h5{
+    color: #fff;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.card .face.back .ccvtext .whitebar{
+    position:relative;
+    width: 400px;
+    height: 40px;
+    background: #fff;
+    margin-top: 5px;
 }
 
-.chipset::before,.chipset::after{
-	content: "";
-	position: absolute;
-	height: 20px;
-	top: 25%;
-	left: -5px;
-	width: 65px;
-	border: 1px solid grey;
+.card .face.back .ccvtext .cvv{
+    position:relative;
+    top: -35px;
+    left: 395px;
+    background: rgb(158, 147, 147);
+    color: #111;
+    width: 50px;
+    height: 30px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card .face.back .text{
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 1.4em;
 }
 
-.chipset::after{
-	top: 25%;
-	left: 11px;
-	width: 36px;
-	border-radius: 8px;
-	transform: rotate(90deg);
-	background: linear-gradient(-60deg , #ffdd00 , #fbb034);
-}
 
-#code{
-	margin-left: 0.8rem;
-	font-size: 1.5rem;
-	font-weight: 600;
-	font-family: "Poppins",sans-serif;
-}
-
-#code span{
-	margin-left: 0.8rem;
-}
-
-.info{
-	position: relative;
-}
-
-.brand{
-	position: absolute;
-	top: 0;
-	right: 0;
-	display: flex;
-}
-
-.brand span{
-	display: block;
-	width: 50px;
-	height: 50px;
-	border-radius: 50%;
-}
-
-.brand span:nth-child(1){
-	position: relative;
-	left: 20px;
-	background: #ff5f00;
-	opacity: 0.7;
-}
-
-#name{
-	margin-left: 1.3rem;
-	font-weight: 600;
-	font-family: "Courier New",sans-serif;
-	font-size: 1.5rem;
-	color: #000;
-}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+      
+    }
+  }
