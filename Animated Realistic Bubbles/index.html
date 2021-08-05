@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated Realistic Bubbles</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <h2>Bubbles</h2>
+    </section>
+  <script type="text/javascript">
+         function createBubbles(){
+             const section = document.querySelector('section')
+             const createElement = document.createElement('span')
+
+             var size = Math.random() *60;
+
+             createElement.style.width = 20 +size + 'px';
+             createElement.style.height = 20  +size + 'px';
+             createElement.style.left = Math.random() * innerHeight + "px";
+             section.appendChild(createElement);
+
+             setTimeout(() => {
+                 createElement.remove()
+             },4000)
+         }
+         setInterval(createBubbles,50);
+</script>
+</body>
+</html>
