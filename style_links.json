@@ -20,8 +20,8 @@
     "link": "Animated Ocean Logo/index.html"
   },
   {
-    "name": " Animated Realistic Bubbles",
-    "link": " Animated Realistic Bubbles/index.html"
+    "name": "Animated Realistic Bubbles",
+    "link": "Animated Realistic Bubbles/index.html"
   },
   {
     "name": "Animated Rocket Launcher",
@@ -44,12 +44,16 @@
     "link": "Camera_Design/index.html"
   },
   {
+    "name": "Card Hover Effect",
+    "link": "Card Hover Effect/card_hover_effect.html"
+  },
+  {
     "name": "Changing Typing Effects",
     "link": "Changing Typing Effects/index.html"
   },
   {
-    "name": "Card Hover Effect",
-    "link": "Card Hover Effect/card_hover_effect.html"
+    "name": "Comets Effect",
+    "link": "Comets Effect/index.html"
   },
   {
     "name": "Content on Hover",
