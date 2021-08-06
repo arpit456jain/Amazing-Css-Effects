@@ -26,3 +26,14 @@ canvas{
     height: 100%;
     
 }
+@media screen and (max-device-width:1500px) {
+    h2{
+        position: relative;
+        color: #fff;
+        font-size: 4.5em;
+        justify-content: center;
+        align-items: center;
+        display:flex;
+        margin: auto;
+    }
+}
