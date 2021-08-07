@@ -48,6 +48,10 @@
     "link": "Card Hover Effect/card_hover_effect.html"
   },
   {
+    "name": "Card with Glowing Border",
+    "link": "Card with Glowing Border/index.html"
+  },
+  {
     "name": "Changing Typing Effects",
     "link": "Changing Typing Effects/index.html"
   },
@@ -58,6 +62,10 @@
   {
     "name": "Content on Hover",
     "link": "Content on Hover/index.html"
+  },
+  {
+    "name": "credit card payment",
+    "link": "credit card payment/index.html"
   },
   {
     "name": "Credit Card UI",
@@ -158,10 +166,6 @@
   {
     "name": "Project Timeline View",
     "link": "Project Timeline View/index.html"
-  },
-  {
-    "name": "Winner Podium Cards Nitesh Rawat",
-    "link": "Winner Podium Cards Nitesh Rawat/index.html"
   },
   {
     "name": "Rain Effect",
