@@ -3,13 +3,9 @@
 	padding: 0;
 }
 body{
-  background: url(./img/bgpetal2.jpg)no-repeat;
-  background-size: cover;
-  height: 70vh;
-  width: 100%;
-  font-family: Signika Negative, Asap, sans-serif;
-  color:white;
-  overflow:hidden;
+  background: url(./img/bgpetal2.jpg);
+  height: auto;
+  max-width: 100%;
 }
 .dot{
   width:40px;
