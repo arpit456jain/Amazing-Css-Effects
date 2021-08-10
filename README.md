@@ -150,6 +150,7 @@ The Amazing CSS-effects is released under the under terms of the [MIT License](L
 
 ## 💬Join Our CodeSmashers Community
 
-Join -  https://discord.gg/gtYUZQSjTt
+Join - https://discord.gg/gtYUZQSjTt
+
 
 show some ❤️&nbsp; by giving the star to this repo
