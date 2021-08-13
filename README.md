@@ -10,7 +10,14 @@ Some Astonishing CSS-Effects✨
 
 ### Demo 🎥
 
-#### GitHub Pages website for this repository : https://amazing-css-effects.netlify.app/
+#### Website for this repository : https://amazing-css-effects.netlify.app/
+
+# Must Check These Repos Also
+- [Cool Front-End Templates ](https://github.com/arpit456jain/Cool-Front-End_Templates)
+- [Amazing Css effects](https://github.com/arpit456jain/Amazing-Css-Effects)
+- [Amazing Js Projects](https://github.com/arpit456jain/Amazing-Js-Projects)
+- [Web-Development-Path-And-Resources](https://github.com/arpit456jain/Web-Development-Path-And-Resources)
+- [Open-Source-Programs](https://github.com/arpit456jain/Open-Source-Programs)
 
 <p align="center"><img src="https://user-images.githubusercontent.com/77202746/127998108-f47ab17b-64bd-41b6-85e3-664ece01c3f0.gif" height="300" width="600"> </p>
 
