@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	background-color: #f6e58d;
+	height: 100vh;
+    margin: 0;
+}
+
+.text-to-life {
+    background:  url('https://media.giphy.com/media/M52wyuahvQfJK/giphy.gif') no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-size: 5px;
+    line-height: 5px;
+    margin: 0;
+	text-align: justify;
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
