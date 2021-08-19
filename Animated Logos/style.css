@@ -1,0 +1,112 @@
+:root{
+    --orange: #f25022;
+    --green: #7fba00;
+    --yellow: #ffb900;
+    --blue: #004aef;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+    margin: 0;
+    width: 100%;
+    background-color: rgb(187, 185, 185);
+}
+.microsoft {
+    width: 310px;
+    height: 310px;
+}
+.microsoft::before {
+    content: '';
+    display: block;
+    width: 150px;
+    height: 150px;
+    background-color: var(--orange);
+    animation: loop 4s ease-in-out infinite;
+}
+@keyframes loop {
+    0%{
+        box-shadow: 0 0 0 var(--green),
+        0 0 0 var(--yellow),
+        0 0 0 var(--blue);
+    }
+    20%{
+        box-shadow: 160px 0 0 var(--green),
+        160px 0 0 var(--yellow),
+        160px 0 0 var(--blue);
+    }
+    40%{
+        box-shadow: 160px 0 0 var(--green),
+        160px 160px 0 var(--yellow),
+        160px 160px 0 var(--blue);
+    }
+    60%{
+        box-shadow: 160px 0 0 var(--green),
+        160px 160px 0 var(--yellow),
+        0 160px 0 var(--blue);
+    }
+    80%{
+        box-shadow: 160px 0 0 var(--green),
+        160px 160px 0 var(--yellow),
+        0 160px 0 var(--blue);
+    }
+    90%{
+        box-shadow: none;
+    }
+    100% {
+       box-shadow: none;
+    }
+}
+
+/*google logo */
+#google {
+    font-size: 50px;
+    width: 3em;
+    height: 3em;
+    position: relative;
+    border-radius: 50%;
+    background: rgb(187, 185, 185);
+    border-top: 1em solid #ea4335;
+    border-right: 1em solid #4285f4;
+    border-bottom: 1em solid #34a853;
+    border-left: 1em solid #fbbc05;
+    animation: animate-font 5s ease-in-out infinite;
+}
+#google::before {
+    content: '';
+    width: 2.45em;
+    height: 1em;
+    position: absolute;
+    z-index: 100;
+    background-color: #4285f4;
+    transform: translateY(-50%);
+    top: 50%;
+    right: -0.95em;
+}
+#google::after {
+    content: '';
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    top: -1em;
+    right: -1em;
+    z-index: 0;
+    border-top: 2em solid transparent;
+    border-right: 2em solid rgb(187, 185, 185);
+}
+
+@keyframes animate-font {
+    0%{
+        opacity: 0.2;
+        transform: rotate(360deg) scale(0);
+    }
+    50%{
+        opacity: 0.5;
+        transform: rotate(180deg) scale(50%);
+    }
+    100% {
+        opacity: 1;
+        transform: rotate(0deg) scale(100%);
+    }
+}
