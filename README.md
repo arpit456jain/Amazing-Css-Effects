@@ -5,7 +5,8 @@ Some Astonishing CSS-Effects✨
 <p align="center"><img src="Assets/intro.gif"></p>
  
 
-
+### This project is part of Hacktoberfest'21
+![Hacktoberfest](https://user-images.githubusercontent.com/59393136/135566614-5635902f-2907-4e01-8baf-3cb1b43a6b20.png)
 ### This project was part of the following Open Source Program
 
   
