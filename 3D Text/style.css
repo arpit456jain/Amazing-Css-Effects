@@ -1,0 +1,41 @@
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+}
+body {
+  font-family: sans-serif;
+  color: rgb(36, 167, 255);
+  background: rgba(0, 0, 0, 0.1);
+}
+.text-3d {
+  font-size: 8rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) skewY(-6deg);
+  transform-origin: bottom left;
+  color: transparent;
+  text-shadow: 1px -1px 10px rgba(255, 255, 255, 0.4),
+    0px -1px 10px rgba(255, 255, 255, 0.4),
+    -1px -1px 10px rgba(255, 255, 255, 0.4), 0px -2px 3px rgb(36, 167, 255),
+    -1px -2px 3px rgb(36, 167, 255), -2px -2px 3px rgb(36, 167, 255),
+    -1px -3px 2px #aaa, -2px -3px 2px #aaa, -3px -3px 2px #aaa,
+    -2px -4px 2px rgb(36, 167, 255), -3px -4px 2px rgb(36, 167, 255),
+    -4px -4px 2px rgb(36, 167, 255), -3px -5px 1px rgb(36, 167, 255),
+    -4px -5px 1px rgb(36, 167, 255), -5px -5px 1px rgb(36, 167, 255);
+}
+.text-3d:before {
+  content: "3D Text";
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: skewX(30deg);
+  transform-origin: bottom left;
+  z-index: -1;
+  color: transparent;
+  text-shadow: 15px 0px 10px rgba(0, 0, 0, 0.05),
+    15px 0px 10px rgba(0, 0, 0, 0.05), 15px 0px 15px rgba(0, 0, 0, 0.05),
+    15px 0px 25px rgba(0, 0, 0, 0.05);
+}
