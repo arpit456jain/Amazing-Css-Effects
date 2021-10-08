@@ -250,5 +250,9 @@
   {
     "name": "Zoom-in Card",
     "link": "Zoom-in Card/index.html"
+  },
+  {
+    "name": "Diagonal Animation",
+    "link": "Diagonal Animation/index.html"
   }
 ]
