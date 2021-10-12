@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Poppins&display=swap');
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	width: 100vw;
+	height: 100vh;
+	background: linear-gradient(135deg, #00e0ff, #0099ff);
+}
+main{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	width: 300px;
+	height: 100px;
+	background: #222;
+	border-radius: 10px 10px 0 0;
+	box-shadow: 5px 5px 10px #151515;
+	cursor: pointer;
+	transition: 0.6s;
+}
+.hidden{
+	opacity: 0;
+	transition: 0.4s;
+}
+.name{
+	font-family: Poppins;
+	font-size: 120%;
+	color: white;
+	margin-top: 20px;
+	margin-left: 50%;
+	transform: translateX(-37.5%);
+}
+.title{
+	font-family: "poppins";
+	font-weight: 400;
+	margin-left: 40%;
+	color: #aaa;
+	transform: translateX(-25%);
+	font-size: 80%;
+}
+svg{
+	position: absolute;
+	bottom: -50%;
+	transform: translateY(-60px);
+	opacity: 0;
+	transition: 0.4s;
+}
+.logo{
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	background-image: url("gpc.jpg");
+	background-position: center;
+	background-size: cover;
+	margin: auto;
+	margin-top: 10px;
+	transition: 0.6s;
+	box-sizing: content-box;
+}
+.hire-me{
+	font-family: 'poppins';
+	font-weight: 400;
+	color: white;
+	font-size: 110%;
+	background: #0099ff;
+	border: none;
+	padding: 7.5px 15px;
+	float: right;
+	position: absolute;
+	bottom: 90px;
+	left: 50%;
+	transform: translateX(-45%);
+	cursor: pointer;
+}
+.progress-bars{
+	margin-left: 50px;
+	margin-top: 20px;
+	width: 200px;
+}
+.skills{
+	height: 42.5px;
+	color: #eee;
+	font-size: 75%;
+}
+.skill-div{
+	height: 7.5px;
+	width: 0%;
+	background: #0099ff;
+	margin-top: 5px;
+	transition: 1s;
+}
