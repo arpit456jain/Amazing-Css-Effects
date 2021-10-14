@@ -1,0 +1,85 @@
+body{
+    font-size: larger;
+    font-weight: bold;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.fullPage{
+    font-size: 30px;
+}
+
+.SH{
+    text-align: center;
+    padding: 20px;
+}
+
+.happy{
+    display: none;
+}
+
+.face{
+    text-align: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom right, rgb(191, 236, 250), red);
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+.eyes{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    padding: 50px;
+}
+
+.out{
+    border: 2px solid black;
+    padding: 10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.in{
+    background-color: black;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.smile{
+    margin: 30px auto;
+    text-align: center;
+    height: 50px;
+    width: 100px;
+    border-radius: 150px 150px 0 0;
+    border: 2px solid black;  
+}
+
+.face:hover{
+    background-image: linear-gradient(to bottom right, rgb(191, 236, 250), green);
+}
+
+.fullPage:hover  .sad{
+    display: none;
+}
+
+.fullPage:hover .happy{
+    display: inline;
+}
+
+.face:hover  .in{
+    position: relative;
+    margin-left: 50px;
+}
+
+.face:hover .smile{
+    border-radius: 0 0 150px 150px;
+}
