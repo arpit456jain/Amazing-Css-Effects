@@ -29,7 +29,11 @@ fetch('style_links.json')
                  <img src="https://raw.githubusercontent.com/arpit456jain/Amazing-Css-Effects/master/${links[i].name}/preview.png" alt="">
              </div>
             <p>${links[i].name}</p>
+
+            <div class="btn-group">
             <a target="_blank" href="${links[i].link}">View</a>
+            <a target="_blank" href="https://github.com/arpit456jain/Amazing-Css-Effects/tree/master/${links[i].name}" class="code">Code</a>
+            </div>
             </div>`;
             document.getElementById('styles').appendChild(StyleBoxDiv);
         };

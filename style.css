@@ -84,6 +84,11 @@ h1:hover:after {
   font-weight: 600;
   text-transform: capitalize;
 }
+.stylebox .btn-group {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
 .stylebox a {
   background-color: white;
   border: none;
@@ -94,6 +99,13 @@ h1:hover:after {
   color: rgb(255, 255, 255);
   text-decoration: none;
   transition: 0.2s;
+  width: 100%;
+}
+.stylebox a.code {
+  background-color: rgb(47, 128, 0);
+}
+.stylebox a.code:hover {
+  background-color: rgb(39, 105, 0);
 }
 a:hover {
   background-color: rgb(44, 1, 65);
