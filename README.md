@@ -119,7 +119,7 @@ GitHub will alert you that you can merge the two branches because there is no co
 <hr>
  <h1 align=center> Project Admins ❤️ </h1>
 <p align="center">
-<table>
+<table align="center">
   <tbody><tr>
      <td align="center"><a href="https://github.com/arpit456jain"><img alt="" src="https://avatars.githubusercontent.com/arpit456jain" width="100px;"><br><sub><b> Arpit Jain </b></sub></a><br></td> </a></td>
      <td align="center"><a href="https://github.com/ankitapuri"><img alt="" src="https://avatars.githubusercontent.com/ankitapuri" width="100px;"><br><sub><b> Ankita Puri</b></sub></a><br></td></a></td>
