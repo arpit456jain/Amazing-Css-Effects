@@ -129,7 +129,7 @@ GitHub will alert you that you can merge the two branches because there is no co
 
 <h2 align=center> ✨ Contributors </h2>
 
-Thanks go to these **Wonderful People** 👨🏻‍💻:      🚀 **Contributions** of any kind are welcome! 
+Thanks go to these **Wonderful People** 👨🏻‍💻:     🚀 **Contributions** of any kind are welcome! 
 
 <table>
 	<tr>
