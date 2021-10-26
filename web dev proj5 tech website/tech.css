@@ -1,0 +1,264 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    overflow: none;
+    background-color: rgb(213, 198, 226);
+    font-family: 'Akronim', cursive;
+}
+/*navbar*/
+.navbar{
+    position: fixed;
+    width:100%;
+    display: flex;
+    height:7.5vh;
+    background-color:rgb(10, 10, 10);
+}
+.navbar ul{
+    display: flex;
+    margin-left:2.8vw;
+    
+}
+.navbar ul li{
+    
+    list-style: none;
+}
+.navbar ul li a{
+    
+    text-decoration: none;
+   display: block;
+    padding: 12px 16px;
+    font-size: 19px;
+    color: bisque;
+}
+.navbar ul li a:hover{
+    background-color: white;
+    color: grey;
+    border-radius: 10px;
+}
+/*front upper image setion*/ 
+.container1{
+    width : 100%;
+    height:90vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.item1{
+  /*  border: 2px solid red;*/
+    width: 34vw;
+    height: 98vh;
+    margin: 1px 0px;
+    background: url('images/back1.jpg') no-repeat left center/cover;
+}
+.item2{
+   /* border: 2px solid red;*/
+    width: 34vw;
+    height: 98vh;
+    margin: 1px 0px;
+    background: url('images/back5.jpg') no-repeat center center/cover;
+}
+.item3{
+  /*  border: 2px solid red;*/
+    width: 34vw;
+    height: 98vh;
+    margin: 1px 0px;
+    background: url('images/back4.jpg') no-repeat center center/cover;
+}
+
+/*laptops*/
+.laptop h1{
+    text-align: center;
+    font-size: 54px;
+    margin-top: 64px;
+}
+.laptopimages{
+  display: flex;
+  margin-top: 13px;
+}  
+.lap{
+   /* border:2px solid red; */
+   padding:7px 5px;
+   
+}
+
+.lap img{
+    height: 65vh;
+    width: 32.17vw;
+    border-top: 2.5px solid rgb(71, 114, 110);
+    border-bottom: 2.5px solid rgb(71, 114, 110);
+}
+.lap img:hover{
+    
+    box-shadow: 3px 3px black;
+}
+.lapname{
+    padding-left: 35px;
+    
+    font-size:20px;
+}
+.lapname a{
+    color:blueviolet;
+    text-decoration: none;
+    padding-left: 6vw;
+}
+.lapname a:hover{
+    color:darkmagenta;
+}
+.lapend{
+    margin-top: 11px;
+    font-size: 18px;
+    padding-left: 74vw;
+}
+.lapend a{
+    text-decoration: none;
+    color:blueviolet;
+}
+.lapend a:hover{
+    color:darkmagenta;
+}
+/*mobiles*/
+.mobiles h1{
+  text-align: center;
+  font-size:54px;
+}
+.mobileimages{
+    display: flex;
+}
+.mob{
+   /* border:2px solid red; */
+   padding: 10px 5px;
+}
+.mob img{
+    height: 70vh;
+    width: 32.17vw;
+    border-top: 2.5px solid rgb(71, 114, 110);
+    border-bottom: 2.5px solid rgb(71, 114, 110);
+}
+.mob img:hover{
+    
+    box-shadow: 3px 3px black;
+}
+.mobname{
+    padding-left: 35px;
+    
+    font-size:20px;
+}
+.mobname a{
+    color:blueviolet;
+    text-decoration: none;
+    padding-left: 4.5vw;
+}
+.mobname a:hover{
+    color:darkmagenta;
+}
+.mobend{
+    margin-top: 11px;
+    font-size: 18px;
+    padding-left: 74vw;
+}
+.mobend a{
+    text-decoration: none;
+    color:blueviolet;
+}
+.mobend a:hover{
+    color:darkmagenta;
+}
+
+/*tablets*/
+.tablets h1{
+    text-align: center;
+    font-size:54px;
+  }
+.tabletimages{
+    display:flex;
+}
+.tab{
+   /* border:2px solid red; */
+    padding:7px 5px;
+}
+.tab img{
+    height: 75vh;
+    width: 32.17vw;
+    border-top: 2.5px solid rgb(71, 114, 110);
+    border-bottom: 2.5px solid rgb(71, 114, 110);
+}
+.tab img:hover{
+    
+    box-shadow: 3px 3px black;
+}
+.tabname{
+    padding-left: 35px;
+    
+    font-size:20px;
+}
+.tabname a{
+    color:blueviolet;
+    text-decoration: none;
+    padding-left: 6vw;
+}
+.tabname a:hover{
+    color:darkmagenta;
+}
+.tabend{
+    margin-top: 11px;
+    font-size: 18px;
+    padding-left: 74vw;
+}
+.tabend a{
+    text-decoration: none;
+    color:blueviolet;
+}
+.tabend a:hover{
+    color:darkmagenta;
+}
+/*headphones*/
+.headphones h1{
+    text-align: center;
+    font-size:54px;
+}
+.headphonesimages{
+    display:flex;
+}
+.head{
+  /*  border:2px solid red; */
+    padding:9px 50px;
+}
+.head img{
+    height: 60vh;
+    width: 25.8vw;
+    border-top: 2.5px solid rgb(71, 114, 110);
+    border-bottom: 2.5px solid rgb(71, 114, 110);
+}
+.head img:hover{
+    
+    box-shadow: 3px 3px black;
+}
+.headname{
+    padding-left: 30px;
+    
+    font-size:20px;
+}
+.headname a{
+    color:blueviolet;
+    text-decoration: none;
+    padding-left: 2vw;
+}
+.headname a:hover{
+    color:darkmagenta;
+}
+.headend{
+    margin-top: 11px;
+    font-size: 18px;
+    padding-left: 74vw;
+}
+.headend a{
+    text-decoration: none;
+    color:blueviolet;
+}
+.headend a:hover{
+    color:darkmagenta;
+}
+
+/*contact me*/
