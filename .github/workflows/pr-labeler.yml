@@ -2,16 +2,19 @@ name: Add label to Merged PR
 
 # The events for whcih this workflow wii be triggered
 on:
-  pull_request_target:
-    types: [merge]
+ pull_request:
+    branches:
+      - deploy
+    types: [closed]
 
 # The machine will run each job when workflow will be triggered
 jobs:
   automate-issues-labels:
     runs-on: ubuntu-latest
     # These tasks will be run in each job
-    steps:
-      - name: initial labeling
-        uses: andymckay/labeler@master
-        with:
-          add-labels: 'hacktoberfest-accepted'
+    if: github.event.pull_request.merged == true
+      steps:
+        - name: initial labeling
+          uses: andymckay/labeler@master
+          with:
+            add-labels: 'hacktoberfest-accepted'
