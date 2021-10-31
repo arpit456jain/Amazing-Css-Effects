@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+:root {
+  font-size: 62.5%;
+}
+body {
+  background: rgb(14, 12, 12);
+}
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0 auto;
+  width: 100vw;
+}
+.container .card {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 60rem;
+  height: 35rem;
+  margin: 2rem;
+  background: rgb(82, 13, 13);
+  /* background: linear-gradient(45deg,#1a2f3f,#7094ce);*/
+}
+.container .card img {
+  position: absolute;
+  bottom: 0;
+  left: 13vw;
+  height: 40rem;
+  transition: 0.7s;
+}
+
+.container .card:hover img {
+  left: 48%;
+  height: 47rem;
+}
+.container .card .content {
+  opacity: 0;
+  visibility: hidden;
+  position: relative;
+  width: 50%;
+  height: 100%;
+  padding: 2.5rem 2rem 2rem 4rem;
+  left: 25%;
+  transition: 0.7s;
+}
+.container .card:hover .content {
+  left: 0;
+  opacity: 1;
+  visibility: visible;
+}
+
+.container .card .content h2 {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 3.5rem;
+  line-height: 1em;
+}
+.container .card .content p {
+  color: #fff;
+  text-decoration: none;
+  margin-top: 1.5rem;
+  margin-bottom: 3rem;
+}
+.container .card .content a {
+  position: relative;
+  color: #111;
+  background: #fff;
+  padding: 1rem 2rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+@media (max-width: 1252px) {
+  .container .card {
+    width: 50%;
+    max-width: 60rem;
+    align-items: flex-start;
+  }
+  .container .card .content {
+    padding-right: 0.5rem;
+    width: 54%;
+  }
+  .container .card .content h2 {
+    font-size: 2.5rem;
+  }
+  .container .card .content p {
+    font-size: 1rem;
+    margin-bottom: 1.8rem;
+  }
+  .container .card img {
+    left: 12vw;
+    height: 40rem;
+  }
+  .container .card:nth-child(2) img {
+    left: 11vw;
+  }
+  .container .card:hover img {
+    left: 47%;
+    height: 40rem;
+  }
+}
+
+@media (max-width: 1080px) {
+  .container .card {
+    width: 50%;
+    justify-content: flex-start;
+    transition: 0.7s;
+  }
+  .container .card:hover {
+    height: 50rem;
+  }
+  .container .card .content {
+    width: 100%;
+    padding: 3rem;
+    left: 0;
+  }
+  .container .card .content p {
+    margin-bottom: 2.5rem;
+  }
+  .container .card img {
+    left: 11vw;
+  }
+  .container .card:nth-child(2) img {
+    left: 8vw;
+  }
+  .container .card:hover img {
+    left: 30%;
+    height: 30rem;
+    padding-bottom: 1rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .container {
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 8rem;
+    width: 100vw;
+  }
+  .container .card {
+    width: 100%;
+    margin-bottom: 10rem;
+  }
+  .container .card .content h2 {
+    font-size: 3rem;
+  }
+  .container .card img {
+    height: 42rem;
+    left: 17vw;
+  }
+  .container .card:hover img {
+    height: 32rem;
+    left: 17vw;
+  }
+}
+@media (max-width: 520px) {
+  .container .card {
+    margin: 0;
+    margin-bottom: 3rem;
+  }
+  .container .card img {
+    height: 37rem;
+    left: 30%;
+  }
+  .container .card .content h2 {
+    font-size: 1.5rem;
+  }
+  .container .card .content p {
+    font-size: 1rem;
+  }
+  .container .card:hover img {
+    height: 25rem;
+    left: 30%;
+  }
+}
