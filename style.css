@@ -159,6 +159,7 @@ a:hover {
 /* scroll top ends */
 
 /* CSS for NavBar starts */
+
 .topnav {
   background-color: rgb(19, 24, 44);
   overflow: hidden;
@@ -186,9 +187,10 @@ a:hover {
 
 .topnav .icon {
   display: none;
-}
+} 
 
-@media screen and (max-width: 600px) {
+
+ @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {
     display: none;
   }

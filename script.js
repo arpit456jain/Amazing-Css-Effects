@@ -1,4 +1,18 @@
+// Navbar Toggling starts
+
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+
+// Navbar Toggling end 
+
 // scroll to top starts
+
 var scrolltop = $('#scroll-top');
 
 $(window).scroll(function() {
@@ -13,6 +27,7 @@ scrolltop.on('click', function(e) {
     e.preventDefault();
     $('html, body').animate({scrollTop:0}, '200');
 });
+
 // scroll to top ends
 
 
