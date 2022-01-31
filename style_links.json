@@ -1,8 +1,5 @@
 [
-  {
-    "name": "CSS Glitch",
-    "link": "css-glitch/index.html"
-  },
+  
   {
     "name": "3D Animation Button",
     "link": "3D Animation Button/index.html"
@@ -10,10 +7,6 @@
   {
     "name": "3d flip hover effect",
     "link": "3d flip hover effect/index.html"
-  },
-  {
-    "name": "3D Text Effect",
-    "link": "3D Text/index.html"
   },
   {
     "name": "Animated Gradient using Pure CSS",
@@ -254,5 +247,12 @@
   {
     "name": "Diagonal Animation",
     "link": "Diagonal Animation/index.html"
+  },{
+    "name": "CSS Glitch",
+    "link": "css-glitch/index.html"
+  },
+  {
+    "name": "3D Text Effect",
+    "link": "3D Text/index.html"
   }
 ]
