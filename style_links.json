@@ -254,5 +254,8 @@
   {
     "name": "3D Text Effect",
     "link": "3D Text/index.html"
+  },{
+    "name": "Animated Sidebar",
+    "link": "Animated Sidebar/index.html"
   }
 ]
