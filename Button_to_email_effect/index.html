@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+<body class=emailbutton>
+    <div id="button">
+        <button id="emailsub" onclick="sub()"><strong>Notify Me</strong></button></div>
+</body>
+<script>
+    function sub() {
+        var input = document.createElement("input");
+        var button = document.getElementById("emailsub");
+        input.setAttribute("type", "email");
+        input.setAttribute("id", "input");
+        input.setAttribute("placeholder", "Email");
+        var send = document.createElement("button");
+        send.addEventListener("click", function() {
+            alert("Thank you for subscribing to our newsletter");
+
+        })
+        send.setAttribute("id", "send");
+        send.innerHTML = "send";
+        document.getElementById("button").replaceChild(input, button);
+        document.getElementById("button").appendChild(send);
+
+    }
+</script>
+</html>
+  

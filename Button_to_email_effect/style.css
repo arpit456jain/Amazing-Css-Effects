@@ -1,0 +1,53 @@
+ .emailbutton {
+            background-color: rgb(130 231 255);
+        }
+        
+        #emailsub {
+            background-color: white;
+            color: rgb(30, 196, 238);
+            padding: 15px;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            width: 100%;
+            transition: 1s;
+        }
+        
+        #input {
+            margin: 0px;
+            padding: 10px;
+            width: 100%;
+            outline: none;
+            height: 30px;
+            border-radius: 50px;
+            color: black;
+            border: none;
+            background-color: white;
+        }
+        
+        #send {
+            position: absolute;
+            border-radius: 18px;
+            right: -15px;
+            z-index: 2;
+            top: 5px;
+            border: none;
+            width: 32%;
+            padding: 12px;
+            border: none;
+            cursor: pointer;
+            color: white;
+            background-color: skyblue;
+            box-shadow: -6px 5px 11px white inset;
+            transform: translateX(2px);
+        }
+        
+        #button {
+            position: absolute;
+            top: 5px;
+            border-radius: 5px;
+            z-index: 2;
+            border: none;
+            cursor: pointer;
+            color: white;
+        }
