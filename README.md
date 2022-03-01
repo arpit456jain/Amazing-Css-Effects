@@ -7,7 +7,7 @@ Some Astonishing CSS-Effects✨
 
 ### This project is part of Hacktoberfest'21
 ![Hacktoberfest](https://user-images.githubusercontent.com/59393136/135566614-5635902f-2907-4e01-8baf-3cb1b43a6b20.png)
-### This project was part of the following Open Source Program
+### This project was part of the following Open Source Programs
 
   
 ![Devincept](https://user-images.githubusercontent.com/56088741/123548852-1ef59d00-d784-11eb-8e39-255e0c3e97d5.gif)
@@ -16,7 +16,7 @@ Some Astonishing CSS-Effects✨
 
 #### Website for this repository : https://amazing-css-effects.netlify.app/
 
-# Must Check These Repos Also
+# Must Check Repos :
 - [Cool Front-End Templates ](https://github.com/arpit456jain/Cool-Front-End_Templates)
 - [Amazing Css effects](https://github.com/arpit456jain/Amazing-Css-Effects)
 - [Amazing Js Projects](https://github.com/arpit456jain/Amazing-Js-Projects)
@@ -36,7 +36,7 @@ Some Astonishing CSS-Effects✨
 
 ## 🚀 Quick Start :
 
-### Before starting kindly please read the [Code of Conduct](/CODE_OF_CONDUCT.md)
+### Before starting kindly read the [Code of Conduct](/CODE_OF_CONDUCT.md)
 
 ## Contributions :
 
@@ -49,7 +49,7 @@ Check out our [Contributing Guildlines](/CONTRIBUTING.md)
 
 To work on an open-source project, you will first need to make your copy of the repository. To do this, you should fork the repository and then clone it so that you have a local working copy.
 
-Get your own Fork/Copy of repository by clicking `Fork` button right upper corner.<br><br>
+Get your own Fork/Copy of repository by clicking `Fork` button at the upper right corner.<br><br>
 
 #### Step 2: Clone the Forked Repository
 
@@ -65,14 +65,14 @@ $ git clone https://github.com/<your-github-username>/Cool-Front-End_Templates
 
 
 #### Step 3: Creating a new branch (IMP)
-This is one of the very important step that you should follow to contribute in Open Source. A branch helps to manage the workflow, isolate your code and does not creates a mess. To create a new branch:
+This is one of the most important steps that you should follow to contribute in Open Source. A branch helps to manage the workflow, isolate your code and avoids creating a mess. To create a new branch:
   
 ```bash
 $ git branch <name_of_branch>
 $ git checkout -b <name_of_branch>
 ```
 
-Keep your cloned repo upto date by pulling from upstream (this will also avoid any merge conflicts while committing new changes)
+Keep your cloned repo up to date by pulling from upstream (this will also avoid any merge conflicts while committing new changes)
 ```bash
 git pull origin main
 ```
@@ -81,14 +81,14 @@ git pull origin main
 Make relevant changes according to the issue that you were assigned on. Contribute in any way you feel like :)
 
 #### Step 6: Commiting and Pushing
-Once you have modified an existing file or added a new file to the project, you can add it to your local repository, which we can do with the git add command.
+Once you have modified an existing file or added a new file to the project, you can add it to your local repository, which you can do with the git add command.
 
 ```bash
 git add .
 ```
 With our file staged, we’ll want to record the changes that we made to the repository with the git commit command.
 
-The commit message is an important aspect of your code contribution; it helps the other contributors fully understand the change you have made, why you made it, and how significant it is.
+The commit message is an important aspect of your code contribution; it helps the other contributors to fully understand the change you have made, why you made it, and how significant it is.
 
 ```bash
 git commit -m "useful commit message"
@@ -128,7 +128,7 @@ GitHub will alert you that you can merge the two branches because there is no co
 
 <h2 align=center> ✨ Contributors </h2>
 
-Thanks go to these **Wonderful People** 👨🏻‍💻:     🚀 **Contributions** of any kind are welcome! 
+Thanks goes to these **Wonderful People** 👨🏻‍💻:     🚀 **Contributions** of any kind are welcome! 
 
 <table>
 	<tr>
@@ -142,7 +142,7 @@ Thanks go to these **Wonderful People** 👨🏻‍💻:     🚀 **Contribution
 
 ## 📘&nbsp; License
 
-The Amazing CSS-effects is released under the under terms of the [MIT License](LICENSE).
+The Amazing CSS-effects is released under the terms of the [MIT License](LICENSE).
 
 <hr>
 
