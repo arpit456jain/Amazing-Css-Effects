@@ -1,0 +1,60 @@
+<!-- &#9747; for cut symbol
+for menu &#9776;-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="//db.onlinewebfonts.com/c/1fed4454352f201d52b65ca5480afb2d?family=Playlist" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="style.css">
+        <title>Travel</title>
+    </head>
+    <body>
+        <section class="showcase">
+            <header>
+                <h2 class="logo">Travel</h2>
+                <div class="toggle "></div>
+            </header>
+
+            <video src="video1.mp4" muted loop autoplay></video> 
+            <div class="overlay"></div>
+            <div class="text">
+                <h2>Live Young</h2>
+                <h3>Live Free</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Optio rem iste praesentium ratione,
+                    omnis at provident maxime quisquam. Harum, sit.</p>
+                <a href="#">Explore</a>
+            </div>
+            <ul class="social">
+                <li><a href="#"><img src="https://img.icons8.com/material-rounded/30/000000/facebook.png"/></a></li>
+                <li><a href="#"><img src="https://img.icons8.com/ios-filled/30/000000/twitter.png"/></a></li>
+                <li><a href="#"><img src="https://img.icons8.com/ios-filled/30/000000/instagram-new.png"/></a></li>
+            </ul>
+
+        </section>
+        <div class="menu">
+            
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Destination</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+
+            </ul>
+        </div>
+    <script>
+        const menuToggle = document.querySelector('.toggle');
+        const showcase = document.querySelector('.showcase');
+
+        menuToggle.addEventListener('click', () => {
+            menuToggle.classList.toggle('active')
+            showcase.classList.toggle('active')
+        })
+    </script>
+
+    </body>
+</html>

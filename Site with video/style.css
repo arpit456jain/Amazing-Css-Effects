@@ -1,0 +1,205 @@
+@import url("//db.onlinewebfonts.com/c/1fed4454352f201d52b65ca5480afb2d?family=Playlist");
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Poppins:ital,wght@0,200;0,300;0,500;1,200&display=swap');
+*{
+    box-sizing: border-box;
+    font-family:"Playlist";
+    margin:0;
+    padding:0;
+}
+video {
+    width: 1500px;
+    height: 900px;
+    object-fit: cover;
+  }
+.showcase{
+    position: absolute;
+    right:0;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:#111;
+    transition:0.5s;
+    color:#fff;
+    z-index:2;
+}
+
+.showcase header{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    padding: 40px 100px;
+    z-index: 1000;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+.logo{
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.toggle{
+    position: relative;
+    width: 60px;
+    height: 60px;
+    background: url("https://img.icons8.com/ios-filled/50/000000/menu.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 30px;
+    cursor: pointer;
+}
+
+.showcase.active {
+    right:300px;
+
+}
+
+.toggle.active {
+    background: url("https://img.icons8.com/ios-glyphs/30/000000/delete-sign.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 25px;
+    cursor: pointer;
+}
+
+.showcase video{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity:0.8;
+}
+
+.overlay {
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background: #03a9f4;
+    mix-blend-mode: overlay;
+}
+
+.text{
+    position: relative;
+    z-index: 10;
+}
+
+.text h2{
+    font-size: 7em;
+    font-weight:800;
+    line-height:1em;
+     
+}
+
+.text h3{
+    font-size: 5em;
+    font-weight:700;
+    line-height:1em;
+     
+}
+
+.text p{
+    font-size:1.8em;
+    margin: 20px 0;
+
+    font-weight: 400;
+    max-width: 700;
+}
+.showcase .logo{
+    font-family: "Poppins";
+}
+
+.text a{
+    font-family: "poppins";
+    display:inline-block;
+    font-size: 1em;
+    background: #fff;
+    padding: 10px 30px;
+    text-decoration: none;
+    color:#111;
+    margin-top: 10px;
+    text-transform: uppercase;
+    letter-spacing:2px;
+    transition: 0.2s;
+}
+
+.text a:hover{
+    letter-spacing: 6px;
+}
+
+.social {
+    position: absolute;
+    bottom:20px;
+    z-index:10;
+    display: flex;
+    justify-content: center;
+}
+
+.social li{
+    list-style: none;
+}
+
+.social li a{
+    display: inline-block;
+    filter:invert(1);
+    margin-right: 20px;
+    transform: scale(1);
+    transition: 0.5s;
+}
+
+.social li a:hover{
+    transform: scale(0.5) translateY(-15px);
+}
+
+.menu {
+    position: absolute;
+    top:0;
+    right:0;
+    width: 300px;
+    height: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu ul{
+    position: relative;
+
+}
+.menu ul li{
+    list-style: none;
+}
+
+.menu ul a{
+    text-decoration: none;
+    font-size: 27px;
+    line-height: 70px;
+    color: #111;
+}
+
+.menu li a:hover{
+    color: #03a9f4;
+
+}
+
+@media(max-width:798px){
+    .showcase,
+    .showcase header{
+        padding: 40px;
+    }
+
+    .text h2{
+        font-size:3em;
+    }
+
+    .text h3{
+        font-size: 2em;;
+    }
+}
