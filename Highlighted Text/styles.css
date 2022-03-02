@@ -1,0 +1,117 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: #000;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+h1{
+  position: relative;
+  left: 50px;
+  top: 150px;
+  text-transform: uppercase;
+  font-family: consolas;
+  letter-spacing: 0.1em;
+  margin: 0;
+  padding: 0;
+  font-size: 7em;
+  white-space: nowrap;
+  color: #fff;
+}
+.nxt::before{
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-right: 1px solid #fff;
+  color: transparent;
+  white-space: nowrap;
+  overflow: hidden;
+  background: linear-gradient(to right,#f00,#ff0,#0ff,#0f0,#ffc800);
+  -webkit-background-clip: text;
+  animation: type 6s steps(13, end) infinite;
+  filter: blur(1px);
+}
+.nxt::after{
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-right: 1px solid #fff;
+  color: transparent;
+  white-space: nowrap;
+  overflow: hidden;
+  background: linear-gradient(to right,#f00,#ff0,#0ff,#0f0,#ffc800);
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: type 6s linear infinite;
+  filter: blur(60px);
+}
+@keyframes type{
+  0%{
+    width: 0;
+  }
+  70%{
+    width: 100%;
+  }
+  90%{
+    width: 100%;
+  }
+  100%{
+    width: 0;
+  }
+}
+
+.nxt1::before{
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-right: 1px solid #fff;
+  color: transparent;
+  white-space: nowrap;
+  overflow: hidden;
+  background: linear-gradient(to right,#f00,#ff0,#0ff,#0f0,#ffc800);
+  -webkit-background-clip: text;
+  animation: nam 5s steps(14, end) infinite;
+  filter: blur(1px);
+}
+.nxt1::after{
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-right: 1px solid #fff;
+  color: transparent;
+  white-space: nowrap;
+  overflow: hidden;
+  background: linear-gradient(to right,#f00,#ff0,#0ff,#0f0,#ffc800);
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: nam 2s linear infinite;
+  filter: blur(60px);
+}
+@keyframes nam{
+  0%{
+    width: 100%;
+  }
+  70%{
+    width: 0;
+  }
+  90%{
+    width: 0;
+  }
+  100%{
+    width: 100%;
+  }
+}
