@@ -109,7 +109,6 @@ h1:hover:after {
   background-color: rgb(39, 105, 0);
 }
 a:hover {
-  background-color: rgb(44, 1, 65);
   cursor: pointer;
 }
 
@@ -160,7 +159,7 @@ a:hover {
 /* scroll top ends */
 
 /* CSS for NavBar starts */
-
+/* 
 .topnav {
   background-color: rgb(19, 24, 44);
   overflow: hidden;
@@ -214,6 +213,95 @@ a:hover {
     float: none;
     display: block;
     text-align: left;
+  }
+} */
+
+a {
+  text-decoration: none;
+ }
+ li {
+  list-style: none;
+ }
+
+ .navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 20px;
+  background-color: #13182c;
+  color: #fff;
+ }
+ .nav-links a {
+  color: #fff;
+ }
+ .logo img{
+   width: 7em;
+ }
+
+ .menu {
+  display: flex;
+  gap: 1em;
+  font-size: 16px;
+  font-family: 'Space Mono';
+ }
+
+ .menu li:hover {
+  background-color: #fff;
+  
+  transition: 0.3s ease;
+ }
+ a:hover{
+   color: #1d1d1d;
+ }
+
+ .menu li {
+  padding: 5px 14px;
+ }
+ .menu li:before{
+  content: " ";
+}
+
+ input[type=checkbox]{
+  display: none;
+ } 
+ /*HAMBURGER MENU*/
+ .hamburger {
+  display: none;
+  font-size: 24px;
+  user-select: none;
+ }
+
+
+
+ @media (max-width: 768px) {
+   
+  .menu { 
+   display:none;
+   position: absolute;
+   background: #13182c ;
+   right: 0;
+   left: 0;
+   height: 92vh;
+   text-align: center;
+   padding: 96px 0;
+   z-index: 1000;
+   top: 20vh;
+  }
+  
+  .menu li:hover {
+   display: inline-block;
+   background-color:#fff;
+   transition: 0.3s ease;
+  }
+  .menu li + li {
+   margin-top: 12px;
+  }
+  input[type=checkbox]:checked ~ .menu{
+   display: block;
+  }
+  .hamburger {
+   display: block;
+   
   }
 }
 
