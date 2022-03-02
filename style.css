@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Bitter&family=Montserrat:wght@400;500&family=Space+Mono:wght@400;700&display=swap');
 
 html {
   overflow-x: hidden;
@@ -224,7 +225,131 @@ a:hover {
   text-decoration: none;
 }
 
-footer {
+
+.grid-container{
+  display: grid;
+  grid-template-columns: 25em auto auto;
+  column-gap: 5em;
+  padding: 10px;
+  background-color: #151D3B;
+  margin-top: 7em ;
+  font-family: 'Montserrat';
+}
+
+.grid-item {
+  
+  padding: 20px;
+  font-size: 30px;
+  text-align: left;
+  color: white;
+
+}
+
+
+.footer-logo img{
+  width: 2em;
+
+}
+/*  */
+
+.footer-subheading{
+  text-align: left;
+}
+.footer-subheading p{
+  font-size: 16px;
+  color: white;
+  font-family: 'Bitter';
+  width: 25em;
+  line-height: 1.5;
+}
+
+.footer-heading-list{
+  color: white;
+
+}
+/* .horizontal-line{
+  width: 50%;
+  height: 10em;
+  color: red;
+} */
+
+ul{
+  list-style: none;
+}
+
+.footer-links{
+  font-size: 18px;
+  margin: 0 -2em;
+  
+}
+li{
+  margin: .6em 0;
+}
+li:before{
+  content: ">";
+  color: red;
+  margin: 0 -1px;
+}
+
+
+hr{
+  border: .5px solid white;
+}
+
+.horizontal-line hr{
+  border: .5px solid red;
+  width: 110%;
+}
+
+.horizontal-line-contact hr{
+  border: .5px solid red;
+
+}
+
+.footer-contactus p{
+  font-size: 16px;
+}
+span{
+    font-weight: bold;
+}
+
+.copyright
+{
+  background-color: #1d1d1d;
+  padding: 1em;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  gap: 1em;
+  
+}
+.copyright p{
+  padding: 0em;
+  margin: 0;
+  font-family: 'Bitter';
+  font-weight: lighter;
+}
+.footer-contactus .email{
+  color: white;
+}
+
+@media (max-width: 600px) {
+  .grid-container{
+    display: flex;
+    flex-direction: column;
+  }
+  .horizontal-line hr{
+    width: 100%;
+  }
+  .hrr{
+    width: 92%;
+    margin: 0 -1px;
+  }
+}
+
+/* footer {
   width: 100%;
   font-family: "Poppins", sans-serif;
   bottom: 0;
@@ -322,6 +447,6 @@ footer a:hover {
   footer .content .middle {
     padding-left: 0;
   }
-}
+} */
 
 /* styles for footer ends */
