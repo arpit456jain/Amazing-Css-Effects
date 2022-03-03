@@ -69,7 +69,7 @@ h1:hover:after {
   box-shadow: 0 0 10px 2px rgba(26, 1, 253, 0.42);
 }
 .stylebox .image {
-  width: 20rem;
+  width: 18rem;
   height: 13rem;
 }
 .stylebox .image img {
@@ -109,8 +109,10 @@ h1:hover:after {
   background-color: rgb(39, 105, 0);
 }
 a:hover {
-  background-color: rgb(44, 1, 65);
   cursor: pointer;
+}
+.heading{
+  margin: 1em 0 0 0;
 }
 
 @media only screen and (max-width: 600px) {
@@ -129,7 +131,7 @@ a:hover {
     margin-bottom: 1.5rem;
   }
   .stylebox .image {
-    width: 18rem;
+    width: 17rem;
     height: 12rem;
     border-radius: 0.5rem;
   }
@@ -160,7 +162,7 @@ a:hover {
 /* scroll top ends */
 
 /* CSS for NavBar starts */
-
+/* 
 .topnav {
   background-color: rgb(19, 24, 44);
   overflow: hidden;
@@ -215,6 +217,95 @@ a:hover {
     display: block;
     text-align: left;
   }
+} */
+
+a {
+  text-decoration: none;
+ }
+ li {
+  list-style: none;
+ }
+
+ .navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0px;
+  background-color: #13182c;
+  color: #fff;
+ }
+ .nav-links a {
+  color: #fff;
+ }
+ .logo img{
+   width: 7em;
+ }
+
+ .menu {
+  display: flex;
+  gap: 1em;
+  font-size: 16px;
+  font-family: 'Space Mono';
+ }
+
+ .menu li:hover {
+  background-color: #fff;
+  
+  transition: 0.3s ease;
+ }
+ a:hover{
+   color: #1d1d1d;
+ }
+
+ .menu li {
+  padding: 5px 14px;
+ }
+ .menu li:before{
+  content: " ";
+}
+
+ input[type=checkbox]{
+  display: none;
+ } 
+ /*HAMBURGER MENU*/
+ .hamburger {
+  display: none;
+  font-size: 24px;
+  user-select: none;
+ }
+
+
+
+ @media (max-width: 768px) {
+   
+  .menu { 
+   display:none;
+   position: absolute;
+   background: #13182c ;
+   right: 0;
+   left: 0;
+   height: 92vh;
+   text-align: center;
+   padding: 96px 0;
+   z-index: 1000;
+   top: 20vh;
+  }
+  
+  .menu li:hover {
+   display: inline-block;
+   background-color:#fff;
+   transition: 0.3s ease;
+  }
+  .menu li + li {
+   margin-top: 12px;
+  }
+  input[type=checkbox]:checked ~ .menu{
+   display: block;
+  }
+  .hamburger {
+   display: block;
+   
+  }
 }
 
 /* CSS for NavBar end */
@@ -225,70 +316,28 @@ a:hover {
   text-decoration: none;
 }
 
-
-.grid-container{
-  display: grid;
-  grid-template-columns: 25em auto auto;
-  column-gap: 5em;
-  padding: 10px;
-  background-color: #151D3B;
-  margin-top: 7em ;
-  font-family: 'Montserrat';
+footer{
+  margin: 7em 0 0 0;
 }
 
-.grid-item {
-  
-  padding: 20px;
-  font-size: 30px;
-  text-align: left;
-  color: white;
-
-}
-
-
-.footer-logo img{
-  width: 2em;
-
-}
-/*  */
-
-.footer-subheading{
-  text-align: left;
-}
-.footer-subheading p{
-  font-size: 16px;
-  color: white;
-  font-family: 'Bitter';
-  width: 25em;
-  line-height: 1.5;
-}
-
-.footer-heading-list{
-  color: white;
-
-}
-/* .horizontal-line{
-  width: 50%;
-  height: 10em;
-  color: red;
-} */
 
 ul{
   list-style: none;
 }
 
-.footer-links{
-  font-size: 18px;
-  margin: 0 -2em;
-  
-}
+
 li{
   margin: .6em 0;
 }
 li:before{
-  content: ">";
+  content: "> ";
   color: red;
-  margin: 0 -1px;
+  margin: 0 1.5px;
+  font-weight: bold;
+}
+.logo-footer{
+  width: 50px;
+  margin: 0 0 1em 0;
 }
 
 
@@ -296,57 +345,45 @@ hr{
   border: .5px solid white;
 }
 
-.horizontal-line hr{
-  border: .5px solid red;
-  width: 110%;
-}
-
-.horizontal-line-contact hr{
-  border: .5px solid red;
-
-}
-
-.footer-contactus p{
-  font-size: 16px;
-}
 span{
     font-weight: bold;
 }
 
-.copyright
-{
-  background-color: #1d1d1d;
-  padding: 1em;
-  color: white;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  display: flex;
-  gap: 1em;
-  
+footer{
+  background-color: #0e111b;
 }
-.copyright p{
-  padding: 0em;
-  margin: 0;
-  font-family: 'Bitter';
-  font-weight: lighter;
-}
-.footer-contactus .email{
-  color: white;
+.footertext{
+  width: 75%;
 }
 
-@media (max-width: 600px) {
-  .grid-container{
-    display: flex;
-    flex-direction: column;
-  }
-  .horizontal-line hr{
+h5{
+  font-weight: bold;
+  font-family: 'Montserrat';
+}
+
+.main{
+  border: .51px solid red;
+}
+
+@media (max-width:764px){
+  .footertext{
     width: 100%;
+    text-align: center;
   }
-  .hrr{
-    width: 92%;
-    margin: 0 -1px;
+
+  .logo-footer{
+    width: 20%;
   }
+  ul{
+    text-align: center;
+  }
+ 
+  
+  hr{
+    width: 20em;
+  }
+
+  
 }
 
 /* footer {
