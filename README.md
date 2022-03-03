@@ -5,13 +5,14 @@ Some Astonishing CSS-Effects✨
 <p align="center"><img src="Assets/intro.gif"></p>
  
 
-### This project is part of Hacktoberfest'21
-![Hacktoberfest](https://user-images.githubusercontent.com/59393136/135566614-5635902f-2907-4e01-8baf-3cb1b43a6b20.png)
+### This project is part of Girl script Summer of code 2022
+
+![Gssoc'2022](https://i.postimg.cc/k40ntsV4/1500x500.jpg)
 ### This project was part of the following Open Source Programs
 
   
 ![Devincept](https://user-images.githubusercontent.com/56088741/123548852-1ef59d00-d784-11eb-8e39-255e0c3e97d5.gif)
-
+![Hacktoberfest](https://user-images.githubusercontent.com/59393136/135566614-5635902f-2907-4e01-8baf-3cb1b43a6b20.png)
 ### Demo 🎥
 
 #### Website for this repository : https://amazing-css-effects.netlify.app/
@@ -125,6 +126,14 @@ GitHub will alert you that you can merge the two branches because there is no co
 
 </tbody></table>
 
+ <h1 align=center> Project Mentors 👩‍🏫 </h1>
+<p align="center">
+<table>
+  <tbody><tr>
+     <td align="center"><a href="https://github.com/astha2412"><img alt="" src="https://avatars.githubusercontent.com/u/87020129?v=4" width="100px;"><br><sub><b>Kumari Astha Rani </b></sub></a><br></td> </a></td>
+     <td align="center"><a href="https://github.com/VidhiBhatt01"><img alt="" src="https://avatars.githubusercontent.com/u/83345228?v=4" width="100px;"><br><sub><b> Vidhi Bhatt</b></sub></a><br></td></a></td>
+
+</tbody></table>
 
 <h2 align=center> ✨ Contributors </h2>
 
