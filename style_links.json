@@ -85,6 +85,10 @@
     "link": "Digital Wrist Watch/index.html"
   },
   {
+    "name": "Distortion Effect",
+    "link": "Distortion Effect/index.html"
+  },
+  {
     "name": "FAQ Accordion",
     "link": "FAQ Accordion/index.html"
   },
@@ -135,6 +139,10 @@
   {
     "name": "Neon Light Effect",
     "link": "Neon Light Effect/index.html"
+  },
+  {
+    "name": "Network Particle Animation",
+    "link": "Network Particle Animation/index.html"
   },
   {
     "name": "Neumorphic Login Form",
