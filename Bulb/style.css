@@ -27,13 +27,13 @@ z-index: 2;
 }
 body.on .bulb{
 background: #fff;
-    box-shadow: 0 0 50px #fff;
-    0 0 100px #fff;
-    0 0 150px #fff;
-    0 0 200px #fff;
-    0 0 250px #fff;
-    0 0 300px #fff;
-    0 0 350px #000;
+box-shadow: 0 0 50px #fff;
+box-shadow:0 0 100px #fff;
+box-shadow:   0 0 150px #fff;
+box-shadow:  0 0 200px #fff;
+box-shadow: 0 0 250px #fff;
+box-shadow: 0 0 300px #fff;
+box-shadow: 0 0 350px #fff;
 }
 .bulb::before{
     content: '';
