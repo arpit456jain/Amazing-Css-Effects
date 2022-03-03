@@ -1,5 +1,4 @@
 [
-  
   {
     "name": "3D Animation Button",
     "link": "3D Animation Button/index.html"
@@ -119,6 +118,10 @@
   {
     "name": "House Building",
     "link": "House Building/index.html"
+  },
+  {
+    "name": "Interactive Profile Card",
+    "link": "Interactive Profile Card/index.html"
   },
   {
     "name": "LED Loading Effect",
@@ -263,14 +266,16 @@
   {
     "name": "Diagonal Animation",
     "link": "Diagonal Animation/index.html"
-  },{
+  },
+  {
     "name": "CSS Glitch",
     "link": "css-glitch/index.html"
   },
   {
     "name": "3D Text Effect",
     "link": "3D Text/index.html"
-  },{
+  },
+  {
     "name": "Animated Sidebar",
     "link": "Animated Sidebar/index.html"
   },
