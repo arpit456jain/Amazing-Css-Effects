@@ -1,56 +1,104 @@
 /* Basic */
+:root{
+    --grey:#778899;
+    --yellow:#FFC312;
+    --orange:#EE5A24;
+    --lightyellow:#FFC312;
+    --darkyellow:#C4E538;
+    --green:#009432;
+    --lightblue:#12CBC4;
+    --darkblue:#0652DD;
+    --pink:#FDA7DF;
+    --violet:#9980FA;
+    --white:#fff;
+    --defaultpercent:100%;
+   --commoncenter:center;
+   --commonmeasure:1.25rem;
+}
+
 * {
     box-sizing:border-box;
   }
+
   
   body, html {
-      height: 100%;
-      width: 100%;
+      height: var(--defaultpercent);
+      width: var(--defaultpercent);
       margin: 0;
       font-family: Arial, sans-serif;
       overflow: hidden;
-      background: rgb(9, 94, 94);
+      background:var(--grey);
       display: flex;
-      justify-content: center;
-      align-items: center;
+      justify-content: var(--commoncenter);
+      align-items: var(--commoncenter);
+
   }
   
   .container {
-      width: 680px;
+      width: 42.5rem;
       position: relative;
   }
   
   /* Buttons */
   .btn {
-      border: none;
-      position: relative;
-      background: none;
-      padding: 28px 90px;
-      display: inline-block;
-      text-transform: uppercase;
-      margin: 30px;
-      color: inherit;
-      letter-spacing: 2px;
-      font-size: 0.9em;
-      outline: none;
-      transition: all 0.4s;
-      cursor: pointer;
+   border:none;
+   margin:var(--commonmeasure);
+   padding:calc(2.75rem - var(--commonmeasure));                                
+   width:calc(15rem - var(--commonmeasure));
+   font-family: sans-serif;
+   text-transform: uppercase;
+   border-radius: calc(1.625rem - var(--commonmeasure));
+   cursor:pointer;
+   background-size: calc(var(--defaultpercent) + var(--defaultpercent));
+   transition: .06s;
   }
-  
-  .btn:after {
+  .btn-one{
+      background-image: linear-gradient(to left,var(--yellow),var(--orange),var( --lightyellow));
+  }
+  .btn-two{
+    background-image: linear-gradient(to left,var(--darkyellow),var(--green),var(--darkyellow));
+  }
+  .btn-three{
+    background-image: linear-gradient(to left,var(--lightblue),var(--darkblue),var(--lightblue));
+  }
+  .btn-four{
+    background-image: linear-gradient(to left,var(--pink),var(--violet),var(--pink));
+  }
+  .btn:hover{
+      background-position: right;
+  }
+  /* .btn::before{
+      content:'';
+      position:absolute;
+      top:0;
+      left:0;
+       background-color:#1e272e;
+       width:100%;
+       height:100%;
+       transform: translateX(-100%);
+       transition: all 0.3s linear;
+  }
+  .btn:hover:before{
+      transform: translateX(0);
+      z-index:-1;
+  }
+  .btn:hover{
+      color:#fff;
+  } */
+  /* .btn:after {
       content: "";
       position: absolute;
       z-index: -1;
       transition: all 04.s;
   }
-  
-  .btn-perspective {
-      perspective: 800px;
+  */
+   .btn-perspective {
+      perspective: calc(51.25rem - var(--commonmeasure));
       display: inline-block;
-  }
+  } 
   
   .btn-3d {
-      color: #fff;
+      color: var(--white);
       display: block;
       outline: 1px solid transparent;
       transform-style: preserve-3d;
@@ -58,7 +106,7 @@
   
   
   /* Button One */
-  .btn-one {
+  /* .btn-one {
       background-color: #E74C3C;
   }
   .btn-one:after {
@@ -72,10 +120,10 @@
   }
   .btn-one:hover {
       transform: rotateX(-45deg);   
-  }
+  } */
   
   /* Button Two */
-  .btn-two {
+  /* .btn-two {
       background-color: #3498DB;
   }
   .btn-two:after {
@@ -92,7 +140,7 @@
   }
   
   /* Button Three */
-  .btn-three {
+  /* .btn-three {
       background-color: #C9C;
   }
   .btn-three:after {
@@ -106,10 +154,10 @@
   }
   .btn-three:hover {
       transform: rotateY(25deg);   
-  }
+  } */
   
   /* Button Four */
-  .btn-four {
+  /* .btn-four {
       background-color: #7f13aa;
   }
   .btn-four:after {
@@ -123,8 +171,8 @@
   }
   .btn-four:hover {
       transform: rotateY(-25deg);
-  }
-  footer{
+  }  */
+  /* footer{
       align:center;
       color: red;
       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -132,4 +180,4 @@
       font-size: xx-large;
       font-style: inherit;
       font-stretch: semi-condensed;
-  }
+  } */
