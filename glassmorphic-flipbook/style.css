@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500&family=Poppins:ital,wght@0,200;0,300;0,400;1,100;1,200&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  background-color:  #1f1f47;
+  color: #fff;
+  text-align: left !important;
+}
+.wrapper {
+  margin: 20px;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+}
+.book1 {
+  background-color: rgba(31, 31, 71, 0.6);
+  box-shadow: rgb(0 0 0 / 25%) 0px 40px 80px,
+    rgb(255 255 255 / 15%) 0px 0px 0px 0.5px inset;
+  position: relative;
+  width: 220px;
+  height: 280px;
+  backdrop-filter: blur(40px);
+  border-radius: 0px 30px 40px 40px;
+  padding: 20px;
+
+  z-index: 1;
+}
+h3{
+  margin-top: 30px;
+  font-size: 24px;
+}
+.book-text > p {
+  text-align: left;
+  margin-top: -10px;
+  padding-right: 25px;
+}
+.book2 {
+  
+  margin-left: -260px;
+  
+  width: 240px;
+  height: 320px;
+  border-radius: 0px 40px 40px;
+  transform: skewY(8deg);
+  transition: all 0.8s cubic-bezier(0.075, 0.82, 0.165, 1) 0s;
+  transform-origin: left top;
+  top: 0px;
+  background: linear-gradient(rgb(64, 141, 213) 0%, rgb(99, 11, 140) 100%);
+  z-index: 0;
+}
+.book1:hover + .book2 {
+  transform: skewY(18deg);
+}
