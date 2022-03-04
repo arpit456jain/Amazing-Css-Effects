@@ -290,5 +290,9 @@
   {
     "name": "Slideing Checkbox",
     "link": "Slideing Checkbox/index.html"
+  },
+  {
+    "name": "Neon Hover Navbar",
+    "link": "Neon Hover Navbar/index.html"
   }
 ]
