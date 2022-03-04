@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Monsterrat&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Monsterrat", sans-seriff;
+    height: 100vh;
+    display: grid;
+    place-content: center;
+    background-color: #F8F2F2;
+}
+
+a {
+    color: #000000;
+    position: relative;
+    text-decoration: none;
+    font-size: 50px;
+    font-weight: 500;
+    z-index: 0;
+}
+
+a::before {
+    content: "";
+    inset: 0;
+    background: #D55650;
+    position: absolute;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.5s ease-in-out;
+    z-index: -1;
+}
+
+a:hover::before {
+    transform: scaleX(1);
+    transform-origin: left;
+    background: #000000;
+}
+
+a:hover {
+    color: #ffffff;
+}
