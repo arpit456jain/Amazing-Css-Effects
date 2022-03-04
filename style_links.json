@@ -290,5 +290,9 @@
   {
     "name": "Slideing Checkbox",
     "link": "Slideing Checkbox/index.html"
+  },
+  {
+    "name": "Custom Mouse Cursor",
+    "link": "Mouse Cursor Hover/index.html"
   }
 ]
