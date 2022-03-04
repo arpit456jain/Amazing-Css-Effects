@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600&display=swap');
+
+body {
+  background: linear-gradient(
+    45deg,
+    rgba(18, 71, 96, 0.88),
+    rgba(194, 30, 30, 0.8),
+    rgba(97, 51, 193, 0.8),
+    rgba(70, 11, 7, 0.88)
+  );
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  height: 100vh;
+  font-family: "poppins", sans-serif;
+}
+
+body .options {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  overflow: hidden;
+  min-width: 600px;
+  max-width: 900px;
+  width: calc(100% - 100px);
+  height: 400px;
+}
+
+body .options .option {
+  position: relative;
+  overflow: hidden;
+  min-width: 60px;
+  margin: 10px;
+  background: var(--optionBackground, var(--defaultBackground, #E6E9ED));
+  background-size: auto 120%;
+  background-position: center;
+  cursor: pointer;
+  transition: 0.5s cubic-bezier(0.05, 0.61, 0.41, 0.95);
+}
+
+body .options .option.active {
+  flex-grow: 10000;
+  transform: scale(1);
+  max-width: 600px;
+  margin: 0px;
+  border-radius: 40px;
+  background-size: auto 100%;
+  border: 5px solid #fff;
+}
+
+body .options .option:not(.active) {
+  flex-grow: 1;
+  border-radius: 30px;
+}
+
+body .options .option .label {
+  display: flex;
+  position: absolute;
+  right: 0px;
+  height: 40px;
+  transition: 0.5s cubic-bezier(0.05, 0.61, 0.41, 0.95);
+}
+
+body .options .option:not(.active) .label {
+  bottom: 10px;
+  left: 10px;
+}
+
+body .options .option.active .label{
+  bottom: 20px;
+  left: 20px;
+}
+
+body .options .option .label .icon{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  min-width: 40px;
+  max-width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  background: #FFF;
+  color: var(--defaultBackground);
+}
+
+body .options .option .label .info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10px;
+  color: #fff;
+  white-space: pre;
+}
+
+body .options .option .label .info > div{
+  position: relative;
+  transition: 0.5s cubic-bezier(0.05, 0.61, 0.41, 0.95), opacity 0.5s ease-out;
+}
+
+body .options .option .label .info .main {
+  font-weight: normal;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+body .options .option .label .info .sub {
+  transition-delay: 0.1s;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
+
+body .options .option:nth-child(1) {
+  --defaultBackground:#ED5565;
+}
+body .options .option:nth-child(2) {
+  --defaultBackground:#FC6E51;
+}
+body .options .option:nth-child(3) {
+  --defaultBackground:#FFCE54;
+}
+body .options .option:nth-child(4) {
+  --defaultBackground:#2ECC71;
+}
+body .options .option:nth-child(5) {
+  --defaultBackground:#5D9CEC;
+}
+body .options .option:nth-child(6) {
+  --defaultBackground:#AC92EC;
+}
+
+@media screen and (max-width: 718px) {
+  body .options {
+    min-width: 520px;
+  }
+  body .options .option:nth-child(5) {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 638px) {
+  body .options {
+    min-width: 440px;
+  }
+  body .options .option:nth-child(4) {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 558px) {
+  body .options {
+    min-width: 360px;
+  }
+  body .options .option:nth-child(3) {
+    display: none;
+  }
+}
+
+/* Coded With ❤ By Priyanshu Mohanty */
