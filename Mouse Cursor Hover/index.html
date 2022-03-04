@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Custom Mouse cursor hover effect</title>
+</head>
+
+<body>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Team</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Support</a></li>
+        <div class="cursor"></div>
+    </ul>
+    <script>
+        const cursor = document.querySelector(".cursor");
+        document.addEventListener("mousemove", (e) => {
+            cursor.style.left = e.clientX + 'px'
+            cursor.style.top = e.clientY + 'px'
+        })
+    </script>
+</body>
+
+</html>
