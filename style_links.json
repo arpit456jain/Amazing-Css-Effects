@@ -298,5 +298,14 @@
   {
     "name": "Custom Mouse Cursor",
     "link": "Mouse Cursor Hover/index.html"
+  },
+  {
+    "name": "Text-Transformation",
+    "link": "Text-Transformation/index.html"
+  },
+  {
+    "name": "Deep-Rings",
+    "link": "Deep-Rings/index.html"
   }
+  
 ]
