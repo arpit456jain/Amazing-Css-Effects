@@ -1,0 +1,35 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%; /* 10px */
+}
+
+body {
+  background-color: palevioletred;
+  color: #fff;
+  font-family: sans-serif;
+}
+
+.title-wrapper {
+  margin: 10rem 3rem;
+}
+
+.title {
+  font-size: 10rem;
+  color: hsla(0, 0%, 100%, 0.08);
+  text-align: center;
+
+  -webkit-background-clip: text;
+  background-image: radial-gradient(closest-side, white 100%, transparent 0);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: 300px 300px;
+
+  transition: all 0.7s cubic-bezier(0.19, 1, 0.22, 1);
+}

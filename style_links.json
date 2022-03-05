@@ -298,5 +298,9 @@
   {
     "name": "Custom Mouse Cursor",
     "link": "Mouse Cursor Hover/index.html"
+  },
+  {
+    "name": "Spotlight Effect on Text",
+    "link": "Spotlight-Text/index.html"
   }
 ]
