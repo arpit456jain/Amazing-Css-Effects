@@ -1,0 +1,84 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: rgb(7, 7, 32);
+  padding-top: 3%;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-size: 3rem;
+  margin-bottom: 2%;
+}
+
+p {
+  margin: 0;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.card-wrapper {
+  margin: auto;
+  width: 50%;
+  text-align: center;
+  position: relative;
+  max-width: 300px;
+  background-color: white;
+}
+
+.team-contents {
+  border: 2px solid black;
+  padding: 4%;
+}
+
+.team-contents__name {
+  font-size: 1.85rem;
+  font-weight: bolder;
+}
+
+.team-contents__designation {
+  font-size: 0.9rem;
+  color: gray;
+  margin-bottom: 5%;
+}
+
+.icons {
+  position: absolute;
+  bottom: 27%;
+  background: transparent;
+  color: #f1f1f1;
+  width: 100%;
+  transition: 0.7s ease;
+  opacity: 0;
+  text-align: center;
+}
+
+.card-wrapper:hover .icons {
+  opacity: 1;
+  transform: rotate(360deg);
+}
+.overlay .icons a {
+  text-decoration: none;
+}
+
+.overlay .icons a img {
+  width: 11%;
+}
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+  .team-contents__name {
+    font-size: 1.65rem;
+  }
+  .team-contents__designation {
+    font-size: 0.79rem;
+  }
+  .icons {
+    bottom: 35%;
+  }
+}
