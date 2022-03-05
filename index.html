@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -12,25 +13,42 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+     <!-- Libraries CSS Files -->
+  
+
+<!-- Google Fonts -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+<!-- Bootstrap core CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+<!-- Material Design Bootstrap -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+
+    
 
     <link rel="stylesheet" href="style.css" />
+    
     <title>Amazing-CSS-Effects</title>
   </head>
 
   <body>
     <!--Adding a NavBar-->
 
-    <div class="topnav" id="myTopnav">
-      <a href="/index.html" class="active">Amazing-CSS-Effects</a>
-      <a href="https://cool-front-end-templates.netlify.app/"
-        >Cool-Front-End-Templates</a
-      >
-      <a href="https://amazing-js-projects.netlify.app/">Amazing-JS-projects</a>
-
-      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-        <i class="fa fa-bars"></i>
-      </a>
-    </div>
+    <nav class="navbar">
+            
+      <div class="logo">
+          <img src="logo1.png"/>
+      </div>
+          
+      <ul class="nav-links">
+          <input type="checkbox" id="checkbox_toggle" />
+           <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+          <div class="menu">
+              <li><a href="https://amazing-js-projects.netlify.app/">Amazing-JS-Projects</a></li>
+              <li><a href="https://cool-front-end-templates.netlify.app/">Cool-Front-End-Templates</a></li>
+              <li><a href="/index.html">Amazing-CSS-Effects</a></li>
+          </div>
+      </ul>
+</nav>
 
     <!--Adding a NavBar-->
 
@@ -62,49 +80,72 @@
     <a href="#styles" class="fas fa-angle-up" id="scroll-top"></a>
     <!-- scroll back to top -->
 
-    <!-- footer -->
-    <footer>
-      <div class="content">
-        <div class="left box">
-          <div class="upper">
-            <div class="topic">About us</div>
+  <!--==========================
+    Footer
+  ============================-->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6 footer-info">
+            <img src="img/logo.png" alt="TheEvenet">
+            <p>In alias aperiam. Placeat tempore facere. Officiis voluptate ipsam vel eveniet est dolor et totam porro. Perspiciatis ad omnis fugit molestiae recusandae possimus. Aut consectetur id quis. In inventore consequatur ad voluptate cupiditate debitis accusamus repellat cumque.</p>
+          </div>
+
+          <div class="col-lg-4 col-md-6 footer-links">
+            <h4>Yaha pe subevents ke links daal dege</h4>
+            <ul>
+              <li><i class="fa fa-angle-right"></i> <a href="#">CTF</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="#">Codigo</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="#">Chakravyuh</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="#">C-quiz</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="#">And Many more...</a></li>
+            </ul>
+          </div>
+
+         
+
+          <div class="col-lg-4 col-md-6 footer-contact">
+            <h4>Contact Us</h4>
             <p>
-              It's a platform designed to store some
-              Astonishing CSS-Effectsranging from 
-              different areas using various templates.
-              Add some Cool Templates here!
+              MMMUT <br>
+              Gorakhpur<br>
+             	U.P India <br>
+              <strong>Phone:</strong> 675765759<br>
+              <strong>Email:</strong> 111arpit1@gmail.com<br>
             </p>
+
+            <div class="social-links">
+              <!-- <a href="#" class="twitter"><i class="fa fa-twitter"></i></a> -->
+              <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+              <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+              <!-- <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a> -->
+              <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+              <a href="#" class="linkedin"><i class="fa fa-github	"></i></a>
+            </div>
+
           </div>
-        </div>
-        <div class="middle box">
-          <div class="topic">Other Projects</div>
-          <div>
-            <a href="https://cool-front-end-templates.netlify.app/"
-              >Cool-Front-End-Templates</a
-            >
-          </div>
-          <div>
-            <a href="https://amazing-js-projects.netlify.app/"
-              >Amazing-JS-projects</a
-            >
-          </div>
-        </div>
-        <div class="right box">
-          <div class="topic">Follow us</div>
-          <div class="media-icons">
-            <a href="#"><i class="fab fa-facebook-f"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-youtube"></i></a>
-            <a href="#"><i class="fab fa-linkedin-in"></i></a>
-          </div>
+
         </div>
       </div>
-      <div class="bottom">
-        <p>Copyright © 2021 <a href="#">ABC</a> All rights reserved</p>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong>CES</strong>. All Rights Reserved
       </div>
-    </footer>
-    <!-- footer ends-->
+      <div class="credits">
+        <!--
+          All the links in the footer should remain intact.
+          You can delete the links only if you purchased the pro version.
+          Licensing information: https://bootstrapmade.com/license/
+          Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=TheEvent
+        -->
+        Designed by <a href="https://arpit456jain.github.io/CodeSmashers/Portfolio/index.html">Arpit Jain</a>
+      </div>
+    </div>
+  </footer><!-- #footer -->
 
     <!-- jquery cdn -->
     <script
@@ -116,5 +157,13 @@
 
     <script src="script.js"></script>
     <script src="style_links.json"></script>
+    <!-- JQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
   </body>
 </html>

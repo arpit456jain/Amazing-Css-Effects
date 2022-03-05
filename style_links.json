@@ -1,5 +1,4 @@
 [
-  
   {
     "name": "3D Animation Button",
     "link": "3D Animation Button/index.html"
@@ -29,8 +28,16 @@
     "link": "Animated Rocket Launcher/index.html"
   },
   {
+    "name": "Animated Santa",
+    "link": "Animated Santa with snowfall bg/index.html"
+  },
+  {
     "name": "Animated Stacked Cards",
     "link": "Animated Stacked Cards/index.html"
+  },
+  {
+    "name": "Animated text hover",
+    "link": "Animated text hover/index.html"
   },
   {
     "name": "Animated UI Design",
@@ -77,8 +84,16 @@
     "link": "css glowing gradient loader ring/index.html"
   },
   {
+    "name": "Custom Ice Cream Maker",
+    "link": "Custom Ice Cream Maker/index.html"
+  },
+  {
     "name": "Digital Wrist Watch",
     "link": "Digital Wrist Watch/index.html"
+  },
+  {
+    "name": "Distortion Effect",
+    "link": "Distortion Effect/index.html"
   },
   {
     "name": "FAQ Accordion",
@@ -113,6 +128,10 @@
     "link": "House Building/index.html"
   },
   {
+    "name": "Interactive Profile Card",
+    "link": "Interactive Profile Card/index.html"
+  },
+  {
     "name": "LED Loading Effect",
     "link": "LED Loading Effect/card.html"
   },
@@ -131,6 +150,10 @@
   {
     "name": "Neon Light Effect",
     "link": "Neon Light Effect/index.html"
+  },
+  {
+    "name": "Network Particle Animation",
+    "link": "Network Particle Animation/index.html"
   },
   {
     "name": "Neumorphic Login Form",
@@ -181,6 +204,10 @@
     "link": "Responsive Box Hover Effect/index.html"
   },
   {
+    "name": "Responsive profile card",
+    "link": "Responsive profile card/index.html"
+  },
+  {
     "name": "Ripple Button Effect",
     "link": "Ripple Button Effect/ripple_button_effect.html"
   },
@@ -217,6 +244,10 @@
     "link": "Steaming cup/Tea cup.html"
   },
   {
+    "name": "Submarine Animation",
+    "link": "Submarine Animation/index.html"
+  },
+  {
     "name": "Transition Effect",
     "link": "Transition Effect/card_effect.html"
   },
@@ -247,12 +278,25 @@
   {
     "name": "Diagonal Animation",
     "link": "Diagonal Animation/index.html"
-  },{
+  },
+  {
     "name": "CSS Glitch",
     "link": "css-glitch/index.html"
   },
   {
     "name": "3D Text Effect",
     "link": "3D Text/index.html"
+  },
+  {
+    "name": "Animated Sidebar",
+    "link": "Animated Sidebar/index.html"
+  },
+  {
+    "name": "Slideing Checkbox",
+    "link": "Slideing Checkbox/index.html"
+  },
+  {
+    "name": "Custom Mouse Cursor",
+    "link": "Mouse Cursor Hover/index.html"
   }
 ]

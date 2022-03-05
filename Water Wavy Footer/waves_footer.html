@@ -5,6 +5,9 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <link rel="stylesheet" href="waves_footer.css">
         <title>Footer Waves effect</title>
+        <script src=
+        "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js">
+            </script>
     </head>
     <body>
         <footer>
@@ -12,7 +15,21 @@
             <div class="wave wave2"></div>
             <div class="wave wave3"></div>
             <div class="wave wave4"></div>
+            <div class="mode">
+                Dark mode:            
+                <span class="change">OFF</span>
+            </div>
         </footer>
-        
+        <script>
+            $( ".change" ).on("click", function() {
+                if( $( "footer" ).hasClass( "dark" )) {
+                    $( "footer" ).removeClass( "dark" );
+                    $( ".change" ).text( "OFF" );
+                } else {
+                    $( "footer" ).addClass( "dark" );
+                    $( ".change" ).text( "ON" );
+                }
+            });
+        </script>
     </body>
 </html>

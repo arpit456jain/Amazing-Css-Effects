@@ -10,8 +10,37 @@ footer {
     height: 100vh;
     background: black;
     overflow: hidden;
+    
+}
+.change {
+    cursor: pointer;
+    border: 1px solid #555;
+    border-radius: 40%;
+    width: 20px;
+    text-align: center;
+    padding: 5px;
+    margin-left: 8px;
+}
+.dark{
+    background-color: #222;
+    color: #e6e6e6;
 }
 
+.mode {
+    position: fixed;
+    height: 60px;
+    bottom: 78px;
+    right: 29px;
+    /* background-color: #25d366; */
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    /* box-shadow: 2px 2px 3px #999; */
+    z-index: 100;
+}
+
+  
 footer .wave {
     position: absolute;
     bottom: 0;

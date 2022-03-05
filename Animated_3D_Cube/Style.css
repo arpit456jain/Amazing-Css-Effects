@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    animation: body-color  2s ease-in infinite;
+}
+section
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    perspective: 1000px;
+    
+}
+section .container{
+    position: relative;
+    height: 12.5rem;
+    width:12.5rem;
+    transform-style: preserve-3d;
+    transition: 3s;
+    animation: motion 10s ease-in infinite alternate-reverse;
+   
+}
+ section .container img
+{
+    position:relative ;
+    height:12.5rem;
+    width: 12.5rem;
+}
+ .image1{
+    position:relative;
+    top:0%;
+    animation: move0 3s;
+}
+ .image2{
+    position:relative;
+    top:-102%;
+    transform: rotateY(180deg);
+    transform: translateZ(-200px);
+    animation: move 3s;
+}
+
+.image3{
+    position: absolute;
+    top:-204%;
+    transform: translateZ(-200px);
+    transform-origin: left;
+    transform: rotateY(90deg);
+    animation: move3 3s ;
+}
+.image4{
+    position: absolute;
+    top:-306%;
+   
+    transform-origin: right;
+    transform: rotateY(-90deg);
+    animation: move4 3s ;
+}
+.image5{
+    position: absolute;
+    top:-408%;
+   transform: translate(0,50%,0);
+    transform-origin: bottom;
+    transform: rotateX(90deg);
+    animation: move5 3s ;
+}
+.image6{
+    position: absolute;
+    top:-610%;
+    transform: translate(0,50%,0);
+    transform-origin: bottom;
+    transform: rotateX(90deg);
+    animation: move5 3s ;
+}
+@keyframes  body-color {
+    from{
+
+        background:linear-gradient(#eecda3 ,#ef629f,#de6262 , #ffb88c);
+
+    }
+    to{
+        background:linear-gradient(#ef629f , #eecda3,#ffb88c , #de6262 );
+    }
+}
+@keyframes motion {
+    0%{
+        transform: rotate3D(0,0,0,0);
+    }
+    25%{
+        transform: rotate3D(0,1,0,180deg);
+    }
+    50%
+    {
+        transform: rotate3D(1,0,0,270deg);
+    }
+    75%
+    {
+        transform: rotate3D(1,0,1,-180deg);
+    }
+    100%
+    {
+        transform: rotate3D(1,0,1,360deg);
+    }
+  
+   
+}   
+ @keyframes move0{
+   0%{
+    position:relative;
+    top:-200%;
+   }
+   100%{
+    position:relative;
+    top:0%;
+   }
+} 
+ @keyframes move{
+   0%{
+    position:relative;
+    top:-200%;
+   }
+   100%{
+    position:relative;
+    top:-102%;
+   }
+} 
+@keyframes move3{
+   0%{
+    position:relative;
+    left:-50vh;
+    transform: rotateY(-90deg);
+   }
+   100%{
+    position:relative;
+    left: 0;
+   }
+}
+@keyframes move4{
+   0%{
+    position:relative;
+    right:-50vh;
+    transform: rotateY(90deg);
+   }
+   100%{
+    position:relative;
+    right: 0;
+   }
+}
+@keyframes move5{
+   0%{
+    position:relative;
+    bottom:-150vh;
+    transform: rotateY(-90deg);
+   }
+   100%{
+    position:relative;
+    bottom: 0;
+   }
+}
