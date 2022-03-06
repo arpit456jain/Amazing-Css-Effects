@@ -298,5 +298,9 @@
   {
     "name": "Custom Mouse Cursor",
     "link": "Mouse Cursor Hover/index.html"
+  },
+  {
+    "name": "Kinetic Preloader",
+    "link": "Kinetic Preloader/index.html"
   }
 ]
