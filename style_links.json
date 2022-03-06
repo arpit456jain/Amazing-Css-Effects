@@ -298,5 +298,9 @@
   {
     "name": "Custom Mouse Cursor",
     "link": "Mouse Cursor Hover/index.html"
+  },
+  {
+    "name": "Animated Heading Page",
+    "link": "Animated Heading Page/index.html"
   }
 ]
