@@ -40,7 +40,7 @@
   }
   
   /* Buttons */
-  .commonbtn {
+  .commonbutton {
    border:none;
    margin:var(--commonmeasure);
    padding:calc(2.75rem - var(--commonmeasure));                                
@@ -64,7 +64,7 @@
   .btn-four{
     background-image: linear-gradient(to left,var(--pink),var(--violet),var(--pink));
   }
-  .btn:hover{
+  .commonbutton:hover{
       background-position: right;
   }
   /* .btn::before{
