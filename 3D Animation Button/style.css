@@ -40,7 +40,7 @@
   }
   
   /* Buttons */
-  .btn {
+  .commonbtn {
    border:none;
    margin:var(--commonmeasure);
    padding:calc(2.75rem - var(--commonmeasure));                                
