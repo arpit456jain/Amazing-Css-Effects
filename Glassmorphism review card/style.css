@@ -1,0 +1,156 @@
+.review {
+            background-image: linear-gradient(to bottom right, pink, yellow);
+            height: auto;
+            background-size: cover;
+            background-repeat: no-repeat;
+            animation: back 3s infinite;
+        }
+        
+        @keyframes back {
+            from {
+                background-image: linear-gradient(to bottom right, pink, yellow);
+            }
+            to {
+                background-image: linear-gradient(to bottom right, blue, pink);
+            }
+        }
+        
+        .main-box {
+            border-radius: 10px;
+            margin: 10% 30% 10%;
+            text-align: center;
+            width: 40%;
+            height: 240px;
+            font-size: larger;
+            padding: 12px;
+            opacity: 0.7;
+        }
+        
+        .main-box:hover {
+            opacity: 0.9;
+        }
+        
+        .after {
+            width: 14%;
+            height: 120px;
+            content: " ";
+            left: 24%;
+            top: 55%;
+            background-color: white;
+            opacity: 0.7;
+            border-radius: 10%;
+            position: absolute;
+        }
+        
+        .after2 {
+            width: 10%;
+            height: 120px;
+            content: " ";
+            left: 15%;
+            top: 40%;
+            background-color: white;
+            opacity: 0.7;
+            border-radius: 10%;
+            position: absolute;
+        }
+        
+        .before {
+            width: 16%;
+            height: 190px;
+            content: " ";
+            left: 61%;
+            top: 23px;
+            background-color: #ffff;
+            opacity: 0.8;
+            border-radius: 10%;
+            position: absolute;
+        }
+        
+        .before2 {
+            width: 10%;
+            height: 110px;
+            content: " ";
+            left: 75%;
+            top: 130px;
+            background-color: #ffff;
+            opacity: 0.8;
+            border-radius: 10%;
+            position: absolute;
+        }
+        
+        img {
+            height: 100px;
+            width: 20%;
+            opacity: 1;
+            box-shadow: 0px 0px 2px;
+            border-radius: 10%;
+        }
+        
+        .buttons {
+            display: grid;
+            grid-template-columns: 20px 20px;
+            grid-gap: 30px;
+            justify-content: center;
+            top: 178px;
+            left: 454px;
+            grid-gap: 30px;
+        }
+        
+        .fa {
+            font-size: xx-large;
+        }
+        
+        .left,
+        .right {
+            cursor: pointer;
+            padding: 6px;
+            background-color: transparent;
+            color: rgb(0, 0, 0);
+            border: transparent;
+            transition: 2s
+        }
+        
+        #para {
+            font-weight: bolder;
+        }
+        
+        @media screen and (max-width:720px) {
+            .main-box {
+                width: 60%;
+                margin-left: auto;
+                margin-right: auto;
+                height: 200px;
+            }
+            .left,
+            .right {
+                padding-top: 0px;
+                position: relative;
+                bottom: 10px;
+            }
+            .before {
+                left: 70%;
+                height: 130px;
+                width: 22%;
+            }
+            .after {
+                left: 14%;
+                height: 90px;
+                width: 15%;
+                top: 45%;
+            }
+            .before2 {
+                display: none;
+            }
+            .after2 {
+                display: none;
+            }
+        }
+        
+        @media screen and (max-width:500px) {
+            .before,
+            .after,
+            .before2,
+            .after2 {
+                display: none;
+            }
+        }
