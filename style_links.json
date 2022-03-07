@@ -306,5 +306,9 @@
   {
     "name": "Animated Heading Page",
     "link": "Animated Heading Page/index.html"
+  },
+  {
+    "name": "Simple Hover Effect",
+    "link": "Simple Hover Effect/index.html"
   }
 ]
