@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.rain{
+    height: 100vh;
+    background: url(rain.png);
+    animation: rain .3s linear infinite;
+}
+.rain:before
+{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    animation: lighting .3s linear infinite;
+    opacity: 0;
+    
+}
+@keyframes rain {
+    0%
+    {
+        background-position: 0% 0%;
+    }
+    100%
+    {
+        background-position: 20% 100%;
+    }
+}
+@keyframes lighting
+{
+    0%{
+        opacity: 0;
+    }
+    10%{
+        opacity: 0;
+    }
+    11%{
+        opacity: 1;
+    }
+    14%{
+        opacity: 0;
+    }
+    20%{
+        opacity: 0;
+    }
+    21%{
+        opacity: 1;
+    }
+    24%{
+        opacity: 0;
+    }
+    104%{
+        opacity: 0;
+    }
+}
