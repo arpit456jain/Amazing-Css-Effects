@@ -1,0 +1,49 @@
+body{
+    background: #262626;
+}
+.wrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
+
+.wrapper span{
+    font-family:bignoodletitling ;
+    color: #fff;
+    border: 5px solid #ddd;
+    padding: 0 30px;
+    border-radius: 25px;
+    margin: 0 10px;
+}
+.box{
+    display: inline-block;
+    overflow: hidden;
+    height: 1em;
+    line-height: 1em;
+    font-weight: bold;
+    font-size: 16em;
+}
+.box:after{
+    position: relative;
+    white-space: pre;
+    content: "0\A 1\A 2\A 3\A 4\A 5\A 6\A 7\A 8\A 9";  
+}
+.box.first-number:after{
+    animation: animate 1s steps(10) infinite;
+}
+.box.second-number:after{
+    animation: animate 10s steps(10) infinite;
+}
+.box.third-number:after{
+    animation: animate 100s steps(10) infinite;
+}
+
+@keyframes animate{
+    0%{
+        top: 0;
+    }
+    100%{
+        top: -10em;
+    }
+}
