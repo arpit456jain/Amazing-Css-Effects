@@ -137,29 +137,38 @@ a:hover {
   }
 }
 
-/* scroll top starts */
+/* SCROLL-TO-TOP BUTTON STARTS */
 #scroll-top {
   position: fixed;
   bottom: -140%;
-  right: 1rem;
-  padding: 0.6rem 1rem;
-  font-size: 2rem;
-  background: #00ff37;
-  color: rgb(13, 0, 44);
+  right: 2rem;
+  padding: 0.85rem 1rem;
   border-radius: 50%;
-  transition: 1s linear;
+
+  font-size: 1.38rem;
+  background: #fff;
+  color: rgb(19, 24, 44);
+  
   z-index: 1000;
   text-decoration: none;
+  transition: 1s linear;
+
+  -webkit-box-shadow: 0 0 10px 2px rgba(5, 3, 22, 0.45);
+  -moz-box-shadow: 0 0 10px 2px rgba(210, 207, 236, 0.45);
+  box-shadow: 0 0 10px 2px rgba(210, 207, 236, 0.45);
 }
 #scroll-top:hover {
-  -webkit-box-shadow: 0 0 10px 2px rgba(26, 1, 253, 0.42);
-  -moz-box-shadow: 0 0 10px 2px rgba(26, 1, 253, 0.42);
-  box-shadow: 0 0 10px 2px rgba(26, 1, 253, 0.42);
+  transform: translateY(-5px);
+  transition: transform 0.15s linear;
+
+  -webkit-box-shadow: 0 0 10px 2px rgba(210, 207, 236, 0.75);
+  -moz-box-shadow: 0 0 10px 2px rgba(210, 207, 236, 0.75);
+  box-shadow: 0 0 10px 2px rgba(210, 207, 236, 0.75);
 }
 #scroll-top.active {
-  bottom: calc(100% - 36rem);
+  bottom: calc(100% - 40rem);
 }
-/* scroll top ends */
+/* SCROLL-TO-TOP BUTTON ENDS */
 
 /* CSS for NavBar starts */
 /* 
