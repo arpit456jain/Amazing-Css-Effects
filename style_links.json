@@ -322,5 +322,9 @@
   {
     "name": "Simple Hover Effect",
     "link": "Simple Hover Effect/index.html"
+  },
+  {
+    "name": "Pulse Effect",
+    "link": "Pulse Effect/index.html"
   }
 ]

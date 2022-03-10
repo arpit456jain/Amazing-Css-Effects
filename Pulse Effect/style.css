@@ -1,0 +1,35 @@
+:root {
+--color: hsl(147, 100%, 71%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #010824;
+}
+
+.live {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: var(--color);
+    animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        box-shadow: var(--color) 0 0 0 0;
+    }
+    75% {
+        box-shadow: transparent 0 0 0 28px;
+    }
+}
+  
