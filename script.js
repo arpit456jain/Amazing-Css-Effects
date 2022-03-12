@@ -39,16 +39,16 @@ fetch('style_links.json')
         for (let i = 0; i < links.length; i++) {
             console.log(links.length);
             let StyleBoxDiv = document.createElement('div');
-            StyleBoxDiv.innerHTML = `<div class="stylebox">
-            <div class="image">
-                 <img src="https://raw.githubusercontent.com/arpit456jain/Amazing-Css-Effects/master/${links[i].name}/preview.png" alt="">
-             </div>
-            <p>${links[i].name}</p>
-
-            <div class="btn-group">
-            <a target="_blank" href="${links[i].link}">View</a>
+            StyleBoxDiv.innerHTML = 
+            `<div class="stylebox">
+                <div class="image">
+                    <img src="https://raw.githubusercontent.com/arpit456jain/Amazing-Css-Effects/master/${links[i].name}/preview.png" alt="">
+                </div>
+                <div class="card-data">
+                    <p class="card-heading">${links[i].name}</p>
+                    <a href=${links[i].link}><button class="btnn">View</button></a>
+                </div>
             
-            </div>
             </div>`;
             document.getElementById('styles').appendChild(StyleBoxDiv);
         };
