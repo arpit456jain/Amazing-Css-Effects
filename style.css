@@ -264,6 +264,10 @@ a {
   content: " ";
 }
 
+.nav-links .menu .fab {
+  font-size: 20px;
+}
+
  input[type=checkbox]{
   display: none;
  } 
