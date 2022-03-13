@@ -60,12 +60,10 @@ h1:hover:after {
   transition: 0.2s;
   box-shadow: 10px 8px 15px #000;
 }
-/* .stylebox:hover {
-  transform: scale(1.02);
-  -webkit-box-shadow: 0 0 10px 2px rgba(26, 1, 253, 0.42);
-  -moz-box-shadow: 0 0 10px 2px rgba(26, 1, 253, 0.42);
-  box-shadow: 0 0 10px 2px rgba(26, 1, 253, 0.42);
-} */
+.stylebox:hover {
+  
+  box-shadow: 15px 15px 17px #000;
+}
 .stylebox .image {
   width: 18rem;
   overflow: hidden;
