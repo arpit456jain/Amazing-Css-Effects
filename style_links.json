@@ -386,7 +386,7 @@
   {
 	"name": "Sliding Checkbox",
 	"link": "Sliding Checkbox/index.html"
-  }
+  },
   {
     "name": "smoke effect",
     "link": "smoke effect/index.html"
@@ -451,9 +451,8 @@
     "name": "Winner Podium Cards",
     "link": "Winner Podium Cards Nitesh Rawat/index.html"
   },
-  //lmh
   {
     "name": "Zoom-in Card",
     "link": "Zoom-in Card/index.html"
-  },
+  }
 ]
