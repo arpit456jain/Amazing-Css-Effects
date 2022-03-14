@@ -68,6 +68,7 @@ h1:hover:after {
   width: 18rem;
   overflow: hidden;
   height: 13rem;
+  padding: .5em;
 }
 .card-heading{
   display: flex;
