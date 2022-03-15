@@ -30,27 +30,54 @@ scrolltop.on('click', function(e) {
 
 // scroll to top ends
 
+let projects = [] ;
+const allProjectList = document.getElementById('styles');
+console.log(allProjectList)
+const searchBar = document.getElementById("searchBar");
+console.log(searchBar);
 
-fetch('style_links.json')
-    .then(response => response.json())
-    .then(data => {
-        let links = data;
+searchBar.addEventListener('keyup', (e) => {
+    const searchString = e.target.value;
+    const filteredProjects = projects.filter( projects => {
+        
+        return projects.name.toLowerCase().includes(searchString.toLowerCase());
+    });
 
-        for (let i = 0; i < links.length; i++) {
-            console.log(links.length);
-            let StyleBoxDiv = document.createElement('div');
-            StyleBoxDiv.innerHTML = 
-            `<div class="stylebox">
-                <div class="image">
-                    <img src="https://raw.githubusercontent.com/arpit456jain/Amazing-Css-Effects/master/${links[i].name}/preview.png" alt="">
-                </div>
-                <div class="card-data">
-                    <p class="card-heading">${links[i].name}</p>
-                    <a href=${links[i].link}><button class="btnn">View</button></a>
-                </div>
-            
-            </div>`;
-            document.getElementById('styles').appendChild(StyleBoxDiv);
-        };
+    console.log(filteredProjects)
+    displayProjects(filteredProjects);
 });
+
+
+const getProject = fetch('style_links.json')
+                .then(response => response.json())
+                .then(data => {
+                    projects = data;
+                    displayProjects(projects)
+                    console.log(projects)
+
+});
+
+
     // <a target="_blank" href="https://github.com/arpit456jain/Amazing-Css-Effects/tree/master/${links[i].name}" class="code">Code</a>
+    const displayProjects = (projects) => {
+
+        const htmlString = projects
+        .map((project) => {
+            return`<div class="stylebox">
+                 <div class="image">
+                      <img src="https://raw.githubusercontent.com/arpit456jain/Amazing-Css-Effects/master/${project.name}/preview.png" alt="">
+                  </div>
+                  <div class="card-data">
+                      <p class="card-heading">${project.name}</p>
+                      <a href=${project.link}><button class="btnn">View</button></a>
+                  </div>
+           
+              </div>`;
+              
+        })
+        
+        allProjectList.innerHTML = htmlString;
+        
+    }
+
+    getProject();
