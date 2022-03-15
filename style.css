@@ -38,13 +38,52 @@ h1:hover:after {
   left: 0;
 }
 
+.searchBarContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+#searchBar{
+  border: 3px solid #262c44;
+  margin: 1em;
+  padding: .5em;
+  width: 100%;
+  font-family: 'Space Mono';
+  font-weight: lighter;
+  font-size: 13px;
+  border-radius: 0.1em;
+  outline: none;
+  box-shadow: 0px 10px 10px #000;
+  
+}
+
+.searchBox{
+  display: flex;
+  width: 300px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchIcon{
+  position: absolute;
+  right: 42%;
+}
+
+
 .styles {
   display: flex;
+  justify-content: center;
+  align-items: center;
   justify-content: space-around;
   margin: 0 auto;
   margin-top: 4vmin;
   flex-wrap: wrap;
-  /* flex-direction: column; */
+  
+  
 }
 
 .stylebox {
@@ -66,7 +105,7 @@ h1:hover:after {
   box-shadow: 15px 15px 17px #000;
 }
 .stylebox .image {
-  width: 18rem;
+  width: 100%;
   overflow: hidden;
   height: 13rem;
   padding: .5em .5em 0 .5em;
@@ -147,6 +186,9 @@ a:hover {
     margin: 0 auto;
     margin-top: 4vmin;
   }
+  #searchBar{
+    width: 50%;
+  }
   .stylebox {
     padding: 0.5rem;
     margin: auto;
@@ -154,9 +196,32 @@ a:hover {
     margin-bottom: 1.5rem;
   }
   .stylebox .image {
+    overflow: hidden;
     width: 17rem;
     height: 12rem;
+    padding: 0;
+    margin: 0;
+    padding: .5em .5em 0 .5em;
     border-radius: 0.5rem;
+    transition: .3s;
+  }
+  .searchBox{
+    width: 500px;
+  }
+  .searchIcon{
+    right: 25%;
+  }
+
+}
+
+@media only screen and (max-width: 768px) {
+  .searchIcon{
+    right: 30%;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .searchIcon{
+    right: 30%;
   }
 }
 
