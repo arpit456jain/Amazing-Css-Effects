@@ -2,8 +2,8 @@
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-
-}
+    box-sizing: border-box;
+}   
 .hero{
     width:100%;
     height: 100vh;
@@ -35,6 +35,10 @@ button {
     cursor: pointer;
     font-size: 20px;
 }
+button:hover{
+    background-color: #f1f3f3;
+    color: #000000;
+}
 .content{
     color: #fbfcfd;
     position: absolute;
@@ -50,13 +54,12 @@ h1{
 
 }
 .side-bar{
-   width: 50px;
-   height:100vh;
-   background: linear-gradient(#00545d ,#000729);
-   position: absolute;
-   right: 0;
-   top: 0;
-
+    width: 50px;
+    height:100vh;
+    background: linear-gradient(#00545d ,#000729);
+    position: absolute;
+    right: 0;
+    top: 0;
 }
 .menu{
     display: block;
@@ -65,9 +68,13 @@ h1{
     cursor: pointer;
 }
 .social-links img{
-   width: 25px;
+   width: 30px;
    margin: 5px auto;
    cursor: pointer;
+}
+.social-links img:hover{
+    border: 1px solid #f1f3f3;
+    border-radius: 50%;
 }
 .social-links{
     width: 50px;
@@ -81,13 +88,19 @@ h1{
     text-align: center;
     position: absolute;
     bottom: 30px;
-
 } 
+.useful-links img{
+    width: 30px;
+    margin: 5px auto;
+    cursor: pointer;
+}
+.useful-links img:hover{
+    border: 1px solid #f1f3f3;
+    border-radius: 50%;
+}
 .bubbles img{
     width: 50px;
     animation: bubbles 7s linear infinite;
-
-
 }
 .bubbles{
     width: 100%;
@@ -96,7 +109,6 @@ h1{
     justify-content:space-around;
     position: absolute;
     bottom: -70px;
-
 }
 @keyframes bubbles{
     0%{
