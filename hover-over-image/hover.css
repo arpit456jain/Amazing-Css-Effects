@@ -5,7 +5,7 @@
   margin-top: 15px;
 }
 
-.heading h2{
+.card-title{
   text-align: center;
   text-align: center;
   font-weight: bold;
@@ -13,7 +13,7 @@
   text-shadow: 2px 2px #ff0000;
 }
 
-.heading p{
+.card-text{
   text-align: center;
   padding-bottom: 5px;
   color: #fff;
@@ -74,15 +74,23 @@ color: #000000;
 
 /*Media queries*/
 @media only screen and (max-width: 1920px) {
-  .heading h2 {
+  .card-title{
     font-size: 38px;
     font-weight: bold;
   }
 
-  .heading p {
+  .card-text {
     font-size: 33px;
   }
 
+
+  .card {
+
+  width: 980px;
+  margin:auto;
+  text-align:center;
+  margin-top: 20px;
+}
 
 }
 
@@ -92,26 +100,40 @@ color: #000000;
 
 @media only screen and (max-width: 1024px) {
   
-  .heading h2 {
-    font-size: 34px;
+  .card-title {
+    font-size: 58px;
     font-weight: bold;
   }
 
-  .heading p {
-    font-size: 30px;
+  .card-text {
+    font-size: 45px;
   }
+
+  .card {
+
+  max-width: 500px;
+  margin:auto;
+  text-align:center;
+  margin-top: 20px;
+}
+
+.card{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
 
 }
 
 
 @media only screen and (max-width: 480px) {
   
-  .heading h2 {
+  .card-title {
     font-size: 33px;
     font-weight: bold;
   }
 
-  .heading p {
+  .card-text {
     font-size: 30px;
   }
 
