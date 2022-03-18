@@ -1,17 +1,37 @@
-body{
+*{
     margin: 0;
     padding: 0;
-    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(pic.jpg);
+    box-sizing: border-box;
+}
+:root {
+    --black:rgba(0,0,0,0.5);
+    --indigo:rgba(0,0,100,0.8);
+    --white:#fff;
+    --pink:#FFC0CB;
+    --lightgrey:#999;
+    --red:#ff105f;
+    --yellow:#ffad06;
+    --lightblue:#607dd8;
+    --lightwhite: #f5f6fa;
+     --lightgrey:#dcdde1;
+     --darkpink::#e84393;
+     --lightred:#e84118;
+     --sky:#0097e6;
+     --violet:#4267B2;
+}
+body{
+
+    background-image:linear-gradient(var(--black),var(--black)), url(pic.jpg);
     background-size: cover;
     background-position: center;
     font-family: sans-serif;
     
     }
-    .loginbox{
+     .loginbox{
         width:320px;
-        height:420px;
-        background: #000;
-        color: #fff;
+        /* height:420px; */
+        background-image:linear-gradient(var(--indigo),var(--indigo));
+        color:var(--white);
         top:50%;
         left: 50%;
         position: absolute;
@@ -19,62 +39,115 @@ body{
         box-sizing: border-box;
        padding: 70px 30px;
     }
+    
     .avatar{
         width: 100px;
         height: 100px;
         border-radius: 50%;
         position: absolute;
-        top: -50px;
-        left: calc(50% -50px);
+       bottom:90%;
+       left:32%;
     }
-    h1{
+   
+    .loginbox h1{
         margin: 0;
         padding: 0 0 20px;
         text-align: center;
         font-size: 22px;
+       
     }
-    .loginbox p{
+    .loginbox h1::after{
+        content:'';
+        position: absolute;
+        width:38%;
+        bottom:81%;
+        left:32%;
+        border-bottom: 2px solid var(--pink);
+    }
+     
+    .loginbox span{
         margin: 0;
         padding: 0;
         font-weight: bold;
     }
-    .loginbox input{
-        width: 100%;
-        margin-bottom: 20px;
-    }
-    .loginbox input[type="text"], input[type="password"]{
-        border: none;
-        border-bottom: 1px solid #fff;
+    
+    .loginbox .input-field{
+       
+        width:100%;
+        padding: 10px 0;
+        margin:8px 0;
+        border-left: 0;
+        border-top: 0;
+        border-right: 0;
+        border-bottom: 1px solid var(--lightgrey);
+        outline: none;
         background: transparent;
-        outline: none;
-        height: 40px;
-        color: #fff;
-        font-size: 16px;
+        font-size:16px;
     }
-    .login input[type="submit"]
+       
+    .submit input[type="submit"]
     {
-        border: none;
+    
+        width:36%;
+        padding: 10px 30px;
+        cursor:pointer;
+        display: block;
+        margin:auto;
+        margin-top: 6%;
+        background: linear-gradient(to right,var(--red),var(--yellow));
+        border:0;
         outline: none;
-        height: 40px;
-        background: #fb2525;
-        color: #fff;
-        font-size: 18px;
         border-radius: 30px;
     }
-    .loginbox input[type="submit"]:hover{
-    
-        cursor: pointer;
-        background: #ffc107;
-        color: #000;
+    .forgotpassword{
+        margin-top: 6%;
     }
-    .loginbox a{
-        text-decoration: none;
-        font-size: 12px;
-        line-height: 20px;
-        color:darkgrey;
+    .loginbox .social{
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
-    .loginbox a:hover
-    {
-        color: #ffc107;
-        transition: 0.6s ease;
+    .loginbox .social li{
+        list-style: none;
+        width:50px;
+        height:50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background:var(--lightblue);
     }
+    .socialicon{
+         display: flex;
+         justify-content: center;  
+         margin-top:6%;      
+    }
+    .socialicon a{
+        height:40px;
+        width:40px;  
+        background-color:var(--lightwhite);
+        border-radius: 50px;
+        text-align: center;
+        line-height: 46px;
+        margin-right: 10px;
+        box-shadow: 1px 2px 1px 0px var(--lightgrey);
+    }
+    .socialicon a i {
+        font-size: 20px;
+        transition: all 0.3s linear;
+    }
+    .socialicon a:hover i{
+        transform: scale(1.4);
+    }
+    .fa-instagram{
+        color:var(--darkpink);
+    }
+    .fa-youtube{
+        color:var(--lightred);
+    }
+    .fa-linkedin{
+        color:var(--sky);
+    }
+.fa-facebook{
+    color:var(--violet);
+}
+   
