@@ -1,20 +1,27 @@
-.container {
-  position: relative;
+.card{
   width: 300px;
   margin:auto;
   text-align:center;
+  margin-top: 15px;
 }
 
 .heading h2{
   text-align: center;
+  text-align: center;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 2px 2px #ff0000;
 }
 
 .heading p{
   text-align: center;
+  padding-bottom: 5px;
+  color: #fff;
+  text-shadow: 2px 2px #ff0000;
 }
 
 
-.image {
+.card-img-top{
   display: block;
   width: 100%;
   height: auto;
@@ -25,7 +32,7 @@
   bottom: 100%;
   left: 0;
   right: 0;
-  background-color: #000000;
+  background-color: #fff;
   opacity: 0.7;
   overflow: hidden;
   width: 100%;
@@ -33,14 +40,14 @@
   transition: .5s ease;
 }
 
-.container:hover .overlay {
+.card:hover .overlay {
   bottom: 0;
   height: 100%;
 }
 
 .main {
   white-space: nowrap; 
-  color: white;
+  color: #000000;
   font-size: 18px;
   position: absolute;
   overflow: hidden;
@@ -52,15 +59,62 @@
 
 .main .fa{
 font-size: 18px;
-/*padding-top: 10px;*/
 padding: 12px;
 text-decoration:none;
-color: #fff;
+color: #000000;
 
 }
 
 .main .fa:hover {
 	transform: scale(1);
-	 color: #FFEA19;
-	 box-shadow: 0 0 15px  #FFEA19;
+	 color: #000000;
+	 box-shadow: 0 0 15px  #000000;
 }
+
+
+/*Media queries*/
+@media only screen and (max-width: 1920px) {
+  .heading h2 {
+    font-size: 38px;
+    font-weight: bold;
+  }
+
+  .heading p {
+    font-size: 33px;
+  }
+
+
+}
+
+
+
+
+
+@media only screen and (max-width: 1024px) {
+  
+  .heading h2 {
+    font-size: 34px;
+    font-weight: bold;
+  }
+
+  .heading p {
+    font-size: 30px;
+  }
+
+}
+
+
+@media only screen and (max-width: 480px) {
+  
+  .heading h2 {
+    font-size: 33px;
+    font-weight: bold;
+  }
+
+  .heading p {
+    font-size: 30px;
+  }
+
+}
+
+
