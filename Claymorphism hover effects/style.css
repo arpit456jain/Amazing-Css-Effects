@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 125vh;
+    background: white;
+}
+
+.container{
+    position: relative;
+    width: 500px;
+    height: 750px;
+    background: #8D021F;
+    border-radius: 30px;
+    padding: 40px;
+    box-shadow: 25px 25px 75px rgba(0, 0, 0, 0.25),
+    10px 10px 70px rgba(0, 0, 0, 0.25),
+    inset 5px 5px 10px rgba(0, 0, 0, 0.5),
+    inset 5px 5px 20px rgba(255, 255, 255, 0.2),
+    inset -5px -5px 15px rgba(0, 0, 0, 0.75);
+}
+
+.container h3{
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+.container .list{
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    cursor: pointer;
+}
+
+.container .list::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 45px;
+    height: 45px;
+    background: #1f83f2;
+    border-radius: 30px;
+    box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.25),
+    inset 2px 2px 5px rgba(255, 255, 255, 0.5),
+    inset -3px -3px 5px rgba(0, 0, 0, 0.5);
+    transition: 0.5s;
+}
+
+.container .list:hover::before{
+    width: 100%;
+}
+
+.container .list .rank{
+    position: relative;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.container .list .rank::before{
+    content: '';
+    position: absolute;
+    top: 6px;
+    width: 30px;
+    height: 30px;
+    background: #2e3641;
+    border-radius: 30px;
+    transform: scale(0);
+    transition: 0.5s;
+}
+
+.container .list:hover .rank::before{
+    transform: scale(1);
+}
+
+.container .list .rank span{
+    font-weight: bold;
+    color: #fff;
+}
+
+.container .list:hover .rank span{
+    z-index: 100;
+    transition: 0.5s;
+}
+
+.container .list .programs{
+    position: relative;
+    line-height: 1.15em;
+}
+
+.container .list .programs h4{
+    font-weight: 600;
+    color: #c2bdbd;
+}
+
+.container .list .programs p{
+    font-weight: 400;
+    color: #646464;
+    font-size: 0.90em;
+    transition: 0.5s;
+}
+
+.container .list:hover .programs h4,
+.container .list:hover .programs p{
+    color: #fff;
+}
