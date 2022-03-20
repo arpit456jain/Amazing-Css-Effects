@@ -9,13 +9,16 @@ body
   justify-content: center;
   display: flex;
   align-items: center;
+  overflow: auto;
   
 }
 
 .wrapper{
-  display: flex;
-  flex-direction: column;
-}
+  margin-left:auto;
+  margin-right:auto;
+  height:auto; 
+  width:auto;
+  }
 
 @keyframes myAnimation {
   10% {
@@ -243,7 +246,7 @@ body
 {
   height: 1.2px;
   width: 1.2px;
-  
+
   box-shadow: 1px 0 black, 2px 0 black, 3px 0 black, 4px 0 black, 10px 0 black, 11px 0 black, 12px 0 black, 13px 0 black,
   0 1px black, 1px 1px white, 2px 1px white, 3px 1px white, 4px 1px white, 5px 1px black, 9px 1px black,10px 1px white, 11px 1px white, 12px 1px white, 13px 1px white, 14px 1px black, 
   0 2px black, 1px 2px white, 2px 2px white, 3px 2px white, 4px 2px white, 5px 2px black, 6px 2px black, 7px 2px black, 8px 2px black, 9px 2px black, 10px 2px white, 11px 2px white, 12px 2px white, 13px 2px white, 14px 2px black,
@@ -272,7 +275,10 @@ body
 
 .sub_div{
     position: absolute;
-    bottom: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    top: 20px;
 }
 
 p{
@@ -280,5 +286,6 @@ p{
   font-family: 'Press Start 2P';
   color: #7CDF7C;
   font-weight: medium;
-  font-size: 70px;
+  font-size:3.2vw;
+ 
 }
