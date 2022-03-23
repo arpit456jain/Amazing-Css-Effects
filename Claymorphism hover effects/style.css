@@ -9,17 +9,18 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 125vh;
+    min-height: 140vh;
     background: white;
 }
 
 .container{
     position: relative;
-    width: 500px;
-    height: 750px;
+    width: 65vh;
     background: #8D021F;
     border-radius: 30px;
     padding: 40px;
+    height: auto;
+    flex-direction: column;
     box-shadow: 25px 25px 75px rgba(0, 0, 0, 0.25),
     10px 10px 70px rgba(0, 0, 0, 0.25),
     inset 5px 5px 10px rgba(0, 0, 0, 0.5),
@@ -35,6 +36,11 @@ body{
 }
 
 .container .list{
+    background-color: transparent;
+    height: auto;
+    border-radius: 50px;
+    width: 90%;
+    margin-left: 5%;
     position: relative;
     display: flex;
     align-items: center;
@@ -44,21 +50,22 @@ body{
 
 .container .list::before{
     content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
     width: 45px;
     height: 45px;
+    position: absolute;
     background: #1f83f2;
+    transition: 0.5s ease;
     border-radius: 30px;
+    top: 0;
+    left: 0;
     box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.25),
     inset 2px 2px 5px rgba(255, 255, 255, 0.5),
     inset -3px -3px 5px rgba(0, 0, 0, 0.5);
-    transition: 0.5s;
 }
 
 .container .list:hover::before{
     width: 100%;
+    position: absolute;
 }
 
 .container .list .rank{
@@ -74,14 +81,14 @@ body{
 
 .container .list .rank::before{
     content: '';
-    position: absolute;
-    top: 6px;
     width: 30px;
     height: 30px;
     background: #2e3641;
-    border-radius: 30px;
+    position: absolute;
     transform: scale(0);
-    transition: 0.5s;
+    border-radius: 30px;
+    transition: 0.5s ease;
+    top: 6px;
 }
 
 .container .list:hover .rank::before{
@@ -91,6 +98,13 @@ body{
 .container .list .rank span{
     font-weight: bold;
     color: #fff;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: relative;
 }
 
 .container .list:hover .rank span{
@@ -99,6 +113,13 @@ body{
 }
 
 .container .list .programs{
+    height: auto;
+    margin-top: 5px;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    display: flex;
     position: relative;
     line-height: 1.15em;
 }
@@ -108,14 +129,6 @@ body{
     color: #c2bdbd;
 }
 
-.container .list .programs p{
-    font-weight: 400;
-    color: #646464;
-    font-size: 0.90em;
-    transition: 0.5s;
-}
-
-.container .list:hover .programs h4,
-.container .list:hover .programs p{
+.container .list:hover .programs h4{
     color: #fff;
 }
