@@ -8,16 +8,48 @@
     "link": "3d flip hover effect/index.html"
   },
   {
+    "name": "3D Hover Effect",
+    "link": "3D Hover Effect/index.html"
+  },
+  {
+	"name": "3D Text Effect",
+	"link": "3D Text/index.html"
+  },
+  {
+	"name": "Animated Achievement Card",
+	"link": "Animated Achievement Card/index.html"
+  },
+  {
+	"name": "Animated Countdown",
+	"link": "Animated Countdown/index.html"
+  },
+  {
     "name": "Animated Gradient using Pure CSS",
     "link": "Animated Gradient using Pure CSS/index.html"
+  },
+  {
+	  "name": "Animated Heading Page",
+	  "link": "Animated Heading Page/index.html"
+  },
+  {
+	  "name": "Animated Loaders",
+	  "link": "Animated Loaders/index.html"
   },
   {
     "name": "Animated Login Form",
     "link": "Animated Login Form/index.html"
   },
   {
-    "name": "Animated Ocean Logo",
-    "link": "Animated Ocean Logo/index.html"
+	"name": "Animated Logos",
+	"link": "Animated Logos"
+  },
+  {
+	"name": "Animated Navigation",
+	"link":	"animated Navigation/index.html"
+  },
+  {
+	"name": "Animated Ocean Logo",
+	"link": "Animated Ocean Logo/index.html"
   },
   {
     "name": "Animated Realistic Bubbles",
@@ -28,8 +60,12 @@
     "link": "Animated Rocket Launcher/index.html"
   },
   {
-    "name": "Animated Santa",
+    "name": "Animated Santa with snowfall bg",
     "link": "Animated Santa with snowfall bg/index.html"
+  },
+  {
+	"name": "Animated Sidebar",
+	"link": "Animated Sidebar/index.html"
   },
   {
     "name": "Animated Stacked Cards",
@@ -44,12 +80,40 @@
     "link": "Animated UI Design/index.html"
   },
   {
+  	"name": "Animated 3D Cube",
+	"link": "Animated_3D_Cube/index.html"
+  },
+  {
+	"name": "Animated Glassmorphism",
+	"link": "Animated-Glassmorphism-Vanila-Js/index.html"
+  },
+  {
+	"name": "Animated Rain and Lightning Effect",
+	"link": "Animated-Rain-and-Lightning-effect/index.html"
+  },
+  {
+	"name": "Assasin's Creed Cards",
+	"link": "Assasin's creed cards/index.html"
+  },
+  {
+	"name": "Blur Loading",
+	"link": "Blur-loading/index.html"
+  },
+  {
     "name": "Bubble Navbar Animation",
     "link": "Bubble Navbar Animation/index.html"
   },
   {
-    "name": "Camera_Design",
-    "link": "Camera_Design/index.html"
+	"name": "Bulb",
+	"link": "Bulb/index.html"
+  },
+  {
+	"name": "Button to E-mail Effect",
+	"link": "Button_to_email_effect/index.html"
+  },
+  {
+	"name": "Camera_Design",
+	"link": "Camera_Design/index.html"
   },
   {
     "name": "Card Hover Effect",
@@ -62,6 +126,10 @@
   {
     "name": "Changing Typing Effects",
     "link": "Changing Typing Effects/index.html"
+  },
+  {
+    "name": "Colorful Rain Effect",
+    "link": "Colorful Rain Effect/index.html"
   },
   {
     "name": "Comets Effect",
@@ -84,8 +152,16 @@
     "link": "css glowing gradient loader ring/index.html"
   },
   {
+	"name": "CSS Glitch",
+	"link": "css-glitch/index.html"
+  },
+  {
     "name": "Custom Ice Cream Maker",
     "link": "Custom Ice Cream Maker/index.html"
+  },
+  {
+	"name": "Diagonal Animation",
+	"link": "Diagonal Animation/index.html"
   },
   {
     "name": "Digital Wrist Watch",
@@ -96,12 +172,36 @@
     "link": "Distortion Effect/index.html"
   },
   {
+	"name": "Expanding Flex Cards",
+	"link": "Expanding Flex Cards/index.html"
+  },
+  {
+	"name": "Face Hover Effect",
+	"link": "Face Hover Effect/index.html"
+  },
+  {
+	"name": "Falling Leaves Animation",
+	"link": "Falling Leaves Animation/index.html"
+  },
+  {
     "name": "FAQ Accordion",
     "link": "FAQ Accordion/index.html"
   },
   {
+	  "name": "Flip Card",
+	  "link":  "flip_card1/index.html"
+  },
+  {
+	  "name": "Glassmorphic Flipbook",
+	  "link": "glassmorphic-flipbook/index.html"
+  },
+  {
     "name": "GlassMorphic-SignUpForm",
     "link": "GlassMorphic-SignUpForm/index.html"
+  },
+  {
+	"name": "Glassmorphism Review Card",
+	"link": "Glassmorphism review card/index.html"
   },
   {
     "name": "Glowing checkboxes",
@@ -116,8 +216,24 @@
     "link": "Glowing loading page animation/index.html"
   },
   {
+    "name": "Glowing socialmedia icons",
+    "link": "Glowing socialmedia icons/index.html"
+  },
+  {
+	"name": "Glowing Text",
+	"link": "Glowing Text/index.html"
+  },
+  {
+	"name": "Glowing Cube",
+	"link": "GlowingCube/index.html"
+  },
+  {
     "name": "Hidden  Search Bar",
     "link": "Hidden  Search Bar/index.html"
+  },
+  {
+	  "name": "Highlighted Text",
+	  "link": "Highlighted Text/index.html"
   },
   {
     "name": "Horizontal hover effect",
@@ -144,8 +260,24 @@
     "link": "Loading Animation/index.html"
   },
   {
+	"name": "Mouse Cursor Hover",
+	"link": "Mouse Cursor Hover/index.html"
+  },
+  {
+	"name": "Multi Color Text",
+	"link": "multi color text/index.html"
+  },
+  {
+	"name": "Neomorphic Page Loader",
+	"link": "Neomorphic Page Loader/index.html"
+  },
+  {
     "name": "Neon Buttons",
     "link": "Neon Buttons/neon_button.html"
+  },
+  {
+	"name": "Neon Hover Navbar",
+	"link": "Neon Hover Navbar/index.html"
   },
   {
     "name": "Neon Light Effect",
@@ -156,11 +288,15 @@
     "link": "Network Particle Animation/index.html"
   },
   {
+	"name": "Neumorphic Contact Div",
+	"link": "Neumorphic Contact Div/index.html"
+  },
+  {
     "name": "Neumorphic Login Form",
     "link": "Neumorphic Login Form/index.html"
   },
   {
-    "name": "parallax effect",
+    "name": "Parallax Effect",
     "link": "parallax effect/index.html"
   },
   {
@@ -192,6 +328,10 @@
     "link": "Profile Card/index.html"
   },
   {
+	"name": "Profile Card (gradient)",
+	"link": "Profile Card (gradient)/index.html"
+  },
+  {
     "name": "Project Timeline View",
     "link": "Project Timeline View/index.html"
   },
@@ -220,8 +360,16 @@
     "link": "Ripple Loader Animation/index.html"
   },
   {
+	"name": "Rolling Text",
+	"link": "rolling text by yash-25log/index.html"
+  },
+  {
     "name": "Rotating cards",
     "link": "Rotating cards/index.html"
+  },
+  {
+	"name": "Safari 3D",
+	"link": "safari3d/index.html"
   },
   {
     "name": "Sass-Buttons",
@@ -230,6 +378,18 @@
   {
     "name": "Service card effect",
     "link": "Service card effect/index.html"
+  },
+  {
+	"name": "Simple Hover Effect",
+	"link": "Simple Hover Effect/index.html"
+  },
+  {
+	"name": "Site with Video",
+	"link": "Site with video/index.html"
+  },
+  {
+	"name": "Sliding Checkbox",
+	"link": "Sliding Checkbox/index.html"
   },
   {
     "name": "smoke effect",
@@ -244,6 +404,10 @@
     "link": "Split Video on Page Scroll/index.html"
   },
   {
+    "name": "Star Parallax",
+    "link": "Star Parallax/index.html"
+  },
+  {
     "name": "Steaming cup",
     "link": "Steaming cup/Tea cup.html"
   },
@@ -252,8 +416,24 @@
     "link": "Submarine Animation/index.html"
   },
   {
+	"name": "Text Effect",
+	"link": "text effect/index.html"
+  },
+  {
+	"name": "Text to Life",
+	"link": "Text to life/index.html"
+  },
+  {
+	"name": "Toy Girl",
+	"link": "Toy Girl/index.html"
+  },
+  {
     "name": "Transition Effect",
     "link": "Transition Effect/card_effect.html"
+  },
+  {
+	"name": "Triangular Images Gallery",
+	"link": "Triangular images gallery/index.html"
   },
   {
     "name": "Video-preview-button--Main",
@@ -272,8 +452,8 @@
     "link": "Weild the web/index.html"
   },
   {
-    "name": "Winner Podium Cards",
-    "link": "Winner Podium Cards/index.html"
+    "name": "Winner Podium Cards Nitesh Rawat",
+    "link": "Winner Podium Cards Nitesh Rawat/index.html"
   },
   {
     "name": "Zoom-in Card",
@@ -284,23 +464,35 @@
     "link": "Diagonal Animation/index.html"
   },
   {
-    "name": "CSS Glitch",
+    "name": "css-glitch",
     "link": "css-glitch/index.html"
   },
   {
-    "name": "3D Text Effect",
+    "name": "3D Text",
     "link": "3D Text/index.html"
+  },
+  {
+    "name": "Animated Pixel Frog",
+    "link": "Animated Pixel Frog/index.html"
   },
   {
     "name": "Animated Sidebar",
     "link": "Animated Sidebar/index.html"
   },
   {
-    "name": "Slideing Checkbox",
-    "link": "Slideing Checkbox/index.html"
+    "name": "Sliding Checkbox",
+    "link": "Sliding Checkbox/index.html"
   },
   {
-    "name": "Custom Mouse Cursor",
+    "name": "Mouse Cursor Hover",
     "link": "Mouse Cursor Hover/index.html"
+  },
+  {
+    "name": "Animated Heading Page",
+    "link": "Animated Heading Page/index.html"
+  },
+  {
+    "name": "Simple Hover Effect",
+    "link": "Simple Hover Effect/index.html"
   }
 ]

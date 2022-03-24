@@ -1,0 +1,219 @@
+body{
+    background: rgb(143, 143, 163);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    height: 250px;
+    min-width: 200px;
+    position:relative;
+    background-color: rgb(212, 227, 235);
+    overflow:hidden;
+    box-shadow: 5px 5px 0 rgb(110, 110, 112);
+    z-index: -10;
+}
+.container .toyBody
+{
+    height: 140px;
+    width: 150px;
+    background-color: rgb(241, 66, 66);
+    position: absolute;
+    bottom: 0%;
+    left:50%;
+    transform: translate(-50% ,20px);
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    overflow:hidden;
+   
+    
+}
+.dress
+{
+    height:70px;
+    width: 90px;
+    background-color: rgb(49, 77, 109);
+    margin:auto;
+    bottom: 0%;
+    border-top-left-radius: 30%;
+    border-top-right-radius: 30%;
+    transform: translate(0%,73%);
+}
+.dress::after
+{
+    content: "";
+    position: absolute;
+    height:60px;
+    width:13px;
+    background-color: rgb(49, 77, 109);
+    margin:auto;
+    left: 10px;
+    top:0;
+    transform: rotate(-15deg) translate(60%,-80%);   
+}
+.dress::before
+{
+    content: "";
+    position: absolute;
+    height:60px;
+    width:13px;
+    background-color: rgb(49, 77, 109);
+    margin:auto;
+    right:10px;
+    top:0;
+    transform: rotate(15deg) translate(-60%,-80%); 
+}
+.botton
+{
+    position: absolute;
+    height: 15px;
+    width:15px;
+    background-color: rgb(207, 218, 224);
+    border-radius: 50%;
+    top: 8px;
+    left: 12px;
+    z-index:10;
+}
+.botton1
+{
+    
+    position: absolute;
+    height: 15px;
+    width:15px;
+    background-color: rgb(207, 218, 224);
+    border-radius: 50%;
+    top: 8px;
+    right: 12px;
+    z-index:10;
+}
+.toyneck
+{
+    height: 60px;
+    width: 40px;
+    background-color:rgb(248, 185, 185);
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.toyneck::after
+{
+    content: "";
+    position: absolute;
+    height: 20px;
+    width: 40px;
+    border-radius: 50%;
+    background:rgb(248, 185, 185);
+    bottom: -15%;
+}
+.face
+{
+    height: 90px;
+    width: 80px;
+    background-color:rgb(248, 185, 185);
+    position: absolute;
+    top: 32%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-top-left-radius: 40%;
+    border-top-right-radius: 40%;
+}
+.hair
+{
+    height: 100%;
+    width:120px;
+    background-color:#000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-49%);
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    z-index: -3;
+} 
+.mouth
+{
+    position: absolute;
+    height: 10px;
+    width: 25px;
+    background-color: red;
+    border:1px solid;
+    border:1px solid red;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,0);
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+   
+}
+.eye
+{
+   position: absolute;
+   height: 20px;
+   width: 20px;
+   border-radius: 50%;
+   background: #fff;
+   top: 20%;
+   left: 18%;
+}
+.eye1{
+    position: absolute;
+   height: 20px;
+   width: 20px;
+   border-radius: 50%;
+   background: #fff;
+   top: 20%;
+   right:18%;
+}
+.eyedot
+{
+   position: absolute;
+   height:10px;
+   width: 10px;
+   border-radius: 50%;
+   background: #000;
+   top: 40%;
+   left: 0%;
+}
+.eyedot1
+{
+   position: absolute;
+   height:10px;
+   width: 10px;
+   border-radius: 50%;
+   background: #000;
+   top: 40%;
+   left: 0%;
+}
+.eyebrow{
+    height: 2px;
+    width: 23px; 
+
+}
+.eyebrow1
+{
+    position: absolute;
+    border-top: 3px solid #000;
+    border-right:1px solid #000;
+    border-left: 1px solid #000;
+    border-radius: 50%;
+    top:19%;
+    left:30%;
+    transform: translate(-50% ,-50%);
+
+}
+.eyebrow2
+{
+    position: absolute;
+    border-top: 3px solid #000;
+    border-right:1px solid #000;
+    border-left: 1px solid #000;
+    border-radius: 50%;
+    top:19%;
+    left:70%;
+    transform: translate(-50% ,-50%);
+
+}

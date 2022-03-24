@@ -1,0 +1,113 @@
+
+@keyframes rotate-cube{
+
+	0%{
+		transform: rotateX(0deg) rotateY(0deg) translate(0px);
+	 }
+	 
+	 25%{
+		 transform: rotateX(90deg) rotateY(90deg) translate(-400px);
+		 height: 250px;
+	     width: 150px;
+	 }
+ 
+	 50%{
+		 transform: rotateX(200deg) rotateY(200deg) translate(-400px);
+		 height: 250px;
+	     width: 200px;
+	 }
+ 
+	 75%{
+		 transform: rotateX(270deg) rotateY(270deg) translate(-200px);
+		 height: 200px;
+	     width: 250px;
+	 }
+ 
+	 100%{
+		 transform: rotate(360deg) rotate(360deg) translate(-0px);
+	 }
+
+	
+}
+
+/* *{
+	background-image: url('image.png');
+	height: 0vh;
+    z-index: 0;
+	box-shadow: 0vh 35vh 70px 15px pink;
+} */
+
+body{
+	background-image: url('image.png');
+	height: 0vh;
+    z-index: 0;
+	box-shadow: 0vh 45vh 70px 15px pink;
+}
+
+.cube{
+	height: 100px;
+	width: 100px;	
+	position: relative;
+	margin: 24% 400px;
+	transform-style: preserve-3d;
+	perspective: 1000px;
+	animation: rotate-cube 5s ease-in-out infinite;
+}
+
+.face{
+	height: 100%;
+	width: 100%;
+	border: 1px solid rgb(248, 190, 248);
+	position: absolute;
+	top: 10%;
+	left: 80%;
+	transition: all 1s;
+}
+
+.one{
+	background-color: rgba(248, 169, 189, 0.603);
+	box-shadow: 0px 0px 20px 5px rgb(248, 190, 248);
+}
+
+.two{
+	background-color: rgba(248, 191, 234, 0.603);
+	transform: rotateX(90deg) translateZ(50px) translateY(50px);
+	box-shadow: 0px 0px 20px 5px rgb(248, 190, 248);
+}
+
+.three{
+	background-color: rgba(248, 171, 191, 0.603);
+	transform: rotateX(90deg) translateY(50px) translateZ(-50px);
+	box-shadow: 0px 0px 20px 5px rgb(248, 190, 248);
+}
+
+.four{
+	background-color: rgba(250, 186, 234, 0.603);
+	transform:translateZ(100px);
+	box-shadow: 0px 0px 20px 5px rgb(248, 190, 248);
+}
+
+
+.five{
+	background-color: rgba(252, 188, 236, 0.603);
+	transform: rotateY(90deg) translateX(-50px) translateZ(50px);
+	box-shadow: 0px 0px 20px 5px rgb(248, 190, 248);
+}
+
+.six{
+	background-color: rgba(247, 195, 208, 0.603);
+	transform: rotateY(90deg) translateX(-50px) translateZ(-50px);
+	box-shadow: 0px 0px 20px 5px rgb(248, 190, 248);
+}
+
+#text{
+    font-size: 5rem;
+    position: absolute;
+	color: #f8abe8;
+	text-align: center;
+	z-index: 2;
+	width: 95vw;
+	top: 35vh;
+	text-shadow: 3px 2px #f85ad6;
+	letter-spacing: 2px;
+}

@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: roboto;
+    overflow: hidden;
+}
+.bg{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(135deg, #DB1D4B, #F9E3A2);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.txt{
+    position: absolute;
+    color: #FFF;
+    font-size: 3rem;
+    text-transform: uppercase;
+    line-height: 55px;
+}
+.txt span{
+    font-size: 5rem;
+    position: relative;
+}
+.menu{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.circle{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 5rem;
+    height: 5rem;
+    background-color: #DB1D4B;
+    border-bottom-left-radius: 100%;
+    transition: all .5s ease-in-out;
+}
+
+.cross{
+    position: absolute;
+    top: .6rem;
+    right: .6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    z-index: 3;
+}
+.dash1{
+    position: relative;
+    width: 100%;
+    height: .25rem;
+    background-color: #fff;
+    border-radius: 25px;
+    transform: translateY(-5px);
+    transition: all .25s ease-in-out;
+}
+.dash2{
+    position: relative;
+    transform: translateY(5px);
+    left: 10px;
+    width: 40%;
+    height: .25rem;
+    background-color: #fff;
+    border-radius: 25px;
+    transition: all .25s ease-in-out;
+}
+.cross.open .dash1{
+    transform: rotate(-45deg) translate(-3px, 2px);
+}
+.cross.open .dash2{
+    transform: rotate(45deg) translate(-6px, 7px);
+    width: 100%;
+}
+.cross.open ~ .circle{
+    width: 150%;
+    height: 150vh;
+    border-bottom-left-radius: 100%;
+}
+.options{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: all .20s ease-in-out;
+    transition-delay: .25s;
+    z-index: 2;
+    /* set display to none  */
+}
+.cross.open ~ .options{
+    opacity: 1;
+}
+.options ul{
+    text-align: center;
+}
+.options ul li{
+    width: 100%;
+    height: auto;
+}
+.options ul li a{
+    text-decoration: none;
+    font-size: 2.2rem;
+    color: #FFF;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    
+}
