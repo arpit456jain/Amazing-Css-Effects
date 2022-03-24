@@ -6,13 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Font Awesome CDN -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
      <!-- Libraries CSS Files -->
   
 
@@ -41,18 +37,29 @@
           
       <ul class="nav-links">
           <input type="checkbox" id="checkbox_toggle" />
-           <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+          <label for="checkbox_toggle" class="hamburger">&#9776;</label>
           <div class="menu">
-              <li><a href="https://amazing-js-projects.netlify.app/">Amazing-JS-Projects</a></li>
-              <li><a href="https://cool-front-end-templates.netlify.app/">Cool-Front-End-Templates</a></li>
-              <li><a href="/index.html">Amazing-CSS-Effects</a></li>
+            <li><a href="https://amazing-js-projects.netlify.app/">Amazing-JS-Projects</a></li>
+            <li><a href="https://cool-front-end-templates.netlify.app/">Cool-Front-End-Templates</a></li>
+            <li><a href="/index.html">Amazing-CSS-Effects</a></li>
+            <li>
+              <a href="https://github.com/arpit456jain/Amazing-Css-Effects" target="_blank">
+                <i class="fab fa-github"></i> GitHub
+              </a>
+            </li>
           </div>
       </ul>
 </nav>
 
     <!--Adding a NavBar-->
-
-    <h1 class="heading">Amazing CSS-Effects</h1>
+    <div class="searchBarContainer">
+      <h1 class="heading">Amazing CSS-Effects</h1>
+      <div class="searchBox">
+        <input placeholder="Search Projects..." class="searchBar" id="searchBar"></input>
+        <i class="searchIcon fa-solid fa-magnifying-glass"></i>
+      </div>
+    </div>
+    
 
     <section class="styles" id="styles">
       <!-- old card design starts -->

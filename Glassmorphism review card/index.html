@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+  </head>
+<body class="review">
+  <div class="main-box" style="background-color:white;">
+        <div class="before"></div>
+        <div class="before2"></div>
+        <div class="after"></div>
+        <div class="after2"></div>
+        <div class="image">
+            <img src="per1.png" id="im" alt="image"></div>
+        <div class="para">
+            <p id="para">Daniel Watson<br> &#11088 &#11088 &#11088</p>
+        </div>
+        <div class="buttons"><button class="left" onclick="left()"><i class="fa fa-angle-left"></i></button>
+          <button class="right" onclick="right()"><i class="fa fa-angle-right"></i></button></div>
+    </div>
+    <script>
+        let count = 0;
+        const review = [{
+            id: 1,
+            img: "per1.png ",
+            text: "Daniel Watson<br> &#11088  &#11088  &#11088",
+
+        }, {
+            id: 2,
+            img: "per2.png ",
+            text: "Michael Rodolf<br>  &#11088  &#11088  &#11088  &#11088  &#11088",
+        }, {
+            id: 3,
+            img: "images.png ",
+            text: "Reem Shemar<br>  &#11088  &#11088  &#11088  &#11088",
+        }];
+
+        function right() {
+            count = count + 1;
+            if (count < 3) {
+                const para = document.getElementById('para');
+                const image = document.getElementById('im');
+                para.innerHTML = review[count].text;
+
+
+                image.src = review[count].img;
+            } else {
+                count = 2;
+            }
+        };
+
+        function left() {
+
+            count--;
+            if (count > -1) {
+                const para = document.getElementById('para');
+                const image = document.getElementById('im');
+                para.innerHTML = review[count].text;
+                image.src = review[count].img;
+            } else {
+                count = 0;
+            }
+        }
+    </script>
+</body>
+</html>

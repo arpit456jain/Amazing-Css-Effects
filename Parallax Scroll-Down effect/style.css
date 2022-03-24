@@ -16,11 +16,21 @@ header{
     top: 0;
     left: 0;
     width: 100%;
-    padding-top: 30px;
+    padding: 60px 90px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 10000;
+}
+@media only screen and (max-width: 500px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        font-size: smaller;
+        padding: 4.75px;
+    }
+    
+    
 }
 header a{
     color: aliceblue;
@@ -74,7 +84,7 @@ section img#mountains_front{
 }
 .sec{
     position: relative;
-    padding: 100px;
+    padding: 20px;
     background: #1c0522;
 }
 .sec h2{
