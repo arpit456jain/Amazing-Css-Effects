@@ -5,6 +5,7 @@ h1 {
   font-weight: 300;
   font-size: 40px;
   color: #080808;
+  margin-bottom: 2px;
  }
             table {
                 border-spacing: 5px;
@@ -12,7 +13,7 @@ h1 {
             td {
                 border: 1px solid black;
                 width: 50px;
-                height: 50px;
+                height: 52px;
                 flex-direction: column;
                 text-align: center;
             }
@@ -20,22 +21,49 @@ h1 {
                 margin: 0;
                 padding: 0;
             }
+            p span{
+                margin:0;
+                padding:0;
+                font-size:11px;
+                display:grid;
+            }
             .c1, #row1>td, #r7c4, #r8c4, #r9c4, #r10c4 {
                 border: none;
                 background: none !important;
+                box-shadow: none !important;
             }
             .invisible {
                 visibility: hidden;
             }
             .c2, .c3, #r2c20 {
-                background-color: salmon;
+                border-radius: 2px;
+                background: linear-gradient(145deg, #ff897a, #e17367);
+                box-shadow:  5px 5px 10px #9e5148,
+                             -5px -5px 10px #ffaf9c;
             }
             .c5, .c6, .c7, .c8, .c9, .c10, .c11, .c12, .c13, .c14 {
-                background-color: lightskyblue;
+                border-radius: 2px;
+                background: linear-gradient(145deg, #90dcff, #7ab9e1);
+                box-shadow:  5px 5px 10px #55829e,
+                             -5px -5px 10px #b9ffff;
             }
             .c15, .c16, .c17, .c18, .c19, .c20 {
-                background-color: yellow;
+                border-radius: 2px;
+                background: linear-gradient(145deg, #ffff00, #e6e600);
+                box-shadow:  5px 5px 10px #a1a100,
+                             -5px -5px 10px #ffff00;
             }
             #row9>td, #row10>td {
-                background-color: lightgreen;
+                border-radius: 2px;
+                background: linear-gradient(145deg, #9aff9a, #82d682);
+                box-shadow:  5px 5px 10px #5b965b,
+                             -5px -5px 10px #c5ffc5;
+            }
+            .hvr{
+
+                transition: transform 0.7s ease;
+            }
+            .hvr:hover{
+                cursor: pointer;
+                transform:scale(1.5);
             }
