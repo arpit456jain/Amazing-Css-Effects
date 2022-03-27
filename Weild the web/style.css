@@ -17,7 +17,7 @@ body{
         position: absolute;
         transform: translate(-50%,-50%);
         box-sizing: border-box;
-       padding: 70px 30px;
+        padding: 70px 30px;
     }
     .avatar{
         width: 100px;
@@ -25,6 +25,7 @@ body{
         border-radius: 50%;
         position: absolute;
         top: -50px;
+        left: 105px;
         left: calc(50% -50px);
     }
     h1{
@@ -61,16 +62,22 @@ body{
         font-size: 18px;
         border-radius: 30px;
     }
+    .login{
+        border-radius: 70px;
+        height: 35px;
+        border: none;
+        font-size: 15px;
+    }
     .loginbox input[type="submit"]:hover{
     
         cursor: pointer;
         background: #ffc107;
-        color: #000;
+        color: white;
     }
     .loginbox a{
         text-decoration: none;
-        font-size: 12px;
-        line-height: 20px;
+        font-size: 15px;
+        line-height: 30px;
         color:darkgrey;
     }
     .loginbox a:hover

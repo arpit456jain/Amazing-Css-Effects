@@ -38,69 +38,131 @@ h1:hover:after {
   left: 0;
 }
 
+.searchBarContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+#searchBar{
+  border: 3px solid #262c44;
+  margin: 1em;
+  padding: .5em;
+  width: 100%;
+  font-family: 'Space Mono';
+  font-weight: lighter;
+  font-size: 13px;
+  border-radius: 0.1em;
+  outline: none;
+  box-shadow: 0px 10px 10px #000;
+  
+}
+
+.searchBox{
+  display: flex;
+  width: 300px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchIcon{
+  position: absolute;
+  right: 42%;
+}
+
+
 .styles {
   display: flex;
+  justify-content: center;
+  align-items: center;
   justify-content: space-around;
   margin: 0 auto;
   margin-top: 4vmin;
   flex-wrap: wrap;
-  /* flex-direction: column; */
+  
+  
 }
 
 .stylebox {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  background-color: rgb(245, 217, 217);
-  padding: 1rem;
+  background-color: #efefef;
   text-align: center;
   font-family: "Poppins", sans-serif;
   margin: 1.5rem;
-  border-radius: 0.5rem;
-  border: none;
-  width: 20rem;
+  width: 18rem;
   justify-content: center;
   transition: 0.2s;
+  box-shadow: 10px 8px 15px #000;
+  border-radius: .5em;
 }
 .stylebox:hover {
-  transform: scale(1.02);
-  -webkit-box-shadow: 0 0 10px 2px rgba(26, 1, 253, 0.42);
-  -moz-box-shadow: 0 0 10px 2px rgba(26, 1, 253, 0.42);
-  box-shadow: 0 0 10px 2px rgba(26, 1, 253, 0.42);
+  
+  box-shadow: 15px 15px 17px #000;
 }
 .stylebox .image {
-  width: 18rem;
+  width: 100%;
+  overflow: hidden;
   height: 13rem;
+  padding: .5em .5em 0 .5em;
+  border-radius: .5em;
+  
+}
+.card-heading{
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  margin: 1em 1em 0 1em;
+  font-family: 'Bitter';
+}
+.card-data{
+  display: flex;
+  flex-direction: column;
+}
+button{
+  border: 2px solid #101522;
+  width: 100%;
+  font-size: 1em;
+  margin: 1em;
+  font-family: 'Bitter';
+  font-weight: bold;
+  padding: .5em;
+  transition: 0.3s;
+}
+
+.btnn:hover{
+  background-color: #101522;
+  color: #fff;
 }
 .stylebox .image img {
   background-size: cover;
   width: 100%;
   height: 100%;
-  border-radius: 0.5rem;
   image-rendering: pixelated;
+  transition: .5s;
+  border-radius: .5em;
 }
-.stylebox p {
-  text-align: left;
-  font-size: 1.2rem;
-  font-weight: 600;
-  text-transform: capitalize;
-}
-.stylebox .btn-group {
-  display: flex;
-  justify-content: space-between;
-  gap: 1rem;
-}
-.stylebox a {
-  background-color: white;
-  border: none;
-  border-radius: 0.5rem;
-  padding: 1vmin;
-  font-size: 1.2rem;
-  background-color: rgb(89, 0, 131);
-  color: rgb(255, 255, 255);
-  text-decoration: none;
-  transition: 0.2s;
+
+.stylebox .image img:hover {
+  background-size: cover;
   width: 100%;
+  height: 100%;
+  image-rendering: pixelated;
+  transform: scale(1.1);
+}
+
+.stylebox a {
+ 
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .stylebox a.code {
   background-color: rgb(47, 128, 0);
@@ -124,6 +186,9 @@ a:hover {
     margin: 0 auto;
     margin-top: 4vmin;
   }
+  #searchBar{
+    width: 50%;
+  }
   .stylebox {
     padding: 0.5rem;
     margin: auto;
@@ -131,9 +196,32 @@ a:hover {
     margin-bottom: 1.5rem;
   }
   .stylebox .image {
+    overflow: hidden;
     width: 17rem;
     height: 12rem;
+    padding: 0;
+    margin: 0;
+    padding: .5em .5em 0 .5em;
     border-radius: 0.5rem;
+    transition: .3s;
+  }
+  .searchBox{
+    width: 500px;
+  }
+  .searchIcon{
+    right: 25%;
+  }
+
+}
+
+@media only screen and (max-width: 768px) {
+  .searchIcon{
+    right: 30%;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .searchIcon{
+    right: 30%;
   }
 }
 
@@ -262,6 +350,10 @@ a {
  }
  .menu li:before{
   content: " ";
+}
+
+.nav-links .menu .fab {
+  font-size: 20px;
 }
 
  input[type=checkbox]{
