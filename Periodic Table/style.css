@@ -1,41 +1,136 @@
 h1 {
-  position: relative;
-  text-align: center;
-  font-family: "Raleway", sans-serif;
-  font-weight: 300;
-  font-size: 40px;
-  color: #080808;
- }
-            table {
-                border-spacing: 5px;
-            }
-            td {
-                border: 1px solid black;
-                width: 50px;
-                height: 50px;
-                flex-direction: column;
-                text-align: center;
-            }
-            p {
-                margin: 0;
-                padding: 0;
-            }
-            .c1, #row1>td, #r7c4, #r8c4, #r9c4, #r10c4 {
-                border: none;
-                background: none !important;
-            }
-            .invisible {
-                visibility: hidden;
-            }
-            .c2, .c3, #r2c20 {
-                background-color: salmon;
-            }
-            .c5, .c6, .c7, .c8, .c9, .c10, .c11, .c12, .c13, .c14 {
-                background-color: lightskyblue;
-            }
-            .c15, .c16, .c17, .c18, .c19, .c20 {
-                background-color: yellow;
-            }
-            #row9>td, #row10>td {
-                background-color: lightgreen;
-            }
+    position: relative;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    color: wheat;
+    box-shadow: 0px 3px 3px yellow;
+    border-bottom: 2px dotted yellow;
+}
+
+body {
+    background-color: black;
+    color: wheat;
+}
+
+table {
+    border-spacing: 5px;
+    color: wheat;
+}
+
+td {
+    width: 50px;
+    height: 50px;
+    flex-direction: column;
+    text-align: center;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.c1,
+#row1>td,
+#r7c4,
+#r8c4,
+#r9c4,
+#r10c4 {
+    border: none !important;
+    background: none !important;
+    box-shadow: none !important;
+    color: wheat !important;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.c2,
+.c3,
+#r2c20 {
+    background-color: black;
+    border: 2px dotted red;
+    box-shadow: inset 0px 2px 9px 0px red;
+    cursor: pointer;
+}
+
+.c2:hover,
+.c3:hover,
+#r2c20:hover {
+    background-color: red;
+    border: transparent;
+    transform: scale(1.1);
+    transition: 1s;
+    color: white;
+}
+
+.c5,
+.c6,
+.c7,
+.c8,
+.c9,
+.c10,
+.c11,
+.c12,
+.c13,
+.c14 {
+    border: 2px dotted blue;
+    box-shadow: inset 0px 2px 9px 0px blue;
+}
+
+.c5:hover,
+.c6:hover,
+.c7:hover,
+.c8:hover,
+.c9:hover,
+.c10:hover,
+.c11:hover,
+.c12:hover,
+.c13:hover,
+.c14:hover {
+    background-color: blue;
+    border: transparent;
+    transform: scale(1.1);
+    transition: 1s;
+    color: white;
+}
+
+.c15,
+.c16,
+.c17,
+.c18,
+.c19,
+.c20 {
+    border: 2px dotted yellow;
+    box-shadow: inset 0px 2px 9px 0px yellow;
+}
+
+.c15:hover,
+.c16:hover,
+.c17:hover,
+.c18:hover,
+.c19:hover,
+.c20:hover {
+    background-color: yellow;
+    border: transparent;
+    transform: scale(1.1);
+    transition: 1s;
+    color: black;
+}
+
+#row9>td,
+#row10>td {
+    border: 2px dotted rgb(24, 196, 24);
+    box-shadow: inset 0px 2px 9px 0px rgb(24, 196, 24);
+}
+
+#row9>td:hover,
+#row10>td:hover {
+    background-color: rgb(24, 196, 24);
+    border: transparent;
+    transform: scale(1.1);
+    transition: 1s;
+    color: white;
+}
