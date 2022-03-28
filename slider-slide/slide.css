@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
-
 * {
 	box-sizing: border-box;
 }
@@ -225,27 +224,77 @@ input {
 	width: 40px;
 }
 
-footer {
-    background-color: #222;
-    color: #fff;
-    font-size: 14px;
-    bottom: 0;
-    position: fixed;
-    left: 0;
-    right: 0;
-    text-align: center;
-    z-index: 999;
+
+@media screen and (max-width:600px) {
+
+	
+button {
+	border-radius: 5px;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 2px 45px;
 }
 
-footer p {
-    margin: 10px 0;
+.container {
+	
+	border-radius: 5px;
+	width: 350px;
+	height: 280px;
 }
 
-footer i {
-    color: rgb(89, 0, 255);
+input {
+	padding: 12px 15px;
+	width: 150px;
+}
+p {
+	font-size: 10px;
+	font-weight: 600;
+
 }
 
-footer a {
-    color: #3c97bf;
-    text-decoration: none;
+a {
+	
+	font-size: 10px;
+	font-weight: 600;
+	
+}
+
+h1 {
+	/* font-weight: bold; */
+	font-size:16px;
+}
+
+h2 {
+	font-size:17px;
+}
+
+.overlay-left {
+	transform: translateY(-20%);
+}
+
+.container.right-panel-active .overlay-left {
+	transform: translateY(100);
+}
+
+.overlay-right {
+	/* right: 0; */
+	transform: translateY(100);
+}
+
+.container.right-panel-active .overlay-right {
+	transform: translateY(20%);
+}
+
+.social-container {
+width: 100%;
+}
+
+.social-container a {
+	border: 1px solid #DDDDDD;
+	border-radius: 50%;
+	display: inline-flex;
+	margin: 0 15px;
+	
+}
+
 }
