@@ -19,7 +19,7 @@ Fixes:  #(issue no.)
 
 <!----Please delete options that are not relevant.And in order to tick the check box just but x inside them for example [x] like this----->
 - [ ] I have made this from my own
-- [ ] I have taken help from some online resourses 
+- [ ] I have taken help from some online resourses and mentioned in PR
 - [ ] My code follows the style guidelines of this project
 - [ ] I have performed a self-review of my own code
 - [ ] I have commented my code, particularly in hard-to-understand areas
