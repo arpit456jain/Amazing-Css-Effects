@@ -498,5 +498,9 @@
   {
     "name": "Glassmorphic Navigation Bar",
     "link": "Glassmorphism-navbar/index.html"
-  }
+  },
+  {
+    "name":"CSS Animation of planet revolving",
+    "link":"CSS Animation of planet revolving/index.html"
+  }	
 ]
