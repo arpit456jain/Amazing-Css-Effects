@@ -2,17 +2,17 @@
 
 Some Astonishing CSS-Effects✨
  
-<p align="center"><img src="Assets/intro.gif"></p>
+<p align="center"><img src="Assets/intro.gif" width=100%></p>
  
 
 ### This project is part of Girl script Summer of code 2022
 
-![Gssoc'2022](https://i.postimg.cc/k40ntsV4/1500x500.jpg)
+[<img alt="Gssoc'2022" width=100% src="https://i.postimg.cc/k40ntsV4/1500x500.jpg">](https://i.postimg.cc/k40ntsV4/1500x500.jpg)
 ### This project was part of the following Open Source Programs
 
   
-![Devincept](https://user-images.githubusercontent.com/56088741/123548852-1ef59d00-d784-11eb-8e39-255e0c3e97d5.gif)
-![Hacktoberfest](https://user-images.githubusercontent.com/59393136/135566614-5635902f-2907-4e01-8baf-3cb1b43a6b20.png)
+[<img alt="Devincept" width=100% src="https://user-images.githubusercontent.com/56088741/123548852-1ef59d00-d784-11eb-8e39-255e0c3e97d5.gif">](https://user-images.githubusercontent.com/56088741/123548852-1ef59d00-d784-11eb-8e39-255e0c3e97d5.gif)
+[<img alt="HacktoberFest'21" width=100% src="https://user-images.githubusercontent.com/59393136/135566614-5635902f-2907-4e01-8baf-3cb1b43a6b20.png">](https://user-images.githubusercontent.com/59393136/135566614-5635902f-2907-4e01-8baf-3cb1b43a6b20.png)
 ### Demo 🎥
 
 #### Website for this repository : https://amazing-css-effects.netlify.app/
