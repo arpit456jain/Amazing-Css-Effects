@@ -38,6 +38,7 @@ const ProjectCounter = document.getElementById('counter')
 // console.log(searchBar)
 
 //Infinite scrolling
+var doLoadingOnScroll = true
 var noOfCardsToLoad = 12
 var cardLoadedYet = 0
 var loadingBalls = false
@@ -52,6 +53,7 @@ window.addEventListener('scroll', () => {
   //   console.log(footerHeight)
 
   if (
+    doLoadingOnScroll == true &&
     clientHeight + scrollTop >= scrollHeight - footerHeight &&
     cardLoadedYet < projects.length
   ) {
@@ -108,6 +110,7 @@ function showNextItems() {
 //end of infinite scrolling
 
 searchBar.addEventListener('keyup', (e) => {
+  doLoadingOnScroll = false
   const searchString = e.target.value
   const filteredProjects = projects.filter((projects) => {
     return projects.name.toLowerCase().includes(searchString.toLowerCase())
