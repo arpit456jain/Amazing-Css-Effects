@@ -114,6 +114,7 @@ searchBar.addEventListener('keyup', (e) => {
   })
 
   //   console.log(filteredProjects)
+  loading.classList.remove('show')
   displayProjects(filteredProjects)
 })
 
@@ -129,26 +130,24 @@ const getProject = fetch('style_links.json')
   })
 
 // // <a target="_blank" href="https://github.com/arpit456jain/Amazing-Css-Effects/tree/master/${links[i].name}" class="code">Code</a>
-// const displayProjects = (projects) => {
+//display projects on searching
 
-//     const htmlString = projects
-//     .map((project) => {
-//         return`<div class="stylebox">
-//              <div class="image">
-//                   <img src="https://raw.githubusercontent.com/arpit456jain/Amazing-Css-Effects/master/${project.name}/preview.png" alt="">
-//               </div>
-//               <div class="card-data">
-//                   <p class="card-heading">${project.name}</p>
-//                   <a href=${project.link}><button class="btnn">View</button></a>
-//               </div>
+const displayProjects = (projects) => {
+  const htmlString = projects.map((project) => {
+    return `<div class="stylebox">
+             <div class="image">
+                  <img src="https://raw.githubusercontent.com/arpit456jain/Amazing-Css-Effects/master/${project.name}/preview.png" alt="">
+              </div>
+              <div class="card-data">
+                  <p class="card-heading">${project.name}</p>
+                  <a href=${project.link}><button class="btnn">View</button></a>
+              </div>
 
-//           </div>`;
+          </div>`
+  })
 
-//     })
-
-//     experi.innerHTML = htmlString
-//     ProjectCounter.innerHTML = projects.length;
-
-// }
+  experi.innerHTML = htmlString
+  ProjectCounter.innerHTML = projects.length
+}
 
 getProject()
