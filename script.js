@@ -70,7 +70,7 @@ const getProject = fetch('style_links.json')
                   </div>
                   <div class="card-data">
                       <p class="card-heading">${project.name}</p>
-                      <a href=${project.link}><button class="btnn">View</button></a>
+                      <a href="${project.link}"><button class="btnn">View</button></a>
                   </div>
            
               </div>`;
