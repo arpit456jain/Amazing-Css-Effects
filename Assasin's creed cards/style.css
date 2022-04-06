@@ -289,12 +289,18 @@ opacity:1;
     /* left: 17vw; */
   }
 }
+.container .card  .content p {
+  width: 58%;
+  font-size: 15px;
+}
+
 @media (max-width: 520px) {
   .container .card {
     /* margin: 0;
     margin-bottom: 3rem; */
     width:100%;
-    margin-left: 38px;
+    margin-left: 30px;
+    margin-right: 40px;
   }
   .container .card img {
     height: 37rem;
@@ -309,5 +315,18 @@ opacity:1;
   .container .card:hover img {
     height: 37rem;
     left: 75%;
+  }
+  .container .card:hover {
+    height: 35rem;
+  }
+}
+
+@media (max-width:700px){
+  .container .card:hover img{
+    left:83%;
+  }
+  .container .card  .content p {
+    width: 55%;
+    font-size: 15px;
   }
 }
