@@ -13,6 +13,6 @@ jobs:
       uses: peter-evans/create-or-update-comment@v1
       with:
         issue-number: ${{tojson(github.event.issue.number)}}
-        body: Hello there!👋, @${{ github.actor }} Welcome to the Amazing CSS-Effects project!🚀⚡Thank you and congrats🎉 for opening issue in this project.Please make sure not to start working on the issue, unless you get assigned to it.😄
+        body: Hello there!👋, @${{ github.actor }} Welcome to the Amazing CSS-Effects project!🚀⚡Thank you and congrats🎉 for opening issue in this project.Please make sure not to start working on the issue, unless you get assigned to it.😄 <b> currently we are not accepting new templates sorry for inconvenience u can checkout the issues which are opend or u can create a issue for improving any existing template .</b>
              
   

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parallax Scroll Down effect</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+       <a href="#" class="logo">shr-code</a> 
+       <a href="#" >Made by Shraddha Choudhary</a>
+    </header>
+<section>
+    <img src="images/stars.png"  id="stars">
+    <img src="images/moon.png"  id="moon">
+    <img src="images/mountains_behind.png"  id="mountains_behind">
+    <h2 id="text">Hi Everybody!</h2>
+    <img src="images/mountains_front.png"  id="mountains_front">
+</section>
+<div class="sec">
+    <h2>Parallax Scrolling Effects</h2>
+    <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet, quo ratione? A, iusto, voluptatum expedita minus labore cumque nemo quaerat nulla eius harum tempora ab! Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure laudantium nihil aspernatur illo sapiente officiis omnis ratione deleniti reprehenderit velit ad deserunt eum quasi quas voluptas, non, est similique excepturi.
+        Repellat provident accusamus ea quaerat sit assumenda exercitationem voluptatibus voluptates unde, in rerum velit tenetur debitis quis. Impedit odit atque nesciunt magnam eaque laborum unde temporibus sed in. Doloribus, consectetur.
+        Nihil voluptatibus veritatis totam ea repellat distinctio laudantium illo odio vero ipsam id unde non, praesentium dolor eligendi eveniet velit fuga? Tenetur culpa eius pariatur nemo adipisci exercitationem laborum aliquid.
+        Provident possimus minus dignissimos, quasi illo sunt sint quis esse sed fuga optio mollitia magni quisquam officiis modi quos dolorum alias, et tenetur aliquid vitae consequatur cum! Saepe, ex illum.
+        Dicta dolor repellendus consectetur qui eius temporibus fuga voluptate! Facere autem aspernatur voluptatem earum similique velit quam. Error laboriosam animi ad nam temporibus, excepturi amet dolore soluta voluptate debitis est! <br><br>
+        Excepturi itaque, vitae sed, explicabo dolore, ratione 
+        Iure architecto delectus ab numquam quas, eligendi voluptates voluptas, deserunt omnis asperiores quaerat iste mollitia nisi optio perspiciatis labore blanditiis, dolorem odio impedit! Omnis totam assumenda vitae quasi, iste repellat. <br><br>
+        Facere at, molestiae enim cumque beatae rerum animi neque inventore quam ex cupiditate alias obcaecati eligendi modi omnis doloribus voluptas itaque temporibus rem possimus labore ullam id fuga. Autem, officia.
+        Magnam fuga adipisci voluptatem numquam commodi fugiat consequuntur vitae maxime praesentium odit id quis dolorum cupiditate eius nihil, culpa quidem ipsum? Unde qui placeat, 
+    </p>
+</div>
+<script>
+    let stars=document.getElementById('stars');
+    let moon=document.getElementById('moon');
+    let mountains_behind=document.getElementById('mountains_behind');
+    let text =document.getElementById('text');
+    let mountains_front=document.getElementById('mountains_front');
+    window.addEventListener('scroll',function(){
+        let value =window.scrollY;
+        stars.style.left = value * 0.2 + 'px';
+        moon.style.top = value * 1.3 + 'px';
+        text.style.marginRight = value * 4 + 'px';
+        text.style.marginTop= value * 1.3 + 'px';
+
+    })
+</script>
+</body>
+</html>
