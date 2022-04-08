@@ -1,5 +1,7 @@
 body {
     background:#eedb0f;
+    margin: 0;
+    padding: 0;
 }
 .container{
     height:100vh;
@@ -16,7 +18,7 @@ body {
     background:#ebebe0;
     position:absolute;
     top:15%;
-    left:25%;
+    left:27%;
     border-left:10px solid #999;
     border-right:10px solid #999;
     border-radius:20px;
@@ -24,8 +26,8 @@ body {
 .middle{
     position:absolute;
     width:160px;
-    height:190px;
-    left:27%;
+    height:210px;
+    left:28%;
     top:37%;
     background:#8c8c8c;
     border-left:20px solid #ccc;
@@ -58,17 +60,16 @@ body {
     height:10px;
     background:crimson;
     top:69%;
-    left:25.5%;
+    left:28%;
     border-radius:2px;
-    
 }
 .base1{
     position:absolute;
-    width:220px;
+    width:230px;
     height:40px;
     background:#ff6699;
     top:70%;
-    left:24%;
+    left:27%;
     border-radius:10px;
     border-bottom:10px solid #000;
 }
@@ -78,7 +79,7 @@ body {
     width:240px;
     background:#000d1a;
     top:78%;
-    left:22%;
+    left:27%;
     z-index:-1;
     border-radius:10px;
 }
@@ -87,11 +88,11 @@ body {
     width:5px;
     height:10px;
     top:27%;
-    left:46%;
+    left:45%;
     background:#000;
 }
 .liquid{
-position:absolute;
+    position:absolute;
     width:5px;
     height:75px;
     background:#663300;
