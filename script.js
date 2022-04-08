@@ -37,7 +37,7 @@ const searchBar = document.getElementById('searchBar')
 const ProjectCounter = document.getElementById('counter')
 // console.log(searchBar)
 
-//Infinite scrolling
+// Infinite scrolling
 var doLoadingOnScroll = true
 var noOfCardsToLoad = 12
 var cardLoadedYet = 0
@@ -107,7 +107,7 @@ function showNextItems() {
   loadingBalls = false
 }
 
-//end of infinite scrolling
+// end of infinite scrolling
 
 searchBar.addEventListener('keyup', (e) => {
   doLoadingOnScroll = false
@@ -129,7 +129,7 @@ const getProject = fetch('style_links.json')
     //search real waley se krna
     // displayProjects(projects)
     showLoading()
-    // console.log(projects)
+    console.log(projects)
   })
 
 // // <a target="_blank" href="https://github.com/arpit456jain/Amazing-Css-Effects/tree/master/${links[i].name}" class="code">Code</a>
@@ -153,4 +153,4 @@ const displayProjects = (projects) => {
   ProjectCounter.innerHTML = projects.length
 }
 
-getProject()
+
