@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: consolas;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: white;
+}
+
+.road {
+    position: relative;
+    width: 700px;
+    height: 150px;
+    background: #333;
+    border-radius: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform-style: preserve-3d;
+    perspective: 500px;
+}
+
+.road::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(90deg, white, white 50%, transparent 50%, transparent 100%);
+    background-size: 50px;
+    animation: animate_road 0.125s linear infinite;
+}
+
+@keyframes animate_road {
+    0% {
+        background-position: 50px 0;
+    }
+
+    100% {
+        background-position: 0 0;
+    }
+}
+
+.taxi {
+    position: absolute;
+    left: 50px;
+    width: 200px;
+    height: 80px;
+    background: yellow;
+    border-radius: 10px;
+    box-shadow: -10px 10px rgba(0, 0, 0, 0.25);
+    transform-style: preserve-3d;
+    perspective: 800px;
+    animation: animate_taxi 2s linear infinite;
+    z-index: 10;
+}
+
+.taxi:nth-child(2) {
+    left: initial;
+    right: 150px;
+    animation: animate_taxi 4s linear infinite;
+    animation-delay: -1s;
+    z-index: 9;
+}
+
+@keyframes animate_taxi {
+    0% {
+        transform: translateX(20px) translateY(-20px);
+    }
+
+    25% {
+        transform: translateX(-10px) translateY(0px);
+    }
+
+    50% {
+        transform: translateX(20px) translateY(20px);
+    }
+
+    75% {
+        transform: translateX(-10px) translateY(0px);
+    }
+
+    100% {
+        transform: translateX(20px) translateY(-20px);
+    }
+}
+
+.taxi::before {
+    content: '';
+    position: absolute;
+    top: 12px;
+    left: 2px;
+    width: 5px;
+    height: 15px;
+    border-radius: 2px;
+    background: red;
+    box-shadow: 0 42px #fc3c25;
+}
+
+.taxi::after {
+    content: '';
+    position: absolute;
+    top: 12px;
+    right: 2px;
+    width: 6px;
+    height: 16px;
+    border-radius: 2px;
+    background: white;
+    box-shadow: 0 44px white;
+}
+
+.taxi span {
+    position: absolute;
+    inset: 5px 10px;
+    background: #f4b603;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.taxi span::before {
+    content: 'Taxi';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(90deg);
+    background: #fff;
+    padding: 2px;
+    font-size: 0.75em;
+    font-weight: 1000;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    border-radius: 2px;
+    box-shadow: 0 0 1px #0005;
+    z-index: 10;
+
+}
+
+.taxi span b {
+    position: absolute;
+    inset: 0 30px;
+    background: #111;
+    border-radius: 10px;
+}
+
+.taxi span b::before {
+    content: '';
+    position: absolute;
+    inset: 6px 15px;
+    background: yellow;
+    border-radius: 5px;
+}
+
+.taxi span b::after {
+    content: '';
+    position: absolute;
+    inset: 0px 58px;
+    background: yellow;
+}
+
+.taxi span i {
+    position: absolute;
+    inset: 0;
+}
+
+.taxi span i::before {
+    content: '';
+    position: absolute;
+    top: 7px;
+    left: 20px;
+    width: 40px;
+    height: 5px;
+    background-color: yellow;
+    transform-origin: right;
+    transform: rotate(15deg);
+    box-shadow: 100px 34px yellow;
+}
+
+.taxi span i::after {
+    content: '';
+    position: absolute;
+    bottom: 7px;
+    left: 20px;
+    width: 40px;
+    height: 5px;
+    background-color: yellow;
+    transform-origin: right;
+    transform: rotate(-15deg);
+    box-shadow: 100px -34px yellow;
+}
+
+.taxi .light {
+    position: absolute;
+    top: 5px;
+    right: -2px;
+    width: 10px;
+    height: 70px;
+    background: #0002;
+    border-radius: 15px;
+    transform-style: preserve-3d;
+}
+
+.taxi .light::before {
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: 0;
+    width: 150px;
+    height: 16px;
+    background: linear-gradient(90deg, #fff6, transparent);
+    transform-origin: left;
+    transform: perspective(500px) rotateY(-50deg);
+}
+
+.taxi .light::after {
+    content: '';
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    width: 150px;
+    height: 16px;
+    background: linear-gradient(90deg, #fff6, transparent);
+    transform-origin: left;
+    transform: perspective(500px) rotateY(-50deg);
+}
