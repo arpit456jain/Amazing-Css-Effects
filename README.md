@@ -1,6 +1,6 @@
-# Amazing-Css-Effects
+# Amazing-CSS-Effects
 
-Some Astonishing CSS-Effects✨
+Some Astonishing CSS Effects✨
  
 <p align="center"><img src="Assets/intro.gif" width=100%></p>
  
@@ -50,7 +50,7 @@ Check out our [Contributing Guildlines](/CONTRIBUTING.md)
 
 To work on an open-source project, you will first need to make your copy of the repository. To do this, you should fork the repository and then clone it so that you have a local working copy.
 
-Get your own Fork/Copy of repository by clicking `Fork` button at the upper right corner.<br><br>
+Get your Fork/Copy of repository by clicking the `Fork` button at the upper right corner.<br><br>
 
 #### Step 2: Clone the Forked Repository
 
@@ -66,7 +66,7 @@ $ git clone https://github.com/<your-github-username>/Amazing-Css-Effects
 
 
 #### Step 3: Creating a new branch (IMP)
-This is one of the most important steps that you should follow to contribute in Open Source. A branch helps to manage the workflow, isolate your code and avoids creating a mess. To create a new branch:
+This is one of the most important steps that you should follow to contribute to Open Source. A branch helps to manage the workflow, isolate your code, and avoids creating a mess. To create a new branch:
   
 ```bash
 $ git branch <name_of_branch>
@@ -79,13 +79,13 @@ git pull origin main
 ```
 
 #### Step 5: Contribute
-Make relevant changes according to the issue that you were assigned on. Contribute in any way you feel like :)
+Make relevant changes according to the issue that you were assigned. Contribute in any way you feel like :)
 
-#### Step 6: Commiting and Pushing
+#### Step 6: Committing and Pushing
 Once you have modified an existing file or added a new file to the project, you can add it to your local repository, which you can do with the git add command.
 
 ```bash
-git add .
+git add.
 ```
 With our file staged, we’ll want to record the changes that we made to the repository with the git commit command.
 
