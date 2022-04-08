@@ -1,7 +1,5 @@
 body {
     background:#eedb0f;
-    margin: 0;
-    padding: 0;
 }
 .container{
     height:100vh;
@@ -16,18 +14,19 @@ body {
     width:200px;
     height:150px;
     background:#ebebe0;
-    position:absolute;
+    position: absolute;
     top:15%;
-    left:27%;
+    left: 37.5%;
     border-left:10px solid #999;
     border-right:10px solid #999;
     border-radius:20px;
+    text-align: center;
 }
 .middle{
     position:absolute;
     width:160px;
     height:210px;
-    left:28%;
+    left:38%;
     top:37%;
     background:#8c8c8c;
     border-left:20px solid #ccc;
@@ -60,7 +59,7 @@ body {
     height:10px;
     background:crimson;
     top:69%;
-    left:28%;
+    left:37.5%;
     border-radius:2px;
 }
 .base1{
@@ -69,7 +68,7 @@ body {
     height:40px;
     background:#ff6699;
     top:70%;
-    left:27%;
+    left:36.5%;
     border-radius:10px;
     border-bottom:10px solid #000;
 }
@@ -79,16 +78,16 @@ body {
     width:240px;
     background:#000d1a;
     top:78%;
-    left:27%;
+    left:36.5%;
     z-index:-1;
     border-radius:10px;
 }
 .pipe{
     position:absolute;
     width:5px;
-    height:10px;
+    height:9px;
     top:27%;
-    left:45%;
+    left:45.7%;
     background:#000;
 }
 .liquid{
@@ -203,7 +202,7 @@ position:absolute;
                0 0 0 6px #000;
 }
 .circle4{
-     position:absolute;
+    position:absolute;
     width:3px;
     height:3px;
     background:#666699;
@@ -212,4 +211,22 @@ position:absolute;
     border-radius:50%;
     box-shadow:0 0 0 4px #ddd,
                0 0 0 6px #000;
-               }
+        }
+
+@media (max-width:990px){
+    .top {
+        left: 28%;
+    }
+    .middle {
+        left: 30%;
+    }
+    .base{
+        left: 30%;
+    }
+    .base1{
+        left: 29%;
+    }
+    .shadow {
+        left: 28%;
+    }
+}
