@@ -52,13 +52,13 @@ Check out our [Contributing Guildlines](/CONTRIBUTING.md)
 
 #### Step 1: Forking the repository :
 
-To work on an open-source project, you will first need to make your copy of the repository. To do this, you should fork the repository and then clone it so that you have a local working copy.
+To work on an open-source project, you will primarily need to make your copy of the repository. To do this, you should first fork the repository and then clone it so that you have a local working copy.
 
 Get your own Fork/Copy of repository by clicking `Fork` button at the upper right corner.<br><br>
 
 #### Step 2: Clone the Forked Repository
 
-After the repository is forked, you can now clone it so that you have a local working copy of the codebase.
+After the repository is forked, you can now clone it so that you have a copy of the codebase on your local Computer.
 
 To make your local copy of the repository follow the steps:
 - Open the Command Prompt
@@ -70,7 +70,7 @@ $ git clone https://github.com/<your-github-username>/Amazing-Css-Effects
 
 
 #### Step 3: Creating a new branch (IMP)
-This is one of the most important steps that you should follow to contribute in Open Source. A branch helps to manage the workflow, isolate your code and avoids creating a mess. To create a new branch:
+This is one of the most important step that you should follow while contributing to an Open Source project . A branch helps to manage the workflow, isolate your code and avoids creating a mess. To create a new branch:
   
 ```bash
 $ git branch <name_of_branch>
