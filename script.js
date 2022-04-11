@@ -91,11 +91,11 @@ function showNextItems() {
     // console.log(projects[cardLoadedYet])
     experi.innerHTML += `<div class="stylebox">
                  <div class="image">
-                      <img src="https://raw.githubusercontent.com/arpit456jain/Amazing-Css-Effects/master/${projects[cardLoadedYet].name}/preview.png" alt="">
+                      <img src="./${projects[cardLoadedYet].name}/preview.png" alt="">
                   </div>
                   <div class="card-data">
                       <p class="card-heading">${projects[cardLoadedYet].name}</p>
-                      <a href=${projects[cardLoadedYet].link}><button class="btnn">View</button></a>
+                      <a href="${projects[cardLoadedYet].link}"><button class="btnn">View</button></a>
                   </div>
            
               </div>`
@@ -136,21 +136,24 @@ const getProject = fetch('style_links.json')
 //display projects on searching
 
 const displayProjects = (projects) => {
-  const htmlString = projects.map((project) => {
-    return `<div class="stylebox">
-             <div class="image">
-                  <img src="https://raw.githubusercontent.com/arpit456jain/Amazing-Css-Effects/master/${project.name}/preview.png" alt="">
-              </div>
-              <div class="card-data">
-                  <p class="card-heading">${project.name}</p>
-                  <a href=${project.link}><button class="btnn">View</button></a>
-              </div>
-
-          </div>`
-  })
+  const htmlString = projects
+        .map((project) => {
+            return`<div class="stylebox">
+                 <div class="image">
+                      <img src="./${project.name}/preview.png" alt="">
+                  </div>
+                  <div class="card-data">
+                      <p class="card-heading">${project.name}</p>
+                      <a href="${project.link}"><button class="btnn">View</button></a>
+                  </div>
+           
+              </div>`;
+              
+        })
 
   experi.innerHTML = htmlString
   ProjectCounter.innerHTML = projects.length
 }
+    
 
-
+getProject();

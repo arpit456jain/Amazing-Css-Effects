@@ -12,7 +12,7 @@
     "link": "3D Hover Effect/index.html"
   },
   {
-	"name": "3D Text Effect",
+	"name": "3D Text",
 	"link": "3D Text/index.html"
   },
   {
@@ -80,15 +80,15 @@
     "link": "Animated UI Design/index.html"
   },
   {
-  	"name": "Animated 3D Cube",
+  	"name": "Animated_3D_Cube",
 	"link": "Animated_3D_Cube/index.html"
   },
   {
-	"name": "Animated Glassmorphism",
+	"name": "Animated-Glassmorphism-Vanila-Js",
 	"link": "Animated-Glassmorphism-Vanila-Js/index.html"
   },
   {
-	"name": "Animated Rain and Lightning Effect",
+	"name": "Animated-Rain-and-Lightning-effect",
 	"link": "Animated-Rain-and-Lightning-effect/index.html"
   },
   {
@@ -96,7 +96,7 @@
 	"link": "Assasin's creed cards/index.html"
   },
   {
-	"name": "Blur Loading",
+	"name": "Blur-loading",
 	"link": "Blur-loading/index.html"
   },
   {
@@ -108,7 +108,7 @@
 	"link": "Bulb/index.html"
   },
   {
-	"name": "Button to E-mail Effect",
+	"name": "Button_to_email_effect",
 	"link": "Button_to_email_effect/index.html"
   },
   {
@@ -156,7 +156,7 @@
     "link": "css glowing gradient loader ring/index.html"
   },
   {
-	"name": "CSS Glitch",
+	"name": "css-glitch",
 	"link": "css-glitch/index.html"
   },
   {
@@ -192,11 +192,11 @@
     "link": "FAQ Accordion/index.html"
   },
   {
-	  "name": "Flip Card",
+	  "name": "flip_card1",
 	  "link":  "flip_card1/index.html"
   },
   {
-	  "name": "Glassmorphic Flipbook",
+	  "name": "glassmorphic-flipbook",
 	  "link": "glassmorphic-flipbook/index.html"
   },
   {
@@ -228,7 +228,7 @@
 	"link": "Glowing Text/index.html"
   },
   {
-	"name": "Glowing Cube",
+	"name": "GlowingCube",
 	"link": "GlowingCube/index.html"
   },
   {
@@ -364,7 +364,7 @@
     "link": "Ripple Loader Animation/index.html"
   },
   {
-	"name": "Rolling Text",
+	"name": "rolling text by yash-25log",
 	"link": "rolling text by yash-25log/index.html"
   },
   {
@@ -372,7 +372,7 @@
     "link": "Rotating cards/index.html"
   },
   {
-	"name": "Safari 3D",
+	"name": "Safari3D",
 	"link": "safari3d/index.html"
   },
   {
@@ -420,7 +420,7 @@
     "link": "Submarine Animation/index.html"
   },
   {
-	"name": "Text Effect",
+	"name": "text effect",
 	"link": "text effect/index.html"
   },
   {
@@ -499,8 +499,8 @@
     "name": "Simple Hover Effect",
     "link": "Simple Hover Effect/index.html"
   },
-    {
-        "name": "Glassmorphic Navigation Bar",
+  {
+    "name": "Glassmorphism-navbar",
     "link": "Glassmorphism-navbar/index.html"
     }
   ,
