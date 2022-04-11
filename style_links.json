@@ -128,6 +128,10 @@
     "link": "Changing Typing Effects/index.html"
   },
   {
+    "name": "Clay Morphism Courses",
+    "link": "Clay Morphism Courses/index.html"
+  },
+  {
     "name": "Colorful Rain Effect",
     "link": "Colorful Rain Effect/index.html"
   },
@@ -498,9 +502,14 @@
   {
     "name": "Glassmorphism-navbar",
     "link": "Glassmorphism-navbar/index.html"
-  },
+    }
+  ,
   {
     "name":"CSS Animation of planet revolving",
     "link":"CSS Animation of planet revolving/index.html"
-  }	
+  }	,
+  {
+    "name": "Goey footer",
+    "link": "Goey footer/footer.html"
+  }
 ]
