@@ -66,11 +66,11 @@ const getProject = fetch('style_links.json')
         .map((project) => {
             return`<div class="stylebox">
                  <div class="image">
-                      <img src="https://raw.githubusercontent.com/arpit456jain/Amazing-Css-Effects/master/${project.name}/preview.png" alt="">
+                      <img src="./${project.name}/preview.png" alt="">
                   </div>
                   <div class="card-data">
                       <p class="card-heading">${project.name}</p>
-                      <a href=${project.link}><button class="btnn">View</button></a>
+                      <a href="${project.link}"><button class="btnn">View</button></a>
                   </div>
            
               </div>`;
