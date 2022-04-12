@@ -88,6 +88,7 @@ h1:hover:after {
   height: 13rem;
   border-radius: .5em;
   transition: .4s;
+  margin:auto;
 }
 
 .stylebox .image:hover{
@@ -102,6 +103,7 @@ h1:hover:after {
   font-weight: bold;
   margin: 1em .5em;
   font-family: 'Bitter';
+  text-transform: capitalize;
 }
 .card-data{
   display: flex;
@@ -350,6 +352,11 @@ span{
 #footer .footer-top .footer-info img {
   height: 40px;
   margin-bottom: 10px;
+}
+
+.image img{
+  width:100%;
+  height:100%;
 }
 
 #footer .footer-top .footer-info p {
