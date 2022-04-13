@@ -112,6 +112,41 @@ You should navigate to your forked repository, and press the "Compare & pull req
 
 GitHub will alert you that you can merge the two branches because there is no competing code. You should add in a title, a comment, and then press the “Create pull request” button.
 
+<br>
+
+## CONTRIBUTING A NEW TEMPLATE?
+### Please adhere to these guidelines 
+
+1. Create a folder with the name of your css effect template 
+
+2. Start building inside your folder with an entry file called index.html and after building, attach an image named "preview.png" within the folder root which represents the preview image of your template
+
+3. Go into the style_link.json file and add an object corresponding to your project in the following format:
+```
+    {
+  
+      "name": "Name-of-folder",
+      "link": "Name-of-folder/index.html"
+  
+    },
+
+```
+#### Important to note:  
+
+The name key of the json object must match the exact name of the folder
+The link key of the json object must match the exact name of the folder then append "/index.html"
+
+For example: I create a folder called "Animated Text", my json object would be:
+
+```
+    {
+  
+      "name": "Animated Text",  (not "Animated-Text" or "AnimatedText")
+      "link": "Animated Text/index.html"  (not "AnimatedText/index.html" or "Animated-Text/index.html")
+  
+    },
+
+```
 
 
 
