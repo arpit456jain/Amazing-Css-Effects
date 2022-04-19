@@ -380,6 +380,10 @@ span{
   transition: 0.3s;
 }
 
+#footer .footer-top .social-links a:hover {
+  color: #fff;
+}
+
 #footer .footer-top h4 {
   font-size: 14px;
   font-weight: bold;
