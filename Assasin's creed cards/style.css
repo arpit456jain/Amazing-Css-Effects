@@ -5,6 +5,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+  font-size: 15px;
 }
 :root {
   font-size: 62.5%;
@@ -289,25 +290,68 @@ opacity:1;
     /* left: 17vw; */
   }
 }
+.container .card  .content p {
+  width: 58%;
+  font-size: 15px;
+}
+@media (max-width:700px){
+  .container .card:hover img{
+    left:83%;
+  }
+  .container .card  .content p {
+    width: 55%;
+    font-size: 15px;
+  }
+}
+
 @media (max-width: 520px) {
   .container .card {
     /* margin: 0;
     margin-bottom: 3rem; */
     width:100%;
-    margin-left: 38px;
+    margin-left: 10px;
+    margin-right: 40px;
   }
   .container .card img {
-    height: 37rem;
-    left: 70%;
+    height: 33rem;
+    left: 87%;
   }
   .container .card .content h2 {
     font-size: 1.5rem;
   }
   .container .card .content p {
-    font-size: 1rem;
+    font-size: 1.4rem;
   }
   .container .card:hover img {
     height: 37rem;
-    left: 75%;
+    left: 95%;
+  }
+  .container .card:hover {
+    height: 35rem;
+  }
+}
+
+@media screen and (max-width:410px){
+  .container .card {
+    width: 90vw;
+    margin-left: 25px;
+  }
+  .container .card img{
+    /* height: 33rem; */
+    left: 70%;
+  }
+  .container .card:hover img{
+    left:88%;
+  }
+}
+@media screen and (max-width:350px){
+  .container .card img{
+    height: 27rem;
+    top:30%;
+    left: 80% ;
+  }
+  .container .card:hover img{
+    height: 30rem;
+    top:40%;
   }
 }
