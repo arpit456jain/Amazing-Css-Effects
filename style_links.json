@@ -511,5 +511,11 @@
   {
     "name": "Goey footer",
     "link": "Goey footer/footer.html"
+  },
+  {
+  
+    "name": "Animated text",
+    "link": "Animated text/index.html" 
+
   }
 ]

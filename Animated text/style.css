@@ -12,6 +12,9 @@ body{
 svg{
     font-weight:bold;
     max-width:900px;
-    height:100%;
+    height:auto;
     color:#edc7b7;
+}
+text{
+  font-size:17px;
 }
