@@ -1,1 +1,5 @@
+The idea behind this project
+While playing football I suddenly got the idea that I'm throwing a ball on the ground and by the next moment, it touches my hand, don't I turned it into a CSS animation.
 
+How does it work
+while loading the webpage on the browser from that moment only the ball will start to jump and you will be able to observe its dynamic shadow behavior.
