@@ -41,6 +41,7 @@
     text-decoration: none;
     background: #f89292;
     padding: 12px;
+    margin: -3px;
     border-radius: 50%;
     float: right;
     color: #ff2222;
@@ -59,3 +60,15 @@
     color: #ffffff;
     border: 1px solid #fff;
   }
+
+  [class*="col-"] {
+    width: 100%;
+  }
+  
+  @media screen and (max-width: 644px) {
+    .search-box:hover > .search-btn,
+  .search-input:focus + .search-btn{
+      margin: -45px 0px;
+    }
+  }
+  
