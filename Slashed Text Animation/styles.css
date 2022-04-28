@@ -1,0 +1,176 @@
+* {
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+    margin-top: 10px;
+  }
+  
+  html,
+  body {
+    height:100%;
+  }
+  
+  body {
+    display:grid;
+    place-items:center;
+    background-color:hsl(0, 0%, 0%);
+    color:white;
+  }
+  
+  .container {
+    position:relative;
+    display:grid;
+    place-items:center;
+    background:red;
+  }
+  
+  .text {
+    position:absolute;
+    font-size:4rem;
+    font-family:sans-serif;
+    font-weight:bold;
+    transform-origin:bottom right;
+    transition:transform 350ms ease, color 350ms ease;
+    
+  }
+  
+  /* Top half effect */
+  .text:nth-of-type(1) {
+    clip-path: polygon(0 0, 100% 0, 100% 52%, 0 52%);
+  }
+  
+  /*Bottom Half effect*/
+  .text:nth-of-type(2) {
+    clip-path: polygon(0 50%, 100% 50%, 100% 100%, 0 100%);
+  }
+  
+  .container:hover {
+    cursor:pointer;
+  }
+  
+  .container:hover .text:nth-of-type(1) {
+    transform:translateY(-5px) translateX(10px) rotate(2deg);
+    color:hsl(255, 88%, 50%);
+  }
+
+  .text2 {
+    position:absolute;
+    font-size:4rem;
+    font-family:sans-serif;
+    font-weight:bold;
+    transform-origin:bottom right;
+    transition:transform 350ms ease, color 350ms ease;
+  }
+  
+  /*Top Half of second text*/
+  .text2:nth-of-type(1) {
+    clip-path: polygon(0 0, 100% 0, 100% 52%, 0 52%);
+  }
+  
+  /*Bottom Half of second text*/
+  .text2:nth-of-type(2) {
+    clip-path: polygon(0 50%, 100% 50%, 100% 100%, 0 100%);
+  }
+  
+  .container:hover {
+    cursor:pointer;
+  }
+  
+  .container:hover .text2:nth-of-type(1) {
+    transform:translateY(-10px) translateX(-10px) rotate(-2deg);
+    color:hsl(97, 79%, 46%);
+  }
+
+  .text3 {
+    position:absolute;
+    font-size:4rem;
+    font-family:sans-serif;
+    font-weight:bold;
+    transform-origin:bottom right;
+    transition:transform 350ms ease, color 350ms ease;
+  }
+  
+  /*Top half of third text*/
+  .text3:nth-of-type(1) {
+    clip-path: polygon(0 0, 100% 0, 100% 52%, 0 52%);
+  }
+  
+  /*Bottom half of third text*/
+  .text3:nth-of-type(2) {
+    clip-path: polygon(0 50%, 100% 50%, 100% 100%, 0 100%);
+  }
+  
+  .container:hover {
+    cursor:pointer;
+  }
+  
+  .container:hover .text3:nth-of-type(1) {
+    transform:translateY(-10px) translateX(5px) rotate(-5deg);
+    color:hsl(0, 82%, 42%);
+  }
+
+  .text4 {
+    position:absolute;
+    font-size:4rem;
+    font-family:sans-serif;
+    font-weight:bold;
+    transform-origin:bottom right;
+    transition:transform 350ms ease, color 350ms ease;
+  }
+  
+  /*Top half of the fourth text*/
+  .text4:nth-of-type(1) {
+    clip-path: polygon(0 0, 100% 0, 100% 52%, 0 52%);
+  }
+  
+  /*Bottom half of fourth text*/
+  .text4:nth-of-type(2) {
+    clip-path: polygon(0 50%, 100% 50%, 100% 100%, 0 100%);
+  }
+  
+  .container:hover {
+    cursor:pointer;
+  }
+  
+  .container:hover .text4:nth-of-type(1) {
+    transform:translateY(-10px) translateX(-10px) translateZ(5px) rotate(2deg);
+    color:hsl(33, 100%, 52%);
+  }
+
+  .text5 {
+    position:absolute;
+    font-size:4rem;
+    font-family:sans-serif;
+    font-weight:bold;
+    transform-origin:bottom right;
+    transition:transform 350ms ease, color 350ms ease;
+  }
+  
+  /*Top half*/
+  .text5:nth-of-type(1) {
+    clip-path: polygon(0 0, 100% 0, 100% 52%, 0 52%);
+  }
+  
+  /*Bottom half*/
+  .text5:nth-of-type(2) {
+    clip-path: polygon(0 50%, 100% 50%, 100% 100%, 0 100%);
+  }
+  
+  .container:hover {
+    cursor:pointer;
+  }
+  
+  .container:hover .text5:nth-of-type(1) {
+    transform:translateY(-10px) translateX(-10px) rotate(2deg);
+    color:hsl(304, 86%, 53%);
+  }
+
+  .note {
+    color: rgb(11, 181, 224);
+      
+  }
+
+  .note:hover{
+      color: aqua;
+      text-shadow: 1px 1px 5px white;
+  }
