@@ -1,0 +1,161 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 50px;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 100%;
+  min-height: 100vh;
+  background-color: #fef9f9;
+  perspective: 45em;
+  perspective-origin: 50% 2em;
+  position: relative;
+  transition: transform 2s;
+}
+
+#toggle-btn{
+  position: absolute;
+  top: 40px;
+  left: 50%;
+  cursor: pointer;
+  width: 50px;
+  height: 25px;
+  border-radius: 5px;
+  transform: translate(-50%,-50%);
+  background-color: #74bfd1;
+}
+
+.active#toggle-btn{
+  background-color: #d598c6;
+}
+
+#shape{
+  position: relative;
+  width: 4em;
+  height: 4em;
+  animation: spin 8s infinite linear;
+  transform-style: preserve-3d;
+}
+
+@keyframes spin {
+  from{
+    transform: rotateY(0);
+  }
+  to{
+    transform: rotateY(-360deg);
+  }
+}
+
+.face{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(121, 203, 134, 0.5);
+  border: 1px solid rgba(121, 203, 134, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  transition: transform 2s, opacity 2s;
+}
+
+.cube .one{
+  opacity: 0.5;
+  transform: scale3d(1.2, 1.2, 1.2) rotateX(90deg) translateZ(2em);
+}
+.cube .two{
+  opacity: 0.5;
+  transform: scale3d(1.2, 1.2, 1.2) translateZ(2em);
+}
+.cube .three{
+  opacity: 0.5;
+  transform: scale3d(1.2, 1.2, 1.2) rotateY(90deg) translateZ(2em);
+}
+.cube .four{
+  opacity: 0.5;
+  transform: scale3d(1.2, 1.2, 1.2) rotateY(180deg) translateZ(2em);
+}
+.cube .five{
+  opacity: 0.5;
+  transform: scale3d(1.2, 1.2, 1.2) rotateY(-90DEG) translateZ(2em);
+}
+.cube .six{
+  opacity: 0.5;
+  transform: scale3d(1.2, 1.2, 1.2) rotateX(-90deg) translateZ(2em) rotate(180deg);
+}
+
+.cube .seven{
+  transform: scale3d(0.8, 0.8, 0.8) rotateX(90deg) translateZ(2em);
+}
+.cube .eight{
+  transform: scale3d(0.8, 0.8, 0.8) translateZ(2em);
+}
+.cube .nine{
+  transform: scale3d(0.8, 0.8, 0.8) rotateY(90deg) translateZ(2em);
+}
+.cube .ten{
+  transform: scale3d(0.8, 0.8, 0.8) rotateY(180deg) translateZ(2em);
+}
+.cube .eleven{
+  transform: scale3d(0.8, 0.8, 0.8) rotateY(-90DEG) translateZ(2em);
+}
+.cube .twelve{
+  transform: scale3d(0.8, 0.8, 0.8) rotateX(-90deg) translateZ(2em) rotate(180deg);
+}
+
+/* -------------------ring------------------------- */
+
+.ring .one{
+  transform: translateZ(7.6em);
+}
+.ring .two{
+  transform: rotateY(30deg) translateZ(7.6em);
+}
+.ring .three{
+  transform: rotateY(60deg) translateZ(7.6em);
+}
+.ring .four{
+  transform: rotateY(90deg) translateZ(7.6em);
+}
+.ring .five{
+  transform: rotateY(120deg) translateZ(7.6em);
+}
+.ring .six{
+  transform: rotateY(150deg) translateZ(7.6em);
+}
+.ring .seven{
+  transform: rotateY(180deg) translateZ(7.6em);
+}
+.ring .eight{
+  transform: rotateY(210deg) translateZ(7.6em);
+}
+.ring .nine{
+  transform: rotateY(-120deg) translateZ(7.6em);
+}
+.ring .ten{
+  transform: rotateY(-90deg) translateZ(7.6em);
+}
+.ring .eleven{
+  transform: rotateY(300deg) translateZ(7.6em);
+}
+.ring .twelve{
+  transform: rotateY(330deg) translateZ(7.6em);
+}
+
+@media only screen and (max-width: 1000px) {
+  *{
+    font-size: 35px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  *{
+    font-size: 20px;
+  }
+}
