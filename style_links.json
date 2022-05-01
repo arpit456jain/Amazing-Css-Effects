@@ -392,6 +392,10 @@
 	"link": "Site with video/index.html"
   },
   {
+    	"name": "Slashed Text Animation",
+    	"link": "Slashed Text Animation/index.html"
+  },
+  {
 	"name": "Sliding Checkbox",
 	"link": "Sliding Checkbox/index.html"
   },
@@ -511,5 +515,11 @@
   {
     "name": "Goey footer",
     "link": "Goey footer/footer.html"
+  },
+  {
+  
+    "name": "Animated text",
+    "link": "Animated text/index.html" 
+
   }
 ]
