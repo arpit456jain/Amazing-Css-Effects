@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Bee Exercise - Attributes</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 300 200">
+    <circle class="left-eye" fill="#F17585" cx="133" cy="43" r="15" />
+    <circle class="right-eye" fill="#F17585" cx="167" cy="43" r="15" />
+    <path class="left-wing" fill="#528950" d="M60.8,137.9c-13.7-12.2-10.5-34.4,6.1-42.1L120,71l-18.1,55.7C96.2,144.2,74.5,150.1,60.8,137.9z" />
+    <path class="right-wing" fill="#528950" d="M239.2,137.9c13.7-12.2,10.5-34.4-6.1-42.1L180,71l18.1,55.7C203.8,144.2,225.5,150.1,239.2,137.9z" />
+    <path class="body" d="M150,0c0,0,-25,0,-48,-10" marker-end="url(#beeHind)" marker-start="url(#beeHind)" transform="translate(150 245) rotate(-90)" fill="none" stroke="#F7B853" stroke-width="64" stroke-dasharray="16 16" />
+    <marker id="beeHind" refX="-16" refY="28" markerWidth="17" markerHeight="56" orient="auto" markerUnits="userSpaceOnUse">
+        <path fill="#F7B853" d="M0,0v56C22,42,22,14,0,0z" />
+    </marker>
+</svg>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
