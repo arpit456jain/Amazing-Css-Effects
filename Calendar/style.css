@@ -1,0 +1,38 @@
+html{
+	font-size:1vw;
+	font-family:sans-serif;
+	font-weight:bold;
+}
+body{
+	margin:1rem;
+}
+
+.box{
+	width:calc(94rem / 7);
+	height:calc(94rem / 7);
+	background:rgba(0,0,0,0);
+	display:block;
+	float:left;
+	position:relative;
+	
+	border:solid 1rem rgba(255,255,255,1);
+	box-sizing:border-box;
+}
+.box:before{
+	content:attr(data-date);
+	color:white;
+	opacity:.3;
+	text-align:center;
+	font-size:8rem;
+	width:100%;
+	line-height:calc(84rem / 7);
+	position:aboslute;
+	left:0;
+	display:block;
+}
+.special{
+	
+}
+.special:before{
+	opacity:.9;
+}
