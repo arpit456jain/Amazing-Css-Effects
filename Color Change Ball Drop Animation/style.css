@@ -6,3 +6,57 @@ svg{
 	height:95%;
 	position:fixed;
 }
+
+@media only screen and (max-width: 700px) {
+  svg{
+	width:100%;
+	bottom: -59px;
+      min-height: calc(100vh - 10px);
+	position:fixed;
+}
+}
+
+@media only screen and (max-width: 550px) {
+  svg{
+	width:100%;
+	bottom: -59px;
+      min-height: calc(100vh - 1px);
+	position:fixed;
+}
+}
+
+@media only screen and (max-width: 450px) {
+  svg{
+	width:100%;
+	bottom: -155px;
+      min-height: calc(100vh - 1px);
+	position:fixed;
+}
+}
+
+@media only screen and (max-width: 492px) {
+  svg{
+	width:100%;
+	bottom: -175px;
+      min-height: calc(100vh - 1px);
+	position:fixed;
+}
+}
+
+@media only screen and (max-width: 400px) {
+  svg{
+	width:100%;
+	bottom: -200px;
+      min-height: calc(100vh - 1px);
+	position:fixed;
+}
+}
+
+@media only screen and (max-width: 250px) {
+  svg{
+	width:100%;
+	bottom: -250px;
+      min-height: calc(100vh - 1px);
+	position:fixed;
+}
+}
