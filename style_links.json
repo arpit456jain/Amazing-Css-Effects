@@ -533,7 +533,14 @@
     "link": "https://deploy-preview-576--amazing-css-effects.netlify.app/square-shimmer-loading-effect/" 
 
   },
-	{
+ 
+{
+  
+    "name": "Basket-ball-jump-animation",
+    "link": "https://deploy-preview-575--amazing-css-effects.netlify.app/basket%20ball%20jump%20animatio/" 
+
+  },
+ {
   
     "name": "Scale-up-and-down-animation",
     "link": "https://deploy-preview-577--amazing-css-effects.netlify.app/scale-up-and-animation" 
@@ -541,15 +548,13 @@
   },
 	{
   
-    "name": "Basket-ball-jump-animation",
-    "link": "https://deploy-preview-575--amazing-css-effects.netlify.app/basket%20ball%20jump%20animatio/" 
+    "name": "Loading Effect Animation",
+    "link": "https://deploy-preview-602--amazing-css-effects.netlify.app/loading%20effect%20animation/" 
 
   },
 	{
-  
     "name": "Color Change Ball Drop Animation",
     "link": "https://deploy-preview-604--amazing-css-effects.netlify.app/color%20change%20ball%20drop%20animation/" 
-
   },
 
 ]
