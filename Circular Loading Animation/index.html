@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Watson</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 400 400">
+    <circle cx="200" cy="200" r="108" fill="none" stroke="black" stroke-width="10" />
+    
+	<g>
+	<g class="orbits" fill="none" stroke="black" stroke-width="5" transform="translate(200 200)">
+        <g transform="rotate(-76)" data-direction="-1" >
+            <ellipse cy="1" rx="106" ry="23" />
+            <ellipse cy="-1" rx="106" ry="25" />
+            <circle class="electron" cx="-106" r="10" fill="black" />
+            <circle class="electron" cx="106" r="10" fill="black" />
+        </g>
+        <g transform="rotate(-7)" >
+            <ellipse cy="-1" rx="106" ry="23" />
+            <ellipse cy="1" rx="106" ry="25" />
+            <circle class="electron" cx="-106" r="8" fill="black" />
+            <circle class="electron" cx="106" r="8" fill="black" />
+        </g>
+        <g transform="rotate(44)" data-direction="-1">
+            <ellipse cy="1" rx="106" ry="63" />
+            <ellipse cy="-1" rx="106" ry="65" />
+            <circle class="electron" cx="-106" r="9" fill="black" />
+            <circle class="electron" cx="106" r="9" fill="black" />
+        </g>
+        <g transform="rotate(140)" data-direction="-1">
+            <ellipse cy="1" rx="106" ry="63" />
+            <ellipse cy="-1" rx="106" ry="65" />
+            <circle class="electron" cx="-106" r="9" fill="black" />
+            <circle class="electron" cx="106" r="9" fill="black" />
+        </g>
+    </g>
+	</g>
+    <g class="sparks" stroke="black" stroke-width="14" stroke-linecap="round" stroke-dasharray="33 500">
+        <line x1="200" y1="186" x2="43" y2="87" stroke-dashoffset="402" />
+        <line x1="200" y1="186" x2="110" y2="28" stroke-dashoffset="402" />
+        <line x1="200" y1="186" x2="200" y2="9" stroke-dashoffset="402" />
+        <line x1="200" y1="186" x2="290" y2="28" stroke-dashoffset="402" />
+        <line x1="200" y1="186" x2="357" y2="87" stroke-dashoffset="402" />
+    </g>
+</svg>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
