@@ -1,0 +1,26 @@
+body{
+	margin:0;
+	background:#222;
+}
+svg{
+	width:100%;
+	height:100%;
+	position:fixed;
+}
+
+/* code with love */
+.code-with-love {
+  position: absolute;
+  right: 30px;
+  bottom: 50px;
+  border-radius: 5px;
+  background-color: #222;
+  padding: 10px;
+  color: #fff;
+  z-index: 99999999;
+}
+
+.code-with-love i.fa-heart,
+.code-with-love span {
+  color: #ff2828;
+}
