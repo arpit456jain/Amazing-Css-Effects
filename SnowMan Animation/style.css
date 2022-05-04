@@ -14,3 +14,11 @@ canvas{
   opacity:0;
   position:fixed;
 }
+
+@media only screen and (max-width: 580px)
+#scene {
+    position: fixed;
+    width: 300%;
+    height: revert;
+    bottom: 0px;
+}
