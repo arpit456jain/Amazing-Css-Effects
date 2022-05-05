@@ -511,12 +511,11 @@
   {
     "name": "Glassmorphism-navbar",
     "link": "Glassmorphism-navbar/index.html"
-    }
-  ,
+    },
   {
     "name":"CSS Animation of planet revolving",
     "link":"CSS Animation of planet revolving/index.html"
-  }	,
+  },
   {
     "name": "Goey footer",
     "link": "Goey footer/footer.html"
@@ -534,7 +533,7 @@
 
   },
  
-{
+ {
   
     "name": "Basket-ball-jump-animation",
     "link": "https://deploy-preview-575--amazing-css-effects.netlify.app/basket%20ball%20jump%20animatio/" 
@@ -546,11 +545,11 @@
     "link": "https://deploy-preview-577--amazing-css-effects.netlify.app/scale-up-and-animation" 
 
   },
-	{
+  {
   
     "name": "Loading Effect Animation",
     "link": "https://deploy-preview-602--amazing-css-effects.netlify.app/loading%20effect%20animation/" 
 
-  },
+  }
 
 ]
