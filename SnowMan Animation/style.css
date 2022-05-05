@@ -5,20 +5,30 @@ body {
   overflow:hidden;
 }
 #scene{
-  position: fixed;
-  width: auto;
-  height: 100%;
-  bottom:0px;
+    position: absolute;
+    width: 100%;
+    height: revert;
+    bottom: 0px;
 }
 canvas{
   opacity:0;
   position:fixed;
 }
 
-@media only screen and (max-width: 580px)
-#scene {
-    position: fixed;
-    width: 300%;
-    height: revert;
-    bottom: 0px;
+@media only screen and (max-width: 580px) {
+  #scene{
+  position: fixed;
+  width: 300%;
+  height: revert;
+  bottom:0px;
+}
+}
+
+@media only screen and (max-width: 380px) {
+  #scene{
+  position: fixed;
+  width: 150%;
+  height: revert;
+  bottom:0px;
+}
 }
