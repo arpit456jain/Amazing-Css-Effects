@@ -1,16 +1,20 @@
 [
+  
   {
     "name": "3D Animation Button",
     "link": "3D Animation Button/index.html"
   },
+	
   {
     "name": "3d flip hover effect",
     "link": "3d flip hover effect/index.html"
   },
+	
   {
     "name": "3D Hover Effect",
     "link": "3D Hover Effect/index.html"
   },
+	
   {
 	"name": "3D Text",
 	"link": "3D Text/index.html"
@@ -546,10 +550,8 @@
 
   },
   {
-  
     "name": "Loading Effect Animation",
     "link": "https://deploy-preview-602--amazing-css-effects.netlify.app/loading%20effect%20animation/" 
-
   }
 
 ]
