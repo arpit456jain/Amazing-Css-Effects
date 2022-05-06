@@ -553,9 +553,10 @@
 
   },
 	{
-  
     "name": "line Segment Animation",
     "link": "line Segment Animation/index.html" 
-
+{
+    "name": "Wave Animation",
+    "link": "Wave Animation/index.html" 
   },
 ]
