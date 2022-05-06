@@ -1,0 +1,140 @@
+body{
+	background-color: #abe6e6;
+	background-size:  8px 8px, 8px 8px;
+	background-position: center, center;
+	background-image: linear-gradient(#ebf4f9 1px, transparent 1px),linear-gradient(90deg, #ebf4f9 1px, transparent 1px);
+}
+
+.clock {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  border: 20px solid #121462;
+  border-radius: 50%;
+  left: 50%;
+  top: 50%;
+  background: #fefbf2;
+  transform: translate(-50%, -50%);
+  box-shadow: inset 0px 0px 10px black;
+}
+
+.big-hand {
+  position: absolute;
+  content: "";
+  height: 130px;
+  width: 10px;
+  background: black;
+  top: calc(50% - 130px);
+  left: calc(50% - 5px);
+  border-radius: 5px;
+  /* animation: spin 6s linear infinite; */
+  transform-origin: top;
+  box-shadow: 0px 0px 4px #999;
+}
+
+.small-hand {
+  position: absolute;
+  content: "";
+  height: 100px;
+  width: 10px;
+  background: black;
+  top: calc(50% - 100px);
+  left: calc(50% - 5px);
+  border-radius: 5px;
+  /* animation: spin 72s linear infinite; */
+  transform-origin: top;
+  box-shadow: 0px 0px 4px #999;
+}
+.seconds {
+  position: absolute;
+  content: "";
+  height: 130px;
+  width: 4px;
+  background: red;
+  top: calc(50% - 130px);
+  left: calc(50% - 2px);
+  border-radius: 5px;
+  /* animation: spin 6s linear infinite; */
+  transform-origin: top;
+  box-shadow: 0px 0px 4px #999;
+}
+
+.clock-wrapper::before {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: red;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.hour {
+  position: absolute;
+  font-size: 2rem;
+  color: blue;
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tree {
+  top: 50%;
+  right: 0;
+  margin-top: -1rem;
+  margin-left: 0;
+}
+
+.six {
+  bottom: 0%;
+  right: 50%;
+  margin-right: -1rem;
+}
+
+.nine {
+  top: 50%;
+  left: 0%;
+  margin-top: -1rem;
+  margin-left: 0;
+}
+
+.noon {
+  top: 0%;
+  right: 50%;
+  margin-right: -1rem;
+}
+
+button {
+  position: absolute;
+  width: 90px;
+  height: 30px;
+  margin: 10px;
+}
+
+#start {
+  top: 47%;
+  left: 20%;
+}
+
+#stop {
+  top: 47%;
+  left: 25%;
+}
+
+#restart {
+  top: 47%;
+  left: 30%;
+}
+input {
+  width: 100%;
+}
+.digital{
+  font-family:monospace;
+  color:#2e2d50;
+font-size:xxx-large;
+  font-size:46px;
+}
