@@ -552,11 +552,19 @@
     "link": "https://deploy-preview-602--amazing-css-effects.netlify.app/loading%20effect%20animation/" 
 
   },
+{ 
+    "name": "SnowMan Animation",
+    "link": "https://deploy-preview-603--amazing-css-effects.netlify.app/SnowMan%20Animation/" 
+},
+  {
+    "name": "Wave Animation",
+    "link": "Wave Animation/index.html" 
+  },
+
        {
     "name": "Time Change Slider",
     "link": "Time Change Slider/index.html" 
-       }
-  ,
+       },
 	{
 
     "name": "line Segment Animation",
@@ -568,7 +576,6 @@
   },
 
 {
-
     "name": "Circular Loading Animation",
     "link": "Circular Loading Animation/index.html" 
   },
@@ -583,7 +590,4 @@
     "name": "Wave Animation",
     "link": "Wave Animation/index.html" 
   },
-
-
-
 ]
