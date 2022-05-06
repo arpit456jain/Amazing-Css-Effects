@@ -568,6 +568,14 @@
   },
 
 {
+
+    "name": "Circular Loading Animation",
+    "link": "Circular Loading Animation/index.html" 
+  },
+    "name": "Wave Animation",
+    "link": "Wave Animation/index.html" 
+  },
+
     "name": "Moving Bee Animation",
     "link": "Moving Bee Animation/index.html" 
   },
@@ -575,6 +583,7 @@
     "name": "Wave Animation",
     "link": "Wave Animation/index.html" 
   },
+
 
 
 ]
