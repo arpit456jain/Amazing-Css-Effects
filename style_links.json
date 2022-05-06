@@ -556,11 +556,18 @@
     "name": "particle BG Effect",
     "link": "particle BG Effect/index.html" 
   },
+{ 
+    "name": "SnowMan Animation",
+    "link": "https://deploy-preview-603--amazing-css-effects.netlify.app/SnowMan%20Animation/" 
+},
+  {
+    "name": "Wave Animation",
+    "link": "Wave Animation/index.html" 
+  },
        {
     "name": "Time Change Slider",
     "link": "Time Change Slider/index.html" 
-       }
-  ,
+       },
 	{
 
     "name": "line Segment Animation",
