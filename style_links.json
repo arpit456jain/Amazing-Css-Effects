@@ -555,6 +555,9 @@
 	{
     "name": "Calendar",
     "link": "Calendar/index.html" 
-
+{
+    "name": "Wave Animation",
+    "link": "Wave Animation/index.html" 
+  },
   },
 ]
