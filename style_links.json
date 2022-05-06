@@ -555,6 +555,9 @@
        {
     "name": "Time Change Slider",
     "link": "Time Change Slider/index.html" 
-
+{
+    "name": "Wave Animation",
+    "link": "Wave Animation/index.html" 
+  },
   },
 ]
