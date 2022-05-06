@@ -1,0 +1,9 @@
+body{
+  overflow:hidden;
+  background:#0076ff;
+}
+#roller-coaster{
+  width:100%;
+  height:100%;
+  position:absolute;
+}
