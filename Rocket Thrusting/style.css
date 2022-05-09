@@ -1,0 +1,22 @@
+body{
+  background-color: #0c0b0bdb;
+  overflow:hidden;
+}
+body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+  width:600px;
+  height:600px;
+}
+
+text{
+  fill:red;
+}
+.rocketManSVG{
+	background: #2d2d2d;
+}
