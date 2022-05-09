@@ -597,12 +597,8 @@
     "name": "Wave Animation",
     "link": "Wave Animation/index.html" 
   },
-	{
-    "name": "Blob-menu-animation",
-    "link": "https://deploy-preview-633--amazing-css-effects.netlify.app/blob-menu-animation/" 
-  },
-	{
+{
     "name": "Clip-path-animation",
-    "link": "https://deploy-preview-634--amazing-css-effects.netlify.app/clip-path-animation/" 
+    "link": "Clip-path-animation/index.html"
   },
 ]
