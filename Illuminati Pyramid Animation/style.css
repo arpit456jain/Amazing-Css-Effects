@@ -58,3 +58,10 @@ body{
     width: 200%;
   }
 }
+
+@media only screen and (max-width: 400px) {
+  .svg-container {
+    padding-bottom: 300%;
+    width: 250%
+  }
+}
