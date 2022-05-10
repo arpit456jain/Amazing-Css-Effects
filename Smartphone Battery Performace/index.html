@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Pure CSS Battery Layout</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<svg id="battery" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 150">
+	<clipPath id="battery-shape">
+		<rect x="20" y="20" width="300" height="50" rx="5"/>
+		<circle fill="#939393" cx="318" cy="45" r="7"/>
+	</clipPath>
+	
+	<g id="battery" clip-path="url(#battery-shape)">
+		<rect x="20" y="20" fill="#ddd" width="310" height="50"/>
+		<rect id="target-battery" x="19" y="19" fill="#bbb" width="151" height="52" stroke="#444" stroke-width="2"/>
+		<rect id="current-battery" x="19" y="19" fill="#444" width="76" height="52" stroke="#fff" stroke-width="2"/>
+		<rect x="20" y="20" width="300" height="50" rx="5" fill="none" stroke="#444" stroke-width="4"/>
+		<circle cx="318" cy="45" r="7"  fill="#ddd" stroke="#444" stroke-width="4"/>
+		<rect x="308" y="35" width="10" height="20" fill="#ddd"/>
+		<circle id="battery-slider" fill="#fff" cx="170" cy="45" r="5" stroke="#444" stroke-width="2"/>
+	</g>
+	
+	<g id="slider">
+		<rect id="slider-track" x="20" y="90" fill="#ddd" width="300" height="10" rx="5" stroke="#444" stroke-width="2" />
+		<rect id="slider-thumb-1" x="25" y="90" fill="#444" width="290" height="10" rx="5"/>
+		<rect id="slider-thumb-2" x="25" y="90" fill="#444" width="0" height="10" rx="5"/>
+		<circle id="slider-left" fill="#fff" cx="25" cy="95" r="5" stroke="#444" stroke-width="2"/>
+		<circle id="slider-right" fill="#444" cx="315" cy="95" r="3"  stroke="#fff" stroke-width="2"/>
+	</g>
+	
+	<g font-family="sans-serif" font-size="14">
+  <text id="percent-text" y="15" x="170" >
+    50%
+  </text>
+  <text id="start-text" x="25" y="85"  text-anchor="end">
+    now
+  </text>
+  <text id="end-text"  x="315" y="85" >
+    24+
+  </text>
+		
+	</g>
+	<g font-family="sans-serif" font-size="10" fill="#888" >
+		<text id="duration" x="170" y="135" text-anchor="end">
+			 11 hrs 45 min
+		</text>
+		<text id="amps" x="180" y="135">
+			 5 amps
+		</text>
+	</g>
+</svg>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,11 @@
+#battery {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+#battery #slider {
+  cursor: pointer;
+}
+#battery text {
+  user-select: none;
+}
