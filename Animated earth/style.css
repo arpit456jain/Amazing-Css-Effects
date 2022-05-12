@@ -14,6 +14,7 @@ body {
 }
 
 .wrapper {
+  display: flex;
   width: 80rem;
   aspect-ratio: 1;
   border-radius: 50%;
