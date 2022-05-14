@@ -1,0 +1,125 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body
+{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: lightsalmon;
+    perspective: 1000px;
+    transform-style: preserve-3d;
+}
+
+.wrapper
+{
+    width: 220px;
+    height: 300px;
+    /* border: 2px solid red; */
+    position: relative;
+    border-radius: 10px;
+   
+    transform: rotateY(30deg);
+    box-shadow: 0px -1px 0 rgba(255, 255, 255, 0.945),
+            -2px -1px 0 rgba(255, 255, 255, 0.897),
+            -3px -1px 0 rgba(255, 255, 255, 0.747),
+            -4px -1px 0 rgba(255, 255, 255, 0.671),
+            -5px -1px 0 rgba(255, 255, 255, 0.589),
+            -6px -2px 0 rgba(255, 255, 255, 0.363),
+            -7px -2px 0 rgba(255, 255, 255, 0.123);
+   
+}
+.wrapper::after
+{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top , rgba(0, 0, 0, 0.172) ,transparent);
+    left: 0px;
+    z-index: -1;bottom: -2px;
+   transform: rotateX(-80deg) skew(54deg);
+   transform-origin: bottom;
+   border-radius: 10px;
+  
+}
+.wrapper img{
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 16/9;
+    position: absolute;
+    border-radius: 10px;
+   
+}
+.wrapper .info
+{
+    position: absolute;
+    background: linear-gradient(to top , rgba(0,0,0,0.75) 32% ,transparent  );
+    height: 100%;
+    width: 100%;
+    background-size: 200% 200%;
+    background-position: 0 1%;
+    transition: background 500ms;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.wrapper .info h3
+{
+    color: white;
+    font-size: 1.8em;
+    position: absolute;
+    bottom: 1em;
+    left: 0.3em;
+    min-width: 200px;
+    border-bottom: 3.4px solid greenyellow;
+    transition: bottom 500ms;
+}
+.wrapper .info .see-more
+{
+    /* border: 2px solid red; */
+    color: white;
+    position: absolute;
+    width: 77px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    bottom: -2em;
+    right: 0.5em;
+    transition: all 500ms;
+}
+.wrapper .info .see-more a
+{
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+    white-space: nowrap;
+}
+ion-icon
+{
+
+    font-size: 1.4em;
+}
+.wrapper .info:hover
+{
+    background-position: 0 52%;
+}
+.wrapper .info:hover h3
+{
+    bottom: 2.1em;
+}
+.wrapper .info:hover .see-more
+{
+    bottom: 1.5em;
+    
+}
+.wrapper .info .see-more:hover
+{
+    width: 110px;
+    
+}

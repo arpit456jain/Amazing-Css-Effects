@@ -1,19 +1,23 @@
 # Amazing-Css-Effects
 
 Some Astonishing CSS-Effects✨
- 
 <p align="center"><img src="Assets/intro.gif" width=100%></p>
- 
 
 ### This project is part of Girl script Summer of code 2022
 
-[<img alt="Gssoc'2022" width=100% src="https://i.postimg.cc/k40ntsV4/1500x500.jpg">](https://i.postimg.cc/k40ntsV4/1500x500.jpg)
+<a href="https://gssoc.girlscript.tech/" target="_blank">
+  <img alt="Gssoc'2022" width=100% src="https://i.postimg.cc/k40ntsV4/1500x500.jpg">
+</a>
+
 ### This project was part of the following Open Source Programs
 
   
 [<img alt="Devincept" width=100% src="https://user-images.githubusercontent.com/56088741/123548852-1ef59d00-d784-11eb-8e39-255e0c3e97d5.gif">](https://user-images.githubusercontent.com/56088741/123548852-1ef59d00-d784-11eb-8e39-255e0c3e97d5.gif)
-[<img alt="HacktoberFest'21" width=100% src="https://user-images.githubusercontent.com/59393136/135566614-5635902f-2907-4e01-8baf-3cb1b43a6b20.png">](https://user-images.githubusercontent.com/59393136/135566614-5635902f-2907-4e01-8baf-3cb1b43a6b20.png)
-### Demo 🎥
+
+<a href="https://hacktoberfest.digitalocean.com/" target="_blank">
+<img alt="HacktoberFest'21" width=100% src="https://user-images.githubusercontent.com/59393136/135566614-5635902f-2907-4e01-8baf-3cb1b43a6b20.png"></a>
+
+### Demo <a href="https://www.youtube.com/watch?v=_AohaKbJjlg&ab_channel=ARPITJAIN" target="_blank" style="text-decoration:none">🎥</a>
 
 #### Website for this repository : https://amazing-css-effects.netlify.app/
 
@@ -48,13 +52,13 @@ Check out our [Contributing Guildlines](/CONTRIBUTING.md)
 
 #### Step 1: Forking the repository :
 
-To work on an open-source project, you will first need to make your copy of the repository. To do this, you should fork the repository and then clone it so that you have a local working copy.
+To work on an open-source project, you will primarily need to make your copy of the repository. To do this, you should first fork the repository and then clone it so that you have a local working copy.
 
 Get your own Fork/Copy of repository by clicking `Fork` button at the upper right corner.<br><br>
 
 #### Step 2: Clone the Forked Repository
 
-After the repository is forked, you can now clone it so that you have a local working copy of the codebase.
+After the repository is forked, you can now clone it so that you have a copy of the codebase on your local Computer.
 
 To make your local copy of the repository follow the steps:
 - Open the Command Prompt
@@ -66,7 +70,7 @@ $ git clone https://github.com/<your-github-username>/Amazing-Css-Effects
 
 
 #### Step 3: Creating a new branch (IMP)
-This is one of the most important steps that you should follow to contribute in Open Source. A branch helps to manage the workflow, isolate your code and avoids creating a mess. To create a new branch:
+This is one of the most important step that you should follow while contributing to an Open Source project . A branch helps to manage the workflow, isolate your code and avoids creating a mess. To create a new branch:
   
 ```bash
 $ git branch <name_of_branch>
@@ -108,6 +112,41 @@ You should navigate to your forked repository, and press the "Compare & pull req
 
 GitHub will alert you that you can merge the two branches because there is no competing code. You should add in a title, a comment, and then press the “Create pull request” button.
 
+<br>
+
+## CONTRIBUTING A NEW TEMPLATE?
+### Please adhere to these guidelines 
+
+1. Create a folder with the name of your css effect template 
+
+2. Start building inside your folder with an entry file called index.html and after building, attach an image named "preview.png" within the folder root which represents the preview image of your template
+
+3. Go into the style_link.json file and add an object corresponding to your project in the following format:
+```
+    {
+  
+      "name": "Name-of-folder",
+      "link": "Name-of-folder/index.html"
+  
+    },
+
+```
+#### Important to note:  
+
+The name key of the json object must match the exact name of the folder
+The link key of the json object must match the exact name of the folder then append "/index.html"
+
+For example: I create a folder called "Animated Text", my json object would be:
+
+```
+    {
+  
+      "name": "Animated Text",  (not "Animated-Text" or "AnimatedText")
+      "link": "Animated Text/index.html"  (not "AnimatedText/index.html" or "Animated-Text/index.html")
+  
+    },
+
+```
 
 
 

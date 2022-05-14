@@ -1,0 +1,232 @@
+body {
+    background:#eedb0f;
+}
+.container{
+    height:100vh;
+    width:100vw;
+    overflow:hidden;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+.top{
+    width:200px;
+    height:150px;
+    background:#ebebe0;
+    position: absolute;
+    top:15%;
+    left: 37.5%;
+    border-left:10px solid #999;
+    border-right:10px solid #999;
+    border-radius:20px;
+    text-align: center;
+}
+.middle{
+    position:absolute;
+    width:160px;
+    height:210px;
+    left:38%;
+    top:37%;
+    background:#8c8c8c;
+    border-left:20px solid #ccc;
+    border-right:20px solid #ccc;
+    z-index:-1;
+}
+.stand1{
+    position:absolute;
+    width:90px;
+    height:35px;
+    background:#ddd;
+    left:20%;
+    border-radius:2px;
+}
+
+.stand2{
+    position:absolute;
+    width:75px;
+    height:15px;
+    top:18%;
+    background:#bfbfbf;
+    left:24%;
+    z-index:0;
+    border-radius:2px;
+    border-bottom:5px solid #000;
+}
+.base{
+    position:absolute;
+    width:210px;
+    height:10px;
+    background:crimson;
+    top:69%;
+    left:37.5%;
+    border-radius:2px;
+}
+.base1{
+    position:absolute;
+    width:230px;
+    height:40px;
+    background:#ff6699;
+    top:70%;
+    left:36.5%;
+    border-radius:10px;
+    border-bottom:10px solid #000;
+}
+.shadow{
+    position:absolute;
+    height:10px;
+    width:240px;
+    background:#000d1a;
+    top:78%;
+    left:36.5%;
+    z-index:-1;
+    border-radius:10px;
+}
+.pipe{
+    position:absolute;
+    width:5px;
+    height:9px;
+    top:27%;
+    left:45.7%;
+    background:#000;
+}
+.liquid{
+    position:absolute;
+    width:5px;
+    height:75px;
+    background:#663300;
+    left:46%;
+    top:-10%;
+    z-index:-1;
+    visibility:hidden;
+    opacity:0;
+    animation:sha 15s forwards;
+} 
+.button:hover .liquid{
+            animation:sha 6s 4s ;
+            -webkit-animation:sha 6s 4s ;
+        }
+        @keyframes sha{
+            0%{
+                visibility: visible;
+            }
+            100%{
+                transform: translateY(135px);
+            }
+        }
+        @-webkit-keyframes sha{
+            0%{
+                visibility: visible;
+            }
+            100%{
+                -webkit-transform: translateY(135px);
+            }
+        }
+
+
+.cup{
+position:absolute;
+    width:80px;
+    height:60px;
+    background:#fff;
+    top:66%;
+    left:20%;
+    border-radius: 12px 12px 90px 90px;
+}
+.cup:before{
+    background-color: transparent ;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    content: "";
+    border-radius: 0 20px 20px 0;
+    border:10px solid #fff;
+    top:10%;
+    left:66%;
+}
+.saucer{
+    position:absolute;
+    width:80px;
+    height:5px;
+    background:#fff;
+    top:95%;
+    left:20%;
+    border-radius:5px;
+}
+
+.button{
+position:absolute;
+    width:20px;
+    height:20px;
+    border-radius:50%;
+    background:crimson;
+    left:40%;
+    top:40%;
+    
+    
+}
+.button:hover{
+    background:#666699;
+}
+.circle1{
+position:absolute;
+    width:3px;
+    height:3px;
+    background:#666699;
+    border-radius:50%;
+    left:30%;
+    top:70%;
+    box-shadow:0 0 0 4px #ddd,
+               0 0 0 6px #000;
+               }
+               .circle2{
+    position:absolute;
+    width:3px;
+    height:3px;
+    background:#666699;
+    left:40%;
+    top:70%;
+    border-radius:50%;
+    box-shadow:0 0 0 4px #ddd,
+               0 0 0 6px #000;
+}
+.circle3{
+     position:absolute;
+    width:3px;
+    height:3px;
+    background:#666699;
+    left:50%;
+    border-radius:50%;
+    top:70%;
+    box-shadow:0 0 0 4px #eee,
+               0 0 0 6px #000;
+}
+.circle4{
+    position:absolute;
+    width:3px;
+    height:3px;
+    background:#666699;
+    left:60%;
+    top:70%;
+    border-radius:50%;
+    box-shadow:0 0 0 4px #ddd,
+               0 0 0 6px #000;
+        }
+
+@media (max-width:990px){
+    .top {
+        left: 28%;
+    }
+    .middle {
+        left: 30%;
+    }
+    .base{
+        left: 30%;
+    }
+    .base1{
+        left: 29%;
+    }
+    .shadow {
+        left: 28%;
+    }
+}

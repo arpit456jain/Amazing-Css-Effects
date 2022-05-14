@@ -1,18 +1,22 @@
 [
+  
   {
     "name": "3D Animation Button",
     "link": "3D Animation Button/index.html"
   },
+	
   {
     "name": "3d flip hover effect",
     "link": "3d flip hover effect/index.html"
   },
+	
   {
     "name": "3D Hover Effect",
     "link": "3D Hover Effect/index.html"
   },
+	
   {
-	"name": "3D Text Effect",
+	"name": "3D Text",
 	"link": "3D Text/index.html"
   },
   {
@@ -64,9 +68,14 @@
     "link": "Animated Santa with snowfall bg/index.html"
   },
   {
+    "name": "Animated Search Bar",
+    "link": "Animated Search Bar/index.html"
+    },
+  {
 	"name": "Animated Sidebar",
 	"link": "Animated Sidebar/index.html"
   },
+  
   {
     "name": "Animated Stacked Cards",
     "link": "Animated Stacked Cards/index.html"
@@ -80,15 +89,15 @@
     "link": "Animated UI Design/index.html"
   },
   {
-  	"name": "Animated 3D Cube",
+  	"name": "Animated_3D_Cube",
 	"link": "Animated_3D_Cube/index.html"
   },
   {
-	"name": "Animated Glassmorphism",
+	"name": "Animated-Glassmorphism-Vanila-Js",
 	"link": "Animated-Glassmorphism-Vanila-Js/index.html"
   },
   {
-	"name": "Animated Rain and Lightning Effect",
+	"name": "Animated-Rain-and-Lightning-effect",
 	"link": "Animated-Rain-and-Lightning-effect/index.html"
   },
   {
@@ -96,7 +105,7 @@
 	"link": "Assasin's creed cards/index.html"
   },
   {
-	"name": "Blur Loading",
+	"name": "Blur-loading",
 	"link": "Blur-loading/index.html"
   },
   {
@@ -108,7 +117,7 @@
 	"link": "Bulb/index.html"
   },
   {
-	"name": "Button to E-mail Effect",
+	"name": "Button_to_email_effect",
 	"link": "Button_to_email_effect/index.html"
   },
   {
@@ -126,6 +135,10 @@
   {
     "name": "Changing Typing Effects",
     "link": "Changing Typing Effects/index.html"
+  },
+  {
+    "name": "Clay Morphism Courses",
+    "link": "Clay Morphism Courses/index.html"
   },
   {
     "name": "Colorful Rain Effect",
@@ -152,7 +165,7 @@
     "link": "css glowing gradient loader ring/index.html"
   },
   {
-	"name": "CSS Glitch",
+	"name": "css-glitch",
 	"link": "css-glitch/index.html"
   },
   {
@@ -188,11 +201,11 @@
     "link": "FAQ Accordion/index.html"
   },
   {
-	  "name": "Flip Card",
+	  "name": "flip_card1",
 	  "link":  "flip_card1/index.html"
   },
   {
-	  "name": "Glassmorphic Flipbook",
+	  "name": "glassmorphic-flipbook",
 	  "link": "glassmorphic-flipbook/index.html"
   },
   {
@@ -224,7 +237,7 @@
 	"link": "Glowing Text/index.html"
   },
   {
-	"name": "Glowing Cube",
+	"name": "GlowingCube",
 	"link": "GlowingCube/index.html"
   },
   {
@@ -308,6 +321,10 @@
     "link": "Periodic Table/index.html"
   },
   {
+    "name": "Perspective 3D Card",
+    "link": "Perspective 3D Card/index.html"
+  },
+  {
     "name": "Petals-Effect",
     "link": "Petals-Effect/index.html"
   },
@@ -360,7 +377,7 @@
     "link": "Ripple Loader Animation/index.html"
   },
   {
-	"name": "Rolling Text",
+	"name": "rolling text by yash-25log",
 	"link": "rolling text by yash-25log/index.html"
   },
   {
@@ -368,7 +385,7 @@
     "link": "Rotating cards/index.html"
   },
   {
-	"name": "Safari 3D",
+	"name": "Safari3D",
 	"link": "safari3d/index.html"
   },
   {
@@ -386,6 +403,10 @@
   {
 	"name": "Site with Video",
 	"link": "Site with video/index.html"
+  },
+  {
+    	"name": "Slashed Text Animation",
+    	"link": "Slashed Text Animation/index.html"
   },
   {
 	"name": "Sliding Checkbox",
@@ -416,7 +437,7 @@
     "link": "Submarine Animation/index.html"
   },
   {
-	"name": "Text Effect",
+	"name": "text effect",
 	"link": "text effect/index.html"
   },
   {
@@ -496,9 +517,9 @@
     "link": "Simple Hover Effect/index.html"
   },
   {
-    "name": "Glassmorphic Navigation Bar",
+    "name": "Glassmorphism-navbar",
     "link": "Glassmorphism-navbar/index.html"
-  },
+    },
   {
     "name":"CSS Animation of planet revolving",
     "link":"CSS Animation of planet revolving/index.html"
@@ -506,5 +527,90 @@
   {
     "name": "Wavy Text Animation",
     "link": "Wavy Text Animation/index.html"
+  },=======
+    "name": "Goey footer",
+    "link": "Goey footer/footer.html"
   },
+  {
+  
+    "name": "Animated text",
+    "link": "Animated text/index.html" 
+
+  },
+  {
+  
+    "name": "Square-shimmer-loading-effect",
+    "link": "https://deploy-preview-576--amazing-css-effects.netlify.app/square-shimmer-loading-effect/" 
+
+  },
+ 
+ {
+  
+    "name": "Basket-ball-jump-animation",
+    "link": "https://deploy-preview-575--amazing-css-effects.netlify.app/basket%20ball%20jump%20animatio/" 
+
+  },
+ {
+  
+    "name": "Scale-up-and-down-animation",
+    "link": "https://deploy-preview-577--amazing-css-effects.netlify.app/scale-up-and-animation" 
+
+  },
+  {
+    "name": "Loading Effect Animation",
+    "link": "https://deploy-preview-602--amazing-css-effects.netlify.app/loading%20effect%20animation/" 
+  },
+	{
+    "name": "Calendar",
+    "link": "Calendar/index.html" 
+  },
+{ 
+    "name": "SnowMan Animation",
+    "link": "https://deploy-preview-603--amazing-css-effects.netlify.app/SnowMan%20Animation/" 
+},
+  {
+    "name": "Wave Animation",
+    "link": "Wave Animation/index.html" 
+  },
+       {
+    "name": "Time Change Slider",
+    "link": "Time Change Slider/index.html" 
+       },
+	{
+    "name": "line Segment Animation",
+    "link": "line Segment Animation/index.html" 
+  },
+  {
+    "name": "Color Change Ball Drop Animation",
+    "link": "https://deploy-preview-604--amazing-css-effects.netlify.app/color%20change%20ball%20drop%20animation/" 
+  },
+{
+    "name": "Circular Loading Animation",
+    "link": "Circular Loading Animation/index.html" 
+  },
+{
+    "name": "Wave Animation",
+    "link": "Wave Animation/index.html" 
+  },
+{
+    "name": "Moving Bee Animation",
+    "link": "Moving Bee Animation/index.html" 
+  },
+  {
+    "name": "Wave Animation",
+    "link": "Wave Animation/index.html" 
+  },
+
+{
+    "name": "Clip-path-animation",
+    "link": "Clip-path-animation/index.html"
+},
+  {
+    "name": "Smartphone Battery Performace",
+    "link": "Smartphone Battery Performace/index.html" 
+  },
+  {
+    "name": "Vanish Text Effect",
+    "link": "Vanish Text Effect/index.html"
+  }
 ]
