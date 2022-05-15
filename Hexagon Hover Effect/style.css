@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    min-height: 100vh;
+    background: rgb(0, 0, 0);
+    
+  }
+
+  
+  
+  .container {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    animation: animate 3s linear infinite;
+  }
+  
+  /* Hexagon using clip-path */
+  .hexagon {
+    position: relative;
+    width: 100px;
+    height: 110px;
+    background: rgb(113, 115, 234);
+    margin: 1px;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    transition: 2s;
+  }
+  
+  .hexagon:hover {
+    transition: 0s;
+    background: #0f0;
+  }
+  
+  .hexagon:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    pointer-events: none;
+    background: rgba(255, 255, 255, 0.02);
+  }
+  
+  .row {
+    display: inline-flex;
+    margin-top: -32px;
+    margin-left: -50px;
+  }
+  
+  .row:nth-child(even) {
+    margin-left: 1px;
+  }
+  
+  @keyframes animate {
+    0% {
+      filter: hue-rotate(0deg);
+    }
+    100% {
+      filter: hue-rotate(360deg);
+    }
+  }
+  

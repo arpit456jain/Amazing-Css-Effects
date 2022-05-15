@@ -241,6 +241,10 @@
 	"link": "GlowingCube/index.html"
   },
   {
+    	"name": "Hexagon Hover Effect",
+    	"link": "Hexagon Hover Effect/index.html"
+  },
+  {
     "name": "Hidden  Search Bar",
     "link": "Hidden  Search Bar/index.html"
   },
@@ -525,6 +529,9 @@
     "link":"CSS Animation of planet revolving/index.html"
   },
   {
+    "name": "Wavy Text Animation",
+    "link": "Wavy Text Animation/index.html"
+  },=======
     "name": "Goey footer",
     "link": "Goey footer/footer.html"
   },
@@ -597,6 +604,11 @@
     "name": "Wave Animation",
     "link": "Wave Animation/index.html" 
   },
+
+{
+    "name": "Clip-path-animation",
+    "link": "Clip-path-animation/index.html"
+},
   {
     "name": "Smartphone Battery Performace",
     "link": "Smartphone Battery Performace/index.html" 
@@ -605,4 +617,13 @@
     "name": "Breathe Animation",
     "link": "Breathe%20Animation/index.html" 
   },
+  {
+
+    "name": "Microphone Face",
+    "link": "Microphone%20Face/index.html" 
+  },
+  {
+    "name": "Vanish Text Effect",
+    "link": "Vanish Text Effect/index.html"
+  }
 ]
