@@ -531,7 +531,7 @@
   {
     "name": "Wavy Text Animation",
     "link": "Wavy Text Animation/index.html"
-  },=======
+  },{
     "name": "Goey footer",
     "link": "Goey footer/footer.html"
   },
@@ -621,6 +621,9 @@
   {
     "name": "Vanish Text Effect",
     "link": "Vanish Text Effect/index.html"
+  },
+  {
+    "name" : "Glowing Dots Effects",
+    "link" : "Glowing Dots Effects/index.html"
   }
-
 ]

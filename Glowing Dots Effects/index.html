@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glowing Dots</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            background-color: rgb(5,5,49);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        ul{
+            display: flex;
+            margin: 150px auto;
+            justify-content: center;
+        }
+        li{
+            list-style: none;
+            border-radius: 50%;
+            width: 30px;
+            font-size: 15px;
+            font-weight: bold;
+            padding: 10px 3px;
+            margin: 0 50px;
+            background: rgba(255,255,255,0.2);
+            color: #000635;
+            transition: 0.3s;
+            text-align: center;
+        }
+        li:hover{
+            background: #fff;
+            box-shadow: 0 0 10px rgba(255,255,255,1),
+                        0 0 20px rgba(255,255,255,1),
+                        0 0 30px rgba(255,255,255,1),
+                        /* 0 0 0 75px rgba(255,255,255,0.05), */
+                        0 0 0 60px rgba(255,255,255,0.05),
+                        0 0 0 45px rgba(255,255,255,0.05),
+                        0 0 0 30px rgba(255,255,255,0.05),
+                        0 0 0 15px rgba(255,255,255,0.05);
+        }
+        @media only screen and (max-width: 600px) {
+            li{
+                margin: 0 20px;
+            }
+            ul{
+                padding: 0px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1 style="color: white; text-align:center; font-family: Verdana, Geneva, Tahoma, sans-serif;">Glowing Button Effect (Hover Below)</h1>
+    <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+    </ul>
+</body>
+</html>
