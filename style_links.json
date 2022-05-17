@@ -613,6 +613,10 @@
     "name": "Smartphone Battery Performace",
     "link": "Smartphone Battery Performace/index.html" 
   },
+	{
+    "name": "Breathe Animation",
+    "link": "Breathe%20Animation/index.html" 
+  },
   {
 
     "name": "Microphone Face",
@@ -622,5 +626,4 @@
     "name": "Vanish Text Effect",
     "link": "Vanish Text Effect/index.html"
   }
-
 ]
