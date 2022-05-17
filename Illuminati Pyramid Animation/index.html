@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Illuminati</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html lang="en">
+  <head>
+    <title>Iris</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.13.1/TweenMax.min.js"></script>
+  </head>
+  <body>
+    <div id="background">
+      <div class="svg-container">
+        <svg viewBox="0 0 2048 2048" preserveAspectRatio="xMinYMin meet">
+        <pattern  width="512" height="32" patternUnits="userSpaceOnUse" id="wavePattern" viewBox="0 -72 512 32" overflow="visible" stroke="#333333" fill="none" stroke-width="16" stroke-miterlimit="10">
+          <path d="M0-8c256,0,256-32,512-32"/>
+          <path d="M0-40c256,0,256-32,512-32"/>
+          <path d="M0-72c256,0,256-32,512-32"/>
+        </pattern>
+        <rect id="patternFill" fill="url(#wavePattern)" width="2048" height="2048"/>
+      </svg>
+      </div>
+      
+    </div>
+    <div id="svgs">
+      <svg version="1.1" id="eye" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 200 200" enable-background="new 0 0 200 200" xml:space="preserve">
+        <g id="iris">
+          <defs>
+            <path id="eyeMaskReference" d="M45.9,100c15.2,42.7,93,42.7,108.2,0C138.9,57.3,61.1,57.3,45.9,100z"/>
+          </defs>
+          <clipPath id="eyeMask">
+            <use xlink:href="#eyeMaskReference"  overflow="visible"/>
+          </clipPath>
+          <path id="whites" clip-path="url(#eyeMask)" fill="#dddddd" d="M45.9,100c15.2,42.7,93,42.7,108.2,0C138.9,57.3,61.1,57.3,45.9,100z"/>
+          <circle id="pupil" clip-path="url(#eyeMask)" fill="#222222" cx="100" cy="100" r="18.7"/>
+        </g>
+        <path id="outline" fill="none" stroke="#222222" stroke-width="10" stroke-miterlimit="2" d="M45.9,100c15.2,42.7,93,42.7,108.2,0C138.9,57.3,61.1,57.3,45.9,100z"/>
+        <path id="eyeLash" fill="none" stroke="#222222" stroke-width="10" stroke-miterlimit="10" d="M100,55.5v-31 M83.9,56.5l-6.4-28.6M66.8,61.3l-9.7-23.2 M38.9,51.2L52,71.1 M24.7,68.5L40.2,82 M122.5,27.9l-6.4,28.6 M142.9,38.1l-9.7,23.2 M161.1,51.2L148,71.1M159.8,82l15.5-13.5"/>
+      </svg>
+      <svg version="1.1" id="pyramid" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 700 430" enable-background="new 0 0 700 430" xml:space="preserve">
+        <symbol id="brick" >
+          <rect fill="#222222" width="150" height="100" rx="10" ry="10"/>
+        </symbol>
+        <symbol id="outerBrick">
+          <path fill="#222222" d="M10,100h101.4c4.6,0,8.8-2.2,11.5-6l57-81.4c3.7-5.3-0.1-12.6-6.6-12.6H10C4.5,0,0,4.5,0,10v80C0,95.5,4.5,100,10,100z"/>
+        </symbol>
+        <use xlink:href="#outerBrick" id="brick0" transform="matrix(-1 0 0 -1 185 430)"/>
+        <use xlink:href="#brick" id="brick1" transform="matrix(1 0 0 -1 195 430)"/>
+        <use xlink:href="#brick" id="brick2" transform="matrix(1 0 0 -1 355 430)"/>
+        <use xlink:href="#outerBrick" id="brick3" transform="matrix(1 0 0 -1 515 430)"/>
+        <use xlink:href="#outerBrick" id="brick4" transform="matrix(-1 0 0 -1 265 320)"/>
+        <use xlink:href="#brick" id="brick5" transform="matrix(1 0 0 -1 275 320)"/>
+        <use xlink:href="#outerBrick" id="brick6" transform="matrix(1 0 0 -1 435 320)"/>
+        <use xlink:href="#outerBrick" id="brick7" transform="matrix(-1 0 0 -1 345 210)"/>
+        <use xlink:href="#outerBrick" id="brick8" transform="matrix(1 0 0 -1 355 210)"/>
+        <path id="brick9" fill="#222222" d="M454.9,87.4L397.9,6c-2.6-3.7-6.9-6-11.5-6h-72.8c-4.6,0-8.8,2.2-11.5,6l-57,81.4c-3.7,5.3,0.1,12.6,6.6,12.6h196.6C454.8,100,458.6,92.7,454.9,87.4z"/>
+      </svg>
+    </div>
+  </body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

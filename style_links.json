@@ -613,8 +613,15 @@
     "name": "Smartphone Battery Performace",
     "link": "Smartphone Battery Performace/index.html" 
   },
+	{
+    "name": "Breathe Animation",
+    "link": "Breathe%20Animation/index.html" 
+  },
   {
-
+    "name": "Illuminati Pyramid Animation",
+    "link": "Illuminati%20Pyramid%20Animation/index.html" 
+  },
+{
     "name": "Microphone Face",
     "link": "Microphone%20Face/index.html" 
   },
@@ -627,4 +634,5 @@
     "name" : "Portfolio Swap Card",
     "link" : "Portfolio Swap Card/index.html"
   }
+
 ]
