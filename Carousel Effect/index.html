@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #slider{
+            overflow: hidden;
+        }
+        #slider figure{
+            position: relative;
+            width: 500%;
+            height: 700px;
+            margin: 0;
+            left: 0;
+            animation: 10s slider infinite;
+        }
+        #slider figure img{
+            width: 20%;
+            float: left;
+        }
+
+        @keyframes slider{
+            0%{
+                left: 100;
+            }
+            16%{
+                left: 0%;
+            }
+            32%{
+                left: -100%;
+            }
+            48%{
+                left: -200%;
+            }
+            64%{
+                left: -300%;
+            }
+            80%{
+                left: -400%;
+            }
+            100%{
+                left: 0%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="slider">
+        <figure>
+            <img src="1.jpg" alt="1.jpg" height="100%">
+            <img src="2.jpg" alt="2.jpg" height="100%">
+            <img src="3.jpg" alt="3.jpg" height="100%">
+            <img src="4.jpg" alt="4.jpg" height="100%">
+            <img src="5.jpg" alt="5.jpg" height="100%">
+        </figure>
+    </div>
+</body>
+</html>
