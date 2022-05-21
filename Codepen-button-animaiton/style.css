@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #090221;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    height: 100vh;
+}
+
+html {
+    font-size: 100%;
+}
+
+/* ======================== */
+
+.button {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    padding: 3px;
+    border-radius: 6px;
+    position: relative;
+    overflow: hidden; /* Hides the overflowing ::before pseudo-element. */
+}
+
+.button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200%; /*Making the width double the size of the parent since we are going to be animation the transform: translateX() to the left. */
+    height: 100%;
+    background: linear-gradient(115deg, #4fcf70, #fad648, #a767e5, #12bcfe, #44ce7b);
+    background-size: 50% 100%;
+    border-radius: inherit;
+}
+
+.button:hover::before {
+    animation: animate_border .75s linear infinite;
+}
+
+.button span {
+    display: block;
+    background-color: #000;
+    padding: 13px 20px;
+    border-radius: 3px;
+    position: relative;
+    z-index: 2;
+}
+
+@keyframes animate_border {
+    to {
+        transform: translateX(-50%)
+    }
+}
