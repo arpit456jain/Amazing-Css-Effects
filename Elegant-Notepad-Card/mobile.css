@@ -1,0 +1,20 @@
+.item4{
+    width: 75vw;
+    height: 55vh;
+}
+
+.notebox{
+    background-size: 58vw 44vh;
+    height: 72vw;
+    width: 35vh;
+    max-width: 80%;
+    max-height: 75%;
+}
+
+.line1{
+    font-size: 15px;
+}
+
+.line2, .line3{
+    font-size: 40px;
+}
