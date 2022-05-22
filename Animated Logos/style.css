@@ -5,6 +5,7 @@
     --blue: #004aef;
 }
 body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -71,7 +72,7 @@ body{
     border-right: 1em solid #4285f4;
     border-bottom: 1em solid #34a853;
     border-left: 1em solid #fbbc05;
-    animation: animate-font 5s ease-in-out infinite;
+    animation: animate-font 2.5s ease-in-out infinite;
 }
 #google::before {
     content: '';
@@ -110,3 +111,20 @@ body{
         transform: rotate(0deg) scale(100%);
     }
 }
+
+h1{
+    text-align: center;
+    font-size: 3rem;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      flex-direction: column;
+    }
+    .microsoft{
+        margin-top: 20rem;
+    }
+    h1{
+        margin-bottom: 5rem;
+    }
+  }
