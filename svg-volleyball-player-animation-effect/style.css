@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+}
+#ball{
+    /* transform-box: fill-box; */
+    transform-origin: center;
+    animation: ball 5s  infinite  alternate;
+    z-index: 2000;
+}
+@keyframes ball{
+    from{
+        /* transform: scale(2); */
+        transform: rotateZ(120deg);
+        z-index: 5000;
+    }
+    to{
+        /* transform: scale(1); */
+        transform: rotateZ(0deg);
+
+    }
+}
+#man{
+  animation: man  5s ease-in-out infinite  alternate;
+}
+@keyframes man{
+    from{
+        transform: translateY(80px);
+    }
+    to{
+        transform: translateY(0);
+    }
+}
+#court{
+    z-index: -2;
+}
+
