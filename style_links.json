@@ -1,20 +1,20 @@
 [
-  
+
   {
     "name": "3D Animation Button",
     "link": "3D Animation Button/index.html"
   },
-	
+
   {
     "name": "3d flip hover effect",
     "link": "3d flip hover effect/index.html"
   },
-	
+
   {
     "name": "3D Hover Effect",
     "link": "3D Hover Effect/index.html"
   },
-	
+
   {
 	"name": "3D Text",
 	"link": "3D Text/index.html"
@@ -75,7 +75,7 @@
 	"name": "Animated Sidebar",
 	"link": "Animated Sidebar/index.html"
   },
-  
+
   {
     "name": "Animated Stacked Cards",
     "link": "Animated Stacked Cards/index.html"
@@ -441,6 +441,10 @@
     "link": "Submarine Animation/index.html"
   },
   {
+    "name": "svg-volleyball-player-animation-effect",
+    "link": "svg-volleyball-player-animation-effect/index.html"
+  },
+  {
 	"name": "text effect",
 	"link": "text effect/index.html"
   },
@@ -537,73 +541,73 @@
     "link": "Goey footer/footer.html"
   },
   {
-  
+
     "name": "Animated text",
-    "link": "Animated text/index.html" 
+    "link": "Animated text/index.html"
 
   },
   {
-  
+
     "name": "Square-shimmer-loading-effect",
-    "link": "https://deploy-preview-576--amazing-css-effects.netlify.app/square-shimmer-loading-effect/" 
+    "link": "https://deploy-preview-576--amazing-css-effects.netlify.app/square-shimmer-loading-effect/"
 
   },
- 
+
  {
-  
+
     "name": "Basket-ball-jump-animation",
-    "link": "https://deploy-preview-575--amazing-css-effects.netlify.app/basket%20ball%20jump%20animatio/" 
+    "link": "https://deploy-preview-575--amazing-css-effects.netlify.app/basket%20ball%20jump%20animatio/"
 
   },
  {
-  
+
     "name": "Scale-up-and-down-animation",
-    "link": "https://deploy-preview-577--amazing-css-effects.netlify.app/scale-up-and-animation" 
+    "link": "https://deploy-preview-577--amazing-css-effects.netlify.app/scale-up-and-animation"
 
   },
   {
     "name": "Loading Effect Animation",
-    "link": "https://deploy-preview-602--amazing-css-effects.netlify.app/loading%20effect%20animation/" 
+    "link": "https://deploy-preview-602--amazing-css-effects.netlify.app/loading%20effect%20animation/"
   },
 	{
     "name": "Calendar",
-    "link": "Calendar/index.html" 
+    "link": "Calendar/index.html"
   },
-{ 
+{
     "name": "SnowMan Animation",
-    "link": "https://deploy-preview-603--amazing-css-effects.netlify.app/SnowMan%20Animation/" 
+    "link": "https://deploy-preview-603--amazing-css-effects.netlify.app/SnowMan%20Animation/"
 },
   {
     "name": "Wave Animation",
-    "link": "Wave Animation/index.html" 
+    "link": "Wave Animation/index.html"
   },
        {
     "name": "Time Change Slider",
-    "link": "Time Change Slider/index.html" 
+    "link": "Time Change Slider/index.html"
        },
 	{
     "name": "line Segment Animation",
-    "link": "line Segment Animation/index.html" 
+    "link": "line Segment Animation/index.html"
   },
   {
     "name": "Color Change Ball Drop Animation",
-    "link": "https://deploy-preview-604--amazing-css-effects.netlify.app/color%20change%20ball%20drop%20animation/" 
+    "link": "https://deploy-preview-604--amazing-css-effects.netlify.app/color%20change%20ball%20drop%20animation/"
   },
 {
     "name": "Circular Loading Animation",
-    "link": "Circular Loading Animation/index.html" 
+    "link": "Circular Loading Animation/index.html"
   },
 {
     "name": "Wave Animation",
-    "link": "Wave Animation/index.html" 
+    "link": "Wave Animation/index.html"
   },
 {
     "name": "Moving Bee Animation",
-    "link": "Moving Bee Animation/index.html" 
+    "link": "Moving Bee Animation/index.html"
   },
   {
     "name": "Wave Animation",
-    "link": "Wave Animation/index.html" 
+    "link": "Wave Animation/index.html"
   },
 
 {
@@ -612,23 +616,27 @@
 },
   {
     "name": "Smartphone Battery Performace",
-    "link": "Smartphone Battery Performace/index.html" 
+    "link": "Smartphone Battery Performace/index.html"
   },
 	{
     "name": "Breathe Animation",
-    "link": "Breathe%20Animation/index.html" 
+    "link": "Breathe%20Animation/index.html"
   },
   {
     "name": "Illuminati Pyramid Animation",
-    "link": "Illuminati%20Pyramid%20Animation/index.html" 
+    "link": "Illuminati%20Pyramid%20Animation/index.html"
   },
 {
     "name": "Microphone Face",
-    "link": "Microphone%20Face/index.html" 
+    "link": "Microphone%20Face/index.html"
   },
   {
     "name": "Vanish Text Effect",
     "link": "Vanish Text Effect/index.html"
+  },
+  {
+    "name": "Heart-trail-animation",
+    "link": "Heart-trail-animation/index.html"
   }
   ,
   {
@@ -639,4 +647,11 @@
     "name": "Animated Carousel",
     "link": "Animated%20Carousel/index.html" 
   }
+
+  ,
+  {
+    "name" : "Multi-colored Animated Text",
+    "link" : "Multi-colored Animated Text/index.html"
+  }
+
 ]
