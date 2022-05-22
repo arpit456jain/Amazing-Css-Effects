@@ -1,0 +1,29 @@
+body {
+  /* width: 100vw;
+  height: 90vh; */
+  margin: 0;
+  overflow: hidden;
+}
+.curved-div {
+  position: relative;
+  background: black;
+  color: white;
+  text-align: center;
+  /* overflow: hidden; */
+}
+.curved-div svg {
+  display: block;
+}
+.curved-div.upper {
+  background: red;
+}
+.curved-div h1 {
+  font-size: 6rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin-top:0rem;
+}
+.curved-div p {
+  font-size: 1rem;
+  margin:0 5rem 0rem 5rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
