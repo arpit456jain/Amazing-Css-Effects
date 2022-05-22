@@ -1,0 +1,139 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+#hero{
+    width:100%;
+    height: 100vh;
+    overflow:hidden;
+    position: relative;
+}
+#hero:after{
+    content:'';
+    position:absolute;
+    left:50%;
+    top:0;
+    width:130%;
+    height:95%;
+    background:linear-gradient(to right,rgba(110,155,39,0.6),rgba(20,54,1,0.4)),url("./Images/hero.jpg")center top no-repeat;/*image-size 1920H 1080W*/
+    z-index:0;
+    border-radius: 0 0 50% 50%;
+    transform:translateX(-50%) rotate(0deg);
+}
+#hero:before{
+    content:'';
+    position: absolute;
+    left:50%;
+    top:0;
+    width:130%;
+    height:96%;
+    background:rgba(110,155,39,0.8);
+    opacity:0.3;
+    z-index:0;
+    border-radius:0 0 50% 50%;
+    transform: translateX(-50%)translateY(18px)rotate(2deg);
+}
+#hero .carousel-container{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction:column;
+    text-align:center;
+    bottom:0;
+    top:0;
+    left:0;
+    right:0;
+}
+#hero h2{
+    color:#fff;
+    margin-bottom:30px;
+    font-size:48px;
+    font-weight:bold;
+}
+#hero p{
+    width:80%;
+    animation-delay:0.4s;
+    margin:0 auto 30px auto;
+    color:#fff;
+}
+#hero .carousel-control-prev, 
+#hero .carousel-control-next{
+    width:10%;
+}
+#hero .carousel-control-next-icon,
+#hero .carousel-control-prev-icon{
+    background:none;
+    font-size:48px;
+    line-height:1;
+    width:auto;
+    height: auto;
+}
+#hero .hero-btn{
+    font-weight:bold;
+    font-size:16px;
+    letter-spacing:1px;
+    display:inline-block;
+    padding:12px 32px;
+    border-radius:50px;
+    transition:0.5s;
+    line-height:1;
+    margin:10px;
+    color:#fff;
+    animation-delay:0.5s;
+    border:2px solid #9ef596;
+}
+#hero .hero-btn:hover{
+    background:#0a6801;
+    color:#fff;
+    text-decoration:none;
+}
+@media(min-width:1024px){
+    #hero p{
+        width:60%;
+    }
+    #hero .carousel-control-prev,
+    #hero .carousel-control-next{
+        width:5%;
+    }
+}
+@media(max-width:768px){
+    #hero h2{
+        font-size:28px;
+    }
+    #hero:after{
+        width:180%;
+        height:95%;
+        border-radius:0 0 50% 50%;
+        transform:translateX(-50%)rotate(0deg);
+    }
+    #hero:before{
+        top:0;
+        width:180%;
+        height:94%;
+        border-radius: 0 0 50% 50%;
+        transform: translateX(-50%)translateY(20px)rotate(4deg);
+    }
+}
+@media(max-width:575px){
+    #hero:after{
+        left:40%;
+        top:0;
+        width:200%;
+        height:95%;
+        border-radius: 0 0 50% 50%;
+        transform: translateX(-50%)rotate(0deg);
+    }
+    #hero:before{
+        left:50%;
+        top:0;
+        width:200%;
+        height:94%;
+        border-radius: 0 0 50% 50%;
+        transform: translateX(-50%)translateY(20px)rotate(4deg);
+
+    }
+}

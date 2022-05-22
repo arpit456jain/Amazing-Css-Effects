@@ -642,7 +642,12 @@
   {
     "name" : "Portfolio Swap Card",
     "link" : "Portfolio Swap Card/index.html"
+  },
+  {
+    "name": "Animated Carousel",
+    "link": "Animated%20Carousel/index.html" 
   }
+
   ,
   {
     "name" : "Multi-colored Animated Text",
