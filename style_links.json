@@ -622,6 +622,11 @@
     "name": "Smartphone Battery Performace",
     "link": "Smartphone Battery Performace/index.html"
   },
+  {
+    "name": "Carousel Effect",
+    "link": "Carousel Effect/index.html"
+  },
+
 	{
     "name": "Breathe Animation",
     "link": "Breathe%20Animation/index.html"
@@ -657,5 +662,5 @@
     "name" : "Multi-colored Animated Text",
     "link" : "Multi-colored Animated Text/index.html"
   }
-
 ]
+
