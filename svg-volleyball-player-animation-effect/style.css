@@ -38,4 +38,9 @@ body{
 #court{
     z-index: -2;
 }
+@media(max-width:1030px){
+    svg{
+        width: 100vw;
+    }
+}
 
