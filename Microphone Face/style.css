@@ -1,0 +1,73 @@
+html, body{
+width: 100%;
+height: 100%;
+padding: 0;
+margin: 0;
+background-color:#222;
+font-size: 0;
+}
+
+
+h1{
+width: 100%;
+font-family: sans-serif;
+position:absolute;
+text-align:center;
+color:white;
+font-size: 18px;
+top: 40%;
+opacity: 1;
+transition: opacity 1s ease-in-out;
+-moz-transition: opacity 1s ease-in-out;
+-webkit-transition: opacity 1s ease-in-out;
+  pointer-events:none;
+}
+
+h1 a{
+  color: #48b1f4;
+  text-decoration:none;
+}
+
+
+.head{
+  pointer-events:none;
+  position:absolute;
+  width:100%;
+  height:100%;
+  align-items:center;
+  justify-content:center;
+    display:none;
+}
+
+.face{
+  width:30vw;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:space-between;
+  height:20vw;
+}
+
+.eyes{
+  width:20vw;
+  height:4vw;
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+}
+
+.eye{
+  width:4vw;
+  height:4vw;
+  background:#fff;
+  border-radius:50%;
+  display:inline-block;
+}
+
+.mouth{
+  width:30vw;
+  height:15vw;
+  background-color:#fff;
+  border-radius:50%;
+
+}

@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.item4{
+    background-image: linear-gradient(to top right,purple,rgb(201, 86, 176),red,rgb(135, 135, 223));
+    width: 48vw;
+    height: 70vh;
+    box-shadow: rgb(82, 82, 82) 5px 5px 20px 2px;
+}
+
+.notebox{
+    background-image: url("images/notes1.jpg");
+    background-size: 28vw 49vh;
+    height:26vw;
+    width: 49vh;
+    padding-left: 1.5vw;
+    min-height: 75%;
+    min-width: 60%;
+}
+
+.line1{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 11vh;
+}
+
+.line2 mark{
+    background-color:#ffe9ba;
+}
+
+.line2{
+    font-size: 55px;
+    font-weight: bolder;
+    margin-top: 1.5vh;
+}
+
+.line3{
+    font-size: 55px;
+    font-weight: bolder;
+    margin-top: -1vh;
+}
+
+.line5 a{
+    margin: 0;
+}
+
+.noline{
+    text-decoration: none;
+}
+
+#flexC{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

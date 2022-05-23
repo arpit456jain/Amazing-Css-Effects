@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900");
+html {
+  font-size: 1vw;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-height: 100vh;
+  background-color: #fff;
+	background-size:  8px 8px, 8px 8px;
+	background-position: center, center;
+	background-image: linear-gradient(#ebf4f9 1px, transparent 1px),linear-gradient(90deg, #ebf4f9 1px, transparent 1px);
+}
+
+h1 span {
+  letter-spacing: 2rem;
+}
+h1 span:nth-child(1) {
+  font-weight: 100;
+  color: #ddd;
+  font-variation-settings: "wght" 100;
+  animation: breath-1 5s infinite forwards;
+  animation-timing-function: ease-in-out;
+}
+@keyframes breath-1 {
+  50% {
+    font-variation-settings: "wght" 225;
+    color: lightblue;
+  }
+  100% {
+    font-variation-settings: "wght" 100;
+    color: #ddd;
+  }
+}
+h1 span:nth-child(2) {
+  font-weight: 100;
+  color: #ddd;
+  font-variation-settings: "wght" 100;
+  animation: breath-2 5s infinite forwards;
+  animation-timing-function: ease-in-out;
+}
+@keyframes breath-2 {
+  50% {
+    font-variation-settings: "wght" 450;
+    color: lightblue;
+  }
+  100% {
+    font-variation-settings: "wght" 100;
+    color: #ddd;
+  }
+}
+h1 span:nth-child(3) {
+  font-weight: 100;
+  color: #ddd;
+  font-variation-settings: "wght" 100;
+  animation: breath-3 5s infinite forwards;
+  animation-timing-function: ease-in-out;
+}
+@keyframes breath-3 {
+  50% {
+    font-variation-settings: "wght" 675;
+    color: lightblue;
+  }
+  100% {
+    font-variation-settings: "wght" 100;
+    color: #ddd;
+  }
+}
+h1 span:nth-child(4) {
+  font-weight: 100;
+  color: #ddd;
+  font-variation-settings: "wght" 100;
+  animation: breath-4 5s infinite forwards;
+  animation-timing-function: ease-in-out;
+}
+@keyframes breath-4 {
+  50% {
+    font-variation-settings: "wght" 900;
+    color: lightblue;
+  }
+  100% {
+    font-variation-settings: "wght" 100;
+    color: #ddd;
+  }
+}
+h1 span:nth-child(5) {
+  font-weight: 100;
+  color: #ddd;
+  font-variation-settings: "wght" 100;
+  animation: breath-5 5s infinite forwards;
+  animation-timing-function: ease-in-out;
+}
+@keyframes breath-5 {
+  50% {
+    font-variation-settings: "wght" 675;
+    color: lightblue;
+  }
+  100% {
+    font-variation-settings: "wght" 100;
+    color: #ddd;
+  }
+}
+h1 span:nth-child(6) {
+  font-weight: 100;
+  color: #ddd;
+  font-variation-settings: "wght" 100;
+  animation: breath-6 5s infinite forwards;
+  animation-timing-function: ease-in-out;
+}
+@keyframes breath-6 {
+  50% {
+    font-variation-settings: "wght" 450;
+    color: lightblue;
+  }
+  100% {
+    font-variation-settings: "wght" 100;
+    color: #ddd;
+  }
+}
+h1 span:nth-child(7) {
+  font-weight: 100;
+  color: #ddd;
+  font-variation-settings: "wght" 100;
+  animation: breath-7 5s infinite forwards;
+  animation-timing-function: ease-in-out;
+}
+@keyframes breath-7 {
+  50% {
+    font-variation-settings: "wght" 225;
+    color: lightblue;
+  }
+  100% {
+    font-variation-settings: "wght" 100;
+    color: #ddd;
+  }
+}
