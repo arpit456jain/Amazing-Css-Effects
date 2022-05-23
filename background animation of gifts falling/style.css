@@ -1,0 +1,134 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+section{
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(#333,#000);
+}
+img{
+    width: 70px;
+}
+.set{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    
+    top: 0;
+    left: 0;
+
+
+}
+.set div{
+    position: absolute;
+    display: block;
+}
+.set div:nth-child(1){
+    left: 3%;
+    animation: animate 9s linear infinite;
+}
+.set div:nth-child(2){
+    left: 10%;
+    animation-delay: -3s;
+    animation: animate 8s linear infinite;
+
+
+}
+.set div:nth-child(3){
+    left: 35%;
+    animation-delay: -5s;
+    animation: animate 6s linear infinite;
+
+}
+.set div:nth-child(4){
+    left: 20%;
+    animation-delay: -7s;
+    animation: animate 7s linear infinite;
+
+}.set div:nth-child(5){
+    animation: animate 6s linear infinite;
+    animation-delay: -9s;
+
+    left: 27%;
+}
+.set div:nth-child(6){
+    left: 48%;
+    animation-delay: -11s;
+    animation: animate 11s linear infinite;
+
+}.set div:nth-child(7){
+    left: 65%;
+    animation: animate 14s linear infinite;
+    animation-delay: -3s;
+
+}.set div:nth-child(8){
+    left: 73%;
+    animation: animate 6s linear infinite;
+    animation-delay: -5.5s;
+
+}.set div:nth-child(9){
+    left: 80%;
+    animation: animate 5.5s linear infinite;
+    animation-delay: -1.7s;
+
+}.set div:nth-child(10){
+    left: 86%;
+    animation: animate 3s linear infinite;
+
+}.set div:nth-child(11){
+    left: 91%;
+    animation: animate 8s linear infinite;
+
+}.set div:nth-child(12){
+    left: 96%;
+    animation: animate 5s linear infinite;
+
+}.set div:nth-child(13){
+    left: 57%;
+    animation: animate 12s linear infinite;
+    animation-delay: -0.95s;
+
+}
+@keyframes animate{
+    0%{
+        opacity: 0;
+        top: -10%;
+        transform: translateX(-20px) rotate(85deg);
+    } 
+    10%{
+        opacity: 1;
+    } 
+    20%{
+        transform: translateX(-20px) rotate(60deg);
+    }
+    40%{
+        transform: translateX(-20px) rotate(40deg);
+    }
+    50%{
+        transform: translateX(-20px) rotate(30deg);
+    }
+    60%{
+        transform: translateX(-20px) rotate(15deg);
+    }
+    80%{
+        transform: translateX(-20px) rotate(0deg);
+    }
+    100%{
+        top: 110%;
+    }
+}
+.set2{
+    transform: scale(2) rotateY(180deg);
+    
+}
+.set3{
+    transform: scale(0.8) rotateX(190deg);
+}
+@media(max-width:800px){
+    section{
+        width: 95%;
+    }
+}
