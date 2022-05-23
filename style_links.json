@@ -612,5 +612,9 @@
   {
     "name": "Vanish Text Effect",
     "link": "Vanish Text Effect/index.html"
-  }
+  },
+  {
+    "name": "Font Awesome Background Effect",
+    "link": "Font Awesome Background Effect/index.html" 
+  },
 ]
