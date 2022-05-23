@@ -25,23 +25,16 @@
  
 	 100%{
 		 transform: rotate(360deg) rotate(360deg) translate(-0px);
-	 }
-
-	
+	 }	
 }
 
-/* *{
-	background-image: url('image.png');
-	height: 0vh;
-    z-index: 0;
-	box-shadow: 0vh 35vh 70px 15px pink;
-} */
-
 body{
-	background-image: url('image.png');
-	height: 0vh;
+	background-image: url('image.png') ;
     z-index: 0;
-	box-shadow: 0vh 45vh 70px 15px pink;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .cube{
