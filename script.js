@@ -140,7 +140,7 @@ const displayProjects = (projects) => {
         .map((project) => {
             return`<div class="stylebox">
                  <div class="image">
-                      <img src="./${project.name}/preview.png" alt="">
+                      <img src="./${project.name}/preview.png" onerror="this.src='logo.png'" alt="">
                   </div>
                   <div class="card-data">
                       <p class="card-heading">${project.name}</p>
