@@ -118,19 +118,15 @@
   },
   {
     "name":"Animated Bot",
-    "link":"AnimatedBot/index.html"
+    "link":"Animated Bot/index.html"
   },
   {
 	"name": "Assasin's Creed Cards",
 	"link": "Assasin's creed cards/index.html"
   },
   {
-    "name": "Background Animation of Gift Falling",
-    "link": "Background Animation of Gift Falling/index.html"
-  },
-  {
-    "name": "Basket-ball-jump-animation",
-    "link": "https://deploy-preview-575--amazing-css-effects.netlify.app/basket%20ball%20jump%20animatio/"
+    "name": "Background Animation of Gifts Falling",
+    "link": "Background Animation of Gifts Falling/index.html"
   },
   {
     "name": "Blur-loading",
@@ -198,7 +194,7 @@
   },
   {
     "name": "Color Change Ball Drop Animation",
-    "link": "https://deploy-preview-604--amazing-css-effects.netlify.app/color%20change%20ball%20drop%20animation/"
+    "link": "Color Change Ball Drop Animation/index.html"
   },
   {
     "name": "Colorful Rain Effect",
@@ -410,8 +406,8 @@
     "link": "multi color text/index.html"
   },
   {
-    "name" : "Multi-colored Animated Text",
-    "link" : "Multi-colored Animated Text/index.html"
+    "name" : "Multi-coloured Animated Text",
+    "link" : "Multi-coloured Animated Text/index.html"
   },
   {
     "name": "Neomorphic Page Loader",
@@ -535,7 +531,7 @@
   },
   {
     "name": "Scale-up-and-down-animation",
-    "link": "https://deploy-preview-577--amazing-css-effects.netlify.app/scale-up-and-animation"
+    "link": "Scale-up-and-animation/index.html"
   },
   {
     "name": "Service card effect",
