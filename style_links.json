@@ -20,8 +20,12 @@
 	"link": "3D Text/index.html"
   },
   {
-	"name": "Animated Achievement Card",
-	"link": "Animated Achievement Card/index.html"
+    "name": "Animated Achievement Card",
+    "link": "Animated Achievement Card/index.html"
+  },
+  {
+    "name":"Animated Bot",
+    "link":"Animated Bot/index.html"
   },
   {
     "name": "Animated Carousel",
@@ -116,10 +120,7 @@
 	"name": "Animated-Rain-and-Lightning-effect",
 	"link": "Animated-Rain-and-Lightning-effect/index.html"
   },
-  {
-    "name":"Animated Bot",
-    "link":"Animated Bot/index.html"
-  },
+  
   {
 	"name": "Assasin's Creed Cards",
 	"link": "Assasin's creed cards/index.html"
@@ -181,7 +182,7 @@
     "link": "Clay Morphism Courses/index.html"
   },
   {
-    "name":"CLaymorphism Hover Effect",
+    "name":"Claymorphism hover effects",
     "link":"Claymorphism hover effects/index.html"
   },
   {
@@ -229,8 +230,8 @@
     "link": "css glowing gradient loader ring/index.html"
   },
   {
-    "name": "CSS Penguin illustration",
-    "link": "CSS_Penguin_Art/index.html"
+    "name": "CSS Penguin Art",
+    "link": "CSS Penguin Art/index.html"
   },
   {
     "name": "css-glitch",
@@ -242,7 +243,7 @@
   },
   {
     "name":"Depth Effect",
-    "link":"Depth Effect with bg blur/index.html"
+    "link":"Depth Effect/index.html"
   },
   {
     "name": "Diagonal Animation",
@@ -326,8 +327,8 @@
     "link": "Goey footer/footer.html"
   },
   {
-    "name":"HamburgerMenu",
-    "link":"HamburgerMenu-Sujeet/index.html"
+    "name":"Hamburger Menu",
+    "link":"Hamburger Menu/index.html"
   },
   {
     "name": "Heart-trail-animation",
@@ -355,7 +356,7 @@
   },
   {
     "name":"Hover Over Image",
-    "link":"hover-over-image/index.html"
+    "link":"hover Over Image/index.html"
   },
   {
     "name": "Illuminati Pyramid Animation",
@@ -375,7 +376,7 @@
   },
   {
     "name":"Letter Animation",
-    "link":"LetterAnimation/index.html"
+    "link":"Letter Animation/index.html"
   },
   {
     "name": "line Segment Animation",
@@ -439,7 +440,7 @@
   },
   {
     "name":"PacMan Animation",
-    "link":"PacManAnimation/index.html"
+    "link":"PacMan Animation/index.html"
   },
   {
     "name": "Parallax Effect",
@@ -530,7 +531,7 @@
     "link": "Sass-Buttons/index.html"
   },
   {
-    "name": "Scale-up-and-down-animation",
+    "name": "Scale-up-and-animation",
     "link": "Scale-up-and-animation/index.html"
   },
   {
@@ -563,7 +564,7 @@
   },
   {
     "name":"Snowfall Effect",
-    "link":"snowfall_effect/index.html"
+    "link":"snowfall Effect/index.html"
   },
   {
     "name": "SnowMan Animation",
