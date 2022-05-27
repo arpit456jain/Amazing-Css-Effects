@@ -24,6 +24,14 @@
 	"link": "Animated Achievement Card/index.html"
   },
   {
+    "name": "Animated Carousel",
+    "link": "Animated%20Carousel/index.html" 
+  },
+  {
+    "name":"Animated Coffee Maker",
+    "link":"Animated Coffee Maker/index.html"
+  },
+  {
 	"name": "Animated Countdown",
 	"link": "Animated Countdown/index.html"
   },
@@ -56,6 +64,10 @@
 	"link": "Animated Ocean Logo/index.html"
   },
   {
+    "name": "Animated Pixel Frog",
+    "link": "Animated Pixel Frog/index.html"
+  },
+  {
     "name": "Animated Realistic Bubbles",
     "link": "Animated Realistic Bubbles/index.html"
   },
@@ -81,6 +93,10 @@
     "link": "Animated Stacked Cards/index.html"
   },
   {
+    "name": "Animated text",
+    "link": "Animated text/index.html"
+  },
+  {
     "name": "Animated text hover",
     "link": "Animated text hover/index.html"
   },
@@ -101,16 +117,28 @@
 	"link": "Animated-Rain-and-Lightning-effect/index.html"
   },
   {
+    "name":"Animated Bot",
+    "link":"AnimatedBot/index.html"
+  },
+  {
 	"name": "Assasin's Creed Cards",
 	"link": "Assasin's creed cards/index.html"
   },
   {
     "name": "Background Animation of Gift Falling",
     "link": "Background Animation of Gift Falling/index.html"
-    },
+  },
   {
-	"name": "Blur-loading",
-	"link": "Blur-loading/index.html"
+    "name": "Basket-ball-jump-animation",
+    "link": "https://deploy-preview-575--amazing-css-effects.netlify.app/basket%20ball%20jump%20animatio/"
+  },
+  {
+    "name": "Blur-loading",
+    "link": "Blur-loading/index.html"
+  },
+  {
+    "name": "Breathe Animation",
+    "link": "Breathe%20Animation/index.html"
   },
   {
     "name": "Bubble Navbar Animation",
@@ -125,8 +153,12 @@
 	"link": "Button_to_email_effect/index.html"
   },
   {
-	"name": "Camera_Design",
-	"link": "Camera_Design/index.html"
+    "name": "Calendar",
+    "link": "Calendar/index.html"
+  },
+  {
+    "name": "Camera_Design",
+    "link": "Camera_Design/index.html"
   },
   {
     "name": "Card Hover Effect",
@@ -137,12 +169,36 @@
     "link": "Card with Glowing Border/index.html"
   },
   {
+    "name": "Carousel Effect",
+    "link": "Carousel Effect/index.html"
+  },
+  {
     "name": "Changing Typing Effects",
     "link": "Changing Typing Effects/index.html"
   },
   {
+    "name": "Circular Loading Animation",
+    "link": "Circular Loading Animation/index.html"
+  },
+  {
     "name": "Clay Morphism Courses",
     "link": "Clay Morphism Courses/index.html"
+  },
+  {
+    "name":"CLaymorphism Hover Effect",
+    "link":"Claymorphism hover effects/index.html"
+  },
+  {
+    "name":"Click and Drag",
+    "link":"Click and Drag/index.html"
+  },
+  {
+    "name": "Clip-path-animation",
+    "link": "Clip-path-animation/index.html"
+  },
+  {
+    "name": "Color Change Ball Drop Animation",
+    "link": "https://deploy-preview-604--amazing-css-effects.netlify.app/color%20change%20ball%20drop%20animation/"
   },
   {
     "name": "Colorful Rain Effect",
@@ -165,25 +221,38 @@
     "link": "Credit Card UI/index.html"
   },
   {
+    "name":"CSS Animation",
+    "link":"CSS Animation/index.html"
+  },
+  {
+    "name":"CSS Animation of planet revolving",
+    "link":"CSS Animation of planet revolving/index.html"
+  },
+  {
     "name": "css glowing gradient loader ring",
     "link": "css glowing gradient loader ring/index.html"
   },
   {
-	"name": "css-glitch",
-	"link": "css-glitch/index.html"
+    "name": "CSS Penguin illustration",
+    "link": "CSS_Penguin_Art/index.html"
   },
-   {
-	"name": "CSS Penguin illustration",
-	"link": "CSS_Penguin_Art/index.html"
+  {
+    "name": "css-glitch",
+    "link": "css-glitch/index.html"
   },
   {
     "name": "Custom Ice Cream Maker",
     "link": "Custom Ice Cream Maker/index.html"
   },
   {
-	"name": "Diagonal Animation",
-	"link": "Diagonal Animation/index.html"
+    "name":"Depth Effect",
+    "link":"Depth Effect with bg blur/index.html"
   },
+  {
+    "name": "Diagonal Animation",
+    "link": "Diagonal Animation/index.html"
+  },
+
   {
     "name": "Digital Wrist Watch",
     "link": "Digital Wrist Watch/index.html"
@@ -229,6 +298,10 @@
 	"link": "Glassmorphism review card/index.html"
   },
   {
+    "name": "Glassmorphism-navbar",
+    "link": "Glassmorphism-navbar/index.html"
+  },
+  {
     "name": "Glowing checkboxes",
     "link": "Glowing checkboxes/index.html"
   },
@@ -245,16 +318,28 @@
     "link": "Glowing socialmedia icons/index.html"
   },
   {
-	"name": "Glowing Text",
-	"link": "Glowing Text/index.html"
+    "name": "Glowing Text",
+    "link": "Glowing Text/index.html"
   },
   {
-	"name": "GlowingCube",
-	"link": "GlowingCube/index.html"
+    "name": "GlowingCube",
+    "link": "GlowingCube/index.html"
   },
   {
-    	"name": "Hexagon Hover Effect",
-    	"link": "Hexagon Hover Effect/index.html"
+    "name": "Goey footer",
+    "link": "Goey footer/footer.html"
+  },
+  {
+    "name":"HamburgerMenu",
+    "link":"HamburgerMenu-Sujeet/index.html"
+  },
+  {
+    "name": "Heart-trail-animation",
+    "link": "Heart-trail-animation/index.html"
+  },
+  {
+    "name": "Hexagon Hover Effect",
+    "link": "Hexagon Hover Effect/index.html"
   },
   {
     "name": "Hidden  Search Bar",
@@ -273,12 +358,32 @@
     "link": "House Building/index.html"
   },
   {
+    "name":"Hover Over Image",
+    "link":"hover-over-image/index.html"
+  },
+  {
+    "name": "Illuminati Pyramid Animation",
+    "link": "Illuminati%20Pyramid%20Animation/index.html"
+  },
+  {
+    "name":"Image Accordion",
+    "link":"Image Accordion/index.html"
+  },
+  {
     "name": "Interactive Profile Card",
     "link": "Interactive Profile Card/index.html"
   },
   {
     "name": "LED Loading Effect",
     "link": "LED Loading Effect/card.html"
+  },
+  {
+    "name":"Letter Animation",
+    "link":"LetterAnimation/index.html"
+  },
+  {
+    "name": "line Segment Animation",
+    "link": "line Segment Animation/index.html"
   },
   {
     "name": "Loader",
@@ -289,16 +394,28 @@
     "link": "Loading Animation/index.html"
   },
   {
-	"name": "Mouse Cursor Hover",
-	"link": "Mouse Cursor Hover/index.html"
+    "name": "Microphone Face",
+    "link": "Microphone%20Face/index.html"
   },
   {
-	"name": "Multi Color Text",
-	"link": "multi color text/index.html"
+    "name": "Mouse Cursor Hover",
+    "link": "Mouse Cursor Hover/index.html"
   },
   {
-	"name": "Neomorphic Page Loader",
-	"link": "Neomorphic Page Loader/index.html"
+    "name": "Moving Bee Animation",
+    "link": "Moving Bee Animation/index.html"
+  },
+  {
+    "name": "Multi Color Text",
+    "link": "multi color text/index.html"
+  },
+  {
+    "name" : "Multi-colored Animated Text",
+    "link" : "Multi-colored Animated Text/index.html"
+  },
+  {
+    "name": "Neomorphic Page Loader",
+    "link": "Neomorphic Page Loader/index.html"
   },
   {
     "name": "Neon Buttons",
@@ -325,6 +442,10 @@
     "link": "Neumorphic Login Form/index.html"
   },
   {
+    "name":"PacMan Animation",
+    "link":"PacManAnimation/index.html"
+  },
+  {
     "name": "Parallax Effect",
     "link": "parallax effect/index.html"
   },
@@ -343,6 +464,10 @@
   {
     "name": "Petals-Effect",
     "link": "Petals-Effect/index.html"
+  },
+  {
+    "name" : "Portfolio Swap Card",
+    "link" : "Portfolio Swap Card/index.html"
   },
   {
     "name": "PreLoad Animation",
@@ -409,37 +534,64 @@
     "link": "Sass-Buttons/index.html"
   },
   {
+    "name": "Scale-up-and-down-animation",
+    "link": "https://deploy-preview-577--amazing-css-effects.netlify.app/scale-up-and-animation"
+  },
+  {
     "name": "Service card effect",
     "link": "Service card effect/index.html"
   },
   {
-	"name": "Simple Hover Effect",
-	"link": "Simple Hover Effect/index.html"
+    "name": "Simple Hover Effect",
+    "link": "Simple Hover Effect/index.html"
   },
   {
-	"name": "Site with Video",
-	"link": "Site with video/index.html"
+    "name": "Site with Video",
+    "link": "Site with video/index.html"
   },
   {
-    	"name": "Slashed Text Animation",
-    	"link": "Slashed Text Animation/index.html"
+    "name": "Slashed Text Animation",
+    "link": "Slashed Text Animation/index.html"
   },
   {
 	"name": "Sliding Checkbox",
 	"link": "Sliding Checkbox/index.html"
   },
   {
+    "name": "Smartphone Battery Performace",
+    "link": "Smartphone Battery Performace/index.html"
+  },
+  {
     "name": "smoke effect",
     "link": "smoke effect/index.html"
+  },
+  {
+    "name":"Snowfall Effect",
+    "link":"snowfall_effect/index.html"
+  },
+  {
+    "name": "SnowMan Animation",
+    "link": "https://deploy-preview-603--amazing-css-effects.netlify.app/SnowMan%20Animation/"
   },
   {
     "name": "Social Media Effects",
     "link": "Social Media Effects/index.html"
   },
   {
+  
+    "name": "Social Media Icon Hover",
+    "link": "Social Media Icon Hover/index.html"
+
+  },
+  {
     "name": "Split Video on Page Scroll",
     "link": "Split Video on Page Scroll/index.html"
   },
+  {
+    "name": "Square-shimmer-loading-effect",
+    "link": "https://deploy-preview-576--amazing-css-effects.netlify.app/square-shimmer-loading-effect/"
+  },
+
   {
     "name": "Star Parallax",
     "link": "Star Parallax/index.html"
@@ -457,24 +609,32 @@
     "link": "svg-volleyball-player-animation-effect/index.html"
   },
   {
-	"name": "text effect",
-	"link": "text effect/index.html"
+    "name": "text effect",
+    "link": "text effect/index.html"
   },
   {
-	"name": "Text to Life",
-	"link": "Text to life/index.html"
+    "name": "Text to Life",
+    "link": "Text to life/index.html"
   },
   {
-	"name": "Toy Girl",
-	"link": "Toy Girl/index.html"
+    "name": "Time Change Slider",
+    "link": "Time Change Slider/index.html"
+   },
+  {
+    "name": "Toy Girl",
+    "link": "Toy Girl/index.html"
   },
   {
     "name": "Transition Effect",
     "link": "Transition Effect/card_effect.html"
   },
   {
-	"name": "Triangular Images Gallery",
-	"link": "Triangular images gallery/index.html"
+    "name": "Triangular Images Gallery",
+    "link": "Triangular images gallery/index.html"
+  },
+  {
+    "name": "Vanish Text Effect",
+    "link": "Vanish Text Effect/index.html"
   },
   {
     "name": "Video-preview-button--Main",
@@ -489,6 +649,10 @@
     "link": "Water Wavy Footer/waves_footer.html"
   },
   {
+    "name": "Wave Animation",
+    "link": "Wave Animation/index.html"
+  },
+  {
     "name": "Weild the web",
     "link": "Weild the web/index.html"
   },
@@ -499,184 +663,7 @@
   {
     "name": "Zoom-in Card",
     "link": "Zoom-in Card/index.html"
-  },
-  {
-    "name": "Diagonal Animation",
-    "link": "Diagonal Animation/index.html"
-  },
-  {
-    "name": "css-glitch",
-    "link": "css-glitch/index.html"
-  },
-  {
-    "name": "3D Text",
-    "link": "3D Text/index.html"
-  },
-  {
-    "name": "Animated Pixel Frog",
-    "link": "Animated Pixel Frog/index.html"
-  },
-  {
-    "name": "Animated Sidebar",
-    "link": "Animated Sidebar/index.html"
-  },
-  {
-    "name": "Sliding Checkbox",
-    "link": "Sliding Checkbox/index.html"
-  },
-  {
-    "name": "Mouse Cursor Hover",
-    "link": "Mouse Cursor Hover/index.html"
-  },
-  {
-    "name": "Animated Heading Page",
-    "link": "Animated Heading Page/index.html"
-  },
-  {
-    "name": "Simple Hover Effect",
-    "link": "Simple Hover Effect/index.html"
-  },
-  {
-    "name": "Glassmorphism-navbar",
-    "link": "Glassmorphism-navbar/index.html"
-    },
-  {
-    "name":"CSS Animation of planet revolving",
-    "link":"CSS Animation of planet revolving/index.html"
-  },
-  {
-    "name": "Wavy Text Animation",
-    "link": "Wavy Text Animation/index.html"
-  },
-  {
-    "name": "Goey footer",
-    "link": "Goey footer/footer.html"
-  },
-  {
-
-    "name": "Animated text",
-    "link": "Animated text/index.html"
-
-  },
-  {
-
-    "name": "Square-shimmer-loading-effect",
-    "link": "https://deploy-preview-576--amazing-css-effects.netlify.app/square-shimmer-loading-effect/"
-
-  },
-
- {
-
-    "name": "Basket-ball-jump-animation",
-    "link": "https://deploy-preview-575--amazing-css-effects.netlify.app/basket%20ball%20jump%20animatio/"
-
-  },
- {
-
-    "name": "Scale-up-and-down-animation",
-    "link": "https://deploy-preview-577--amazing-css-effects.netlify.app/scale-up-and-animation"
-
-  },
-  {
-    "name": "Loading Effect Animation",
-    "link": "https://deploy-preview-602--amazing-css-effects.netlify.app/loading%20effect%20animation/"
-  },
-	{
-    "name": "Calendar",
-    "link": "Calendar/index.html"
-  },
-{
-    "name": "SnowMan Animation",
-    "link": "https://deploy-preview-603--amazing-css-effects.netlify.app/SnowMan%20Animation/"
-},
-  {
-    "name": "Wave Animation",
-    "link": "Wave Animation/index.html"
-  },
-       {
-    "name": "Time Change Slider",
-    "link": "Time Change Slider/index.html"
-       },
-	{
-    "name": "line Segment Animation",
-    "link": "line Segment Animation/index.html"
-  },
-  {
-    "name": "Color Change Ball Drop Animation",
-    "link": "https://deploy-preview-604--amazing-css-effects.netlify.app/color%20change%20ball%20drop%20animation/"
-  },
-{
-    "name": "Circular Loading Animation",
-    "link": "Circular Loading Animation/index.html"
-  },
-{
-    "name": "Wave Animation",
-    "link": "Wave Animation/index.html"
-  },
-{
-    "name": "Moving Bee Animation",
-    "link": "Moving Bee Animation/index.html"
-  },
-  {
-    "name": "Wave Animation",
-    "link": "Wave Animation/index.html"
-  },
-
-{
-    "name": "Clip-path-animation",
-    "link": "Clip-path-animation/index.html"
-},
-  {
-    "name": "Smartphone Battery Performace",
-    "link": "Smartphone Battery Performace/index.html"
-  },
-  {
-    "name": "Carousel Effect",
-    "link": "Carousel Effect/index.html"
-  },
-
-	{
-    "name": "Breathe Animation",
-    "link": "Breathe%20Animation/index.html"
-  },
-  {
-    "name": "Illuminati Pyramid Animation",
-    "link": "Illuminati%20Pyramid%20Animation/index.html"
-  },
-{
-    "name": "Microphone Face",
-    "link": "Microphone%20Face/index.html"
-  },
-  {
-    "name": "Vanish Text Effect",
-    "link": "Vanish Text Effect/index.html"
-  },
-  {
-    "name": "Heart-trail-animation",
-    "link": "Heart-trail-animation/index.html"
   }
-  ,
-  {
-    "name" : "Portfolio Swap Card",
-    "link" : "Portfolio Swap Card/index.html"
-  },
-  {
-    "name": "Animated Carousel",
-    "link": "Animated%20Carousel/index.html" 
-  }
-
-  ,
-  {
-    "name" : "Multi-colored Animated Text",
-    "link" : "Multi-colored Animated Text/index.html"
-  },
-
-    {
-  
-      "name": "Social Media Icon Hover",
-      "link": "Social Media Icon Hover/index.html"
-  
-    }
 
 ]
 
