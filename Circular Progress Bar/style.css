@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css?? family Poppins:wght@400; 8008&display=swap");
+
+body {
+    background-color: #131313;
+}
+
+.skills-wrapper {
+    display: flex;
+}
+
+.skill {
+    width: 200px;
+    height: 200px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3), -5px -5px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+    position: relative;
+    display: grid;
+    place-items: center;
+}
+
+.skill:not(:last-child) {
+    margin-right: 3rem;
+}
+
+.skill::before {
+    content: "";
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+    background-color: #131313;
+    box-shadow: inset 5px 5px 20px rgba(0, 0, 0, 0.31. inset -5px 5px 20px rgba(0, 0, 0, 0.33))
+}
+
+.skill:nth-child(1) {
+    background-image: conic-gradient(#f16524 70%, transparent 0);
+    color: #FC486B;
+}
+
+.skill:nth-child(2) {
+    background-image: conic-gradient(#38B6FF 90%, transparent 0);
+    color: #38B6FF;
+}
+
+.skill:nth-child(3) {
+    background-image: conic-gradient(#03CCAC 65%, transparent 0);
+    color: #03CCAC;
+}
+
+.skill:nth-child(4) {
+    background-image: conic-gradient(#8669FB 50%, transparent 0);
+    color: #8669FB;
+}
+
+.content {
+    font-size: 20px;
+    z-index: 1;
+    text-align: center;
+    font-family: Poppins;
+}
+
+.content span {
+    display: block;
+}
