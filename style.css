@@ -211,6 +211,19 @@ a {
    transform: translate(50%, -200%);
  }
 
+ .Show-more{
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+ }
+ .Show-more button{
+  border-color: none;
+   font-size: 20px;
+   width: 15vw;
+   height: 7vh;
+   margin: 10px auto;
+   border-radius: 30px;
+ }
 
 
 .nav-link{

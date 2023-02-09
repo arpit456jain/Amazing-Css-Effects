@@ -39,7 +39,7 @@ const ProjectCounter = document.getElementById('counter')
 
 // Infinite scrolling
 var doLoadingOnScroll = true
-var noOfCardsToLoad = 12
+var noOfCardsToLoad = 5
 var cardLoadedYet = 0
 var loadingBalls = false
 const loading = document.querySelector('.loading')
@@ -59,7 +59,7 @@ window.addEventListener('scroll', () => {
   ) {
     // show the loading animation
     // setTimeout(showLoading,1000);
-    showLoading()
+    // showLoading()
   }
 })
 
@@ -69,7 +69,7 @@ function showLoading() {
   // showNextItems();
   if (loadingBalls == false) {
     loadingBalls = true
-    setTimeout(showNextItems, 1000)
+    setTimeout(showNextItems, 500)
   }
 }
 
@@ -128,7 +128,7 @@ const getProject = fetch('style_links.json')
     //extra arr bna aur km store kr vohi display kra aur append krtey jaa
     //search real waley se krna
     // displayProjects(projects)
-    showLoading()
+    showNextItems()
     console.log(projects)
   })
 
