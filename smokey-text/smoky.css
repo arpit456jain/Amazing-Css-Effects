@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #000;
+}
+
+.text {
+    position: relative;
+    width: 100%;
+    height: 800px;
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 30pt;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+    margin-top: 280px;
+    text-align: center;
+    color: #d1e0f7;
+}
+
+.text::before {
+    content: '';
+    width: 1100px;
+    height: 800px;
+    background-color: #000;
+    position: absolute;
+    animation: animate 9s linear normal;
+}
+
+@keyframes animate {
+    0% {
+        transform: translateX(-700px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+video {
+    position: absolute;
+    top: -50px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none;
+    mix-blend-mode: screen;
+    animation: animate 12s linear normal;
+}
