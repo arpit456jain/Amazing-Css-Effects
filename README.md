@@ -3,15 +3,17 @@
 Some Astonishing CSS-Effects✨
 <p align="center"><img src="Assets/intro.gif" width=100%></p>
 
-### This project is part of Girl script Summer of code 2022
+<a href="https://hacktoberfest.digitalocean.com/"><img alt="HacktoberFest'21" title="HacktoberFest'21" width=100% src="https://miro.medium.com/v2/resize:fit:1400/1*Lz_KFgbak2sUjwjOG9SZ4g.png"></a>
+
+
+
+
+### This project was part of the following Open Source Programs
 
 <a href="https://gssoc.girlscript.tech/" target="_blank">
   <img alt="Gssoc'2022" width=100% src="https://i.postimg.cc/k40ntsV4/1500x500.jpg">
 </a>
 
-### This project was part of the following Open Source Programs
-
-  
 [<img alt="Devincept" width=100% src="https://user-images.githubusercontent.com/56088741/123548852-1ef59d00-d784-11eb-8e39-255e0c3e97d5.gif">](https://user-images.githubusercontent.com/56088741/123548852-1ef59d00-d784-11eb-8e39-255e0c3e97d5.gif)
 
 <a href="https://hacktoberfest.digitalocean.com/" target="_blank">
@@ -165,16 +167,8 @@ For example: I create a folder called "Animated Text", my json object would be:
 
 </tbody></table>
 
- <h1 align=center> Project Mentors 👩‍🏫 </h1>
-<p align="center">
-<table>
-  <tbody><tr>
-     <td align="center"><a href="https://github.com/astha2412"><img alt="" src="https://avatars.githubusercontent.com/u/87020129?v=4" width="100px;"><br><sub><b>Kumari Astha Rani </b></sub></a><br></td> </a></td>
-     <td align="center"><a href="https://github.com/VidhiBhatt01"><img alt="" src="https://avatars.githubusercontent.com/u/83345228?v=4" width="100px;"><br><sub><b> Vidhi Bhatt</b></sub></a><br></td></a></td>
-     <td align="center"><a href="https://github.com/DEEPALI-SUK"><img alt="" src="https://avatars.githubusercontent.com/u/64724041?v=4" width="100px;"><br><sub><b> Deepali Sukhija</b></sub></a><br></td></a></td>
-     <td align="center"><a href="https://github.com/DEEPIKA-SUK"><img alt="" src="https://avatars.githubusercontent.com/u/64724039?v=4" width="100px;"><br><sub><b> Deepika Sukhija</b></sub></a><br></td></a></td>
+ 
 
-</tbody></table>
 
 <h2 align=center> ✨ Contributors </h2>
 
