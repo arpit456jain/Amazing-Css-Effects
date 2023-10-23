@@ -26,7 +26,16 @@ scrolltop.on('click', function (e) {
   e.preventDefault()
   $('html, body').animate({ scrollTop: 0 }, '200')
 })
-
+var icon=document.getElementById("icon");
+icon.onclick=function(){
+  document.body.classList.toggle("dark-theme");
+  if(document.body.classList.contains("dark-theme")){
+    icon.src="brightness_7605428.png";
+  }
+  else{
+    icon.src="moon.png"
+  }
+}
 // scroll to top ends
 
 let projects = []

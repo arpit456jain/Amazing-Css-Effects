@@ -5,16 +5,30 @@ html {
   overflow-x: hidden;
   scroll-behavior: smooth;
 }
+:root{
+  --primary-color:rgb(19, 24, 44); 
+  --secondary-color:white ;
+}
+.dark-theme{
+  --primary-color::white;
+  --secondary-color:rgb(19, 24, 44);
+}
+
+
 
 body {
   margin: 0 auto;
   overflow-x: hidden;
   padding: auto;
-  background-color: rgb(19, 24, 44);
+  background-color:var(--primary-color);
+}
+#icon{
+  width: 30px;
+  cursor: pointer;
 }
 /* heading */
 h1 {
-  color: #fff;
+  color: var(--secondary-color);
   margin: 1.5em 0 1.5em 0 ;
   font-family: 'Bitter';
   font-size: 45px;
@@ -33,7 +47,7 @@ h1:after {
   height: 2px;
   left: 50%;
   position: absolute;
-  background: #fff;
+  background: var(--secondary-color);
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
   width: 0;
 }
@@ -68,7 +82,7 @@ h1:hover:after {
   justify-content: center;
   flex-wrap: wrap;
   overflow: hidden;
-  background-color: white;
+  background-color: var(--secondary-color);
   padding: .2rem;
   text-align: center;
   font-family: 'Bitter', sans-serif;
@@ -111,7 +125,7 @@ h1:hover:after {
 }
 
 button{
-  border: 2px solid #101522;
+  border: 2px solid var(--primary-color);
   width: 95%;
   font-size: 1em;
   font-family: 'Bitter';
@@ -122,8 +136,8 @@ button{
 }
 
 .btnn:hover{
-  background-color: #101522;
-  color: #fff;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
 }
 
 @media only screen and (max-width: 600px) {
@@ -186,7 +200,7 @@ button{
 
 a {
   text-decoration: none;
-  color: white;
+  color: var(--secondary-color);
   letter-spacing: .5px;
   transition: .3s;
  }
@@ -203,10 +217,10 @@ a {
  }
 
  .navbar{
-   background-color: rgb(19, 24, 44);
+   background-color: var(--primary-color);
  }
  .navbar-toggler{
-   color: white;
+   color: var(--secondary-color);
    line-height: 10px;
    transform: translate(50%, -200%);
  }
@@ -324,14 +338,14 @@ span{
 --------------------------------------------------------------*/
 
 #footer {
-  background: #101522;
+  background: var(--primary-color);
   padding: 0 0 25px 0;
-  color: #eee;
+  color: var(--secondary-color);
   font-size: 14px;
 }
 
 #footer .footer-top {
-  background: #040919;
+  background: var(--primary-color);
   padding: 60px 0 30px 0;
 }
 
@@ -346,7 +360,7 @@ span{
   line-height: 1;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
-  color: #fff;
+  color: var(--secondary-color);
 }
 
 #footer .footer-top .footer-info img {
@@ -364,7 +378,7 @@ span{
   line-height: 24px;
   margin-bottom: 0;
   font-family: "Raleway", sans-serif;
-  color: #fff;
+  color: var(--secondary-color);
 }
 
 #footer .footer-top .social-links a {
@@ -381,13 +395,13 @@ span{
 }
 
 #footer .footer-top .social-links a:hover {
-  color: #fff;
+  color: var(--secondary-color);
 }
 
 #footer .footer-top h4 {
   font-size: 14px;
   font-weight: bold;
-  color: #fff;
+  color: var(--secondary-color);
   text-transform: uppercase;
   position: relative;
   padding-bottom: 12px;
@@ -420,7 +434,7 @@ span{
 }
 
 #footer .footer-top .footer-links ul a {
-  color: #eee;
+  color: var(--secondary-color);
 }
 
 #footer .footer-top .footer-links ul a:hover {
@@ -451,7 +465,7 @@ span{
   width: 35%;
   padding: 6px 0;
   text-align: center;
-  color: #fff;
+  color: var(--secondary-color);
   transition: 0.3s;
   cursor: pointer;
 }
@@ -468,7 +482,7 @@ span{
 #footer .credits {
   text-align: center;
   font-size: 13px;
-  color: #ddd;
+  color: var(--secondary-color);
 }
 
 
